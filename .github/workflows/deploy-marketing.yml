@@ -43,9 +43,14 @@ jobs:
           NEXT_PUBLIC_INQUIRY_FORM_ENDPOINT: ${{ vars.NEXT_PUBLIC_INQUIRY_FORM_ENDPOINT }}
 
       - name: Deploy na Cloudflare Workers
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          workingDirectory: apps/marketing
-          command: deploy
+        working-directory: apps/marketing
+        # Direktan poziv umesto cloudflare/wrangler-action: novije verzije
+        # wranglera detektuju OpenNext projekat i same delegiraju na
+        # `npx opennextjs-cloudflare deploy`, ali taj npx poziv ne ume da
+        # nađe executable u ovom (bun) monorepo layout-u ("could not
+        # determine executable to run"). Pozivanjem CLI-ja direktno
+        # zaobilazimo tu auto-detekciju.
+        run: bunx opennextjs-cloudflare deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
