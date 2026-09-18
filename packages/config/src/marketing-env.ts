@@ -49,7 +49,16 @@ let cached: z.infer<typeof marketingSchema> | null = null;
 
 export function marketingEnv(): z.infer<typeof marketingSchema> {
   if (!cached) {
-    const parsed = marketingSchema.safeParse(marketingRuntime);
+    // CI (npr. GitHub Actions "${{ vars.X }}") prosleđuje prazan string za
+    // nepodešene promenljive umesto da ih izostavi — pretvori ih u
+    // `undefined` da bi .default()/.optional() u šemi ispravno radili.
+    const sanitized = Object.fromEntries(
+      Object.entries(marketingRuntime).map(([key, value]) => [
+        key,
+        value === "" ? undefined : value,
+      ]),
+    );
+    const parsed = marketingSchema.safeParse(sanitized);
     if (!parsed.success) {
       const issues = parsed.error.issues.map((issue) => issue.path.join(".")).join(", ");
       throw new Error(`Nevalidne marketing env varijable: ${issues}`);
