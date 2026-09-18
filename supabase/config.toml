@@ -1,0 +1,42 @@
+# Lokalni Supabase stack (Docker) — pokreće ga `bun run local:setup`.
+# project_id određuje imena kontejnera, a portove asembler izvodi iz imena
+# projekta — zato više generisanih projekata može da radi uporedo.
+project_id = "sibirsko-zdravlje"
+
+[api]
+port = 58380
+
+[db]
+port = 58381
+shadow_port = 58384
+
+[studio]
+port = 58382
+
+[inbucket]
+port = 58383
+
+# Logflare analytics lokalno ne treba — štedi RAM i jedan port manje.
+[analytics]
+enabled = false
+
+[auth]
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3000/auth/confirm"]
+
+[auth.email]
+enable_signup = true
+# Lokalno bez SMTP-a: registracija odmah potvrđuje email (nema čekanja na mejl).
+enable_confirmations = false
+
+# ── Google prijava (opciono) ──────────────────────────────────────────────────
+# LOKALNO: odkomentariši blok ispod, upiši kredencijale iz Google Cloud Console
+# (OAuth client, redirect URI = http://127.0.0.1:<api-port>/auth/v1/callback),
+# pa ponovo `bun run local:setup`.
+# PRODUKCIJA: Supabase Dashboard → Authentication → Providers → Google.
+#
+# [auth.external.google]
+# enabled = true
+# client_id = "xxx.apps.googleusercontent.com"
+# secret = "GOCSPX-..."
+# skip_nonce_check = true

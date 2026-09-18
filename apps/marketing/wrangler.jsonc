@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sibirsko-zdravlje-marketing",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-09-18",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  }
+  // Blog stranice koriste ISR (revalidate = 60) — bez R2 bucket-a za
+  // incremental cache, svaki Worker isolate ima svoj in-memory cache pa se
+  // revalidacija dešava po zahtevu umesto da se deli globalno. To je u redu
+  // za ovaj sajt (blog objave se retko menjaju); ako zatreba deljen cache,
+  // dodaj R2 bucket + `incrementalCache` override u open-next.config.ts
+  // (vidi https://opennext.js.org/cloudflare/caching).
+}

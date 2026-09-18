@@ -1,0 +1,71 @@
+/* Tipografija unutar TipTap editora — ista logika kao blog-article na marketingu. */
+
+.post-editor .tiptap {
+  min-height: 320px;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  outline: none;
+}
+
+.post-editor .tiptap h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.post-editor .tiptap h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.post-editor .tiptap p {
+  margin-bottom: 0.75rem;
+}
+
+.post-editor .tiptap ul,
+.post-editor .tiptap ol {
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.post-editor .tiptap ul {
+  list-style: disc;
+}
+
+.post-editor .tiptap ol {
+  list-style: decimal;
+}
+
+.post-editor .tiptap blockquote {
+  margin-bottom: 0.75rem;
+  border-left: 3px solid var(--color-border);
+  padding-left: 1rem;
+  color: var(--color-muted-foreground);
+}
+
+.post-editor .tiptap pre {
+  margin-bottom: 0.75rem;
+  overflow-x: auto;
+  border-radius: 0.5rem;
+  background: var(--color-muted);
+  padding: 0.75rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.8125rem;
+}
+
+.post-editor .tiptap code {
+  border-radius: 0.25rem;
+  background: var(--color-muted);
+  padding: 0.125rem 0.25rem;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.8125rem;
+}
+
+.post-editor .tiptap pre code {
+  background: transparent;
+  padding: 0;
+}

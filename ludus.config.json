@@ -1,0 +1,20 @@
+{
+  "generator": "ludus-saas-generator",
+  "baseVersion": "0.6.0",
+  "projectName": "Sibirsko Zdravlje",
+  "projectSlug": "sibirsko-zdravlje",
+  "modules": [
+    "analytics-google",
+    "analytics-meta-pixel",
+    "blog",
+    "seo-aeo"
+  ],
+  "localPorts": {
+    "api": 58380,
+    "db": 58381,
+    "studio": 58382,
+    "inbucket": 58383,
+    "shadowDb": 58384
+  },
+  "warnings": []
+}

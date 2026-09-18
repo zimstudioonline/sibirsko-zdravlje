@@ -1,0 +1,51 @@
+name: Deploy marketing (Cloudflare)
+
+# Build i deploy apps/marketing na Cloudflare Workers preko OpenNext-a.
+# Radi na Linux CI runneru namerno — OpenNext build zahteva simboličke
+# linkove koje Windows ne dozvoljava bez Developer Mode-a (vidi
+# apps/marketing/CLOUDFLARE.md).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/marketing/**"
+      - "packages/**"
+      - "bun.lock"
+      - ".github/workflows/deploy-marketing.yml"
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.3.0"
+
+      - name: Instaliraj zavisnosti
+        run: bun install --frozen-lockfile
+
+      - name: Build za Cloudflare (OpenNext)
+        working-directory: apps/marketing
+        run: bunx opennextjs-cloudflare build
+        env:
+          NEXT_PUBLIC_MARKETING_URL: ${{ vars.NEXT_PUBLIC_MARKETING_URL }}
+          NEXT_PUBLIC_APP_URL: ${{ vars.NEXT_PUBLIC_APP_URL }}
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
+          NEXT_PUBLIC_META_PIXEL_ID: ${{ vars.NEXT_PUBLIC_META_PIXEL_ID }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ vars.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+          NEXT_PUBLIC_VIBER_NUMBER: ${{ vars.NEXT_PUBLIC_VIBER_NUMBER }}
+          NEXT_PUBLIC_CONTACT_EMAIL: ${{ vars.NEXT_PUBLIC_CONTACT_EMAIL }}
+          NEXT_PUBLIC_INQUIRY_FORM_ENDPOINT: ${{ vars.NEXT_PUBLIC_INQUIRY_FORM_ENDPOINT }}
+
+      - name: Deploy na Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: apps/marketing
+          command: deploy

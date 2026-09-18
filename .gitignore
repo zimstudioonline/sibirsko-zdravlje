@@ -1,0 +1,28 @@
+# deps
+node_modules/
+
+# next
+.next/
+out/
+
+# turbo
+.turbo/
+
+# Cloudflare / OpenNext build output
+.open-next/
+.wrangler/
+.dev.vars
+
+# env — tajne nikad ne idu u git
+.env
+.env.local
+.env.*.local
+
+# supabase lokalni stack
+supabase/.temp/
+supabase/.branches/
+
+# misc
+dist/
+*.tsbuildinfo
+.DS_Store
