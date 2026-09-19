@@ -1,3 +1,4 @@
+import { BackToTopButton } from "@/components/back-to-top-button";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteNav } from "@/components/site-nav";
 import { marketingEnv } from "@repo/config/marketing-env";
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <div className="flex-1">{children}</div>
         <SiteFooter />
         <ViberButton />
+        <BackToTopButton />
         <JsonLd data={organizationJsonLd()} />
         {/* @ludus:inject:seo:jsonld */}
         <ConsentBanner />
