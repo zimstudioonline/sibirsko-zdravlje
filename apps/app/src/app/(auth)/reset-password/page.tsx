@@ -1,3 +1,4 @@
+import { createSupabaseServerClient } from "@repo/auth/server";
 import {
   Alert,
   AlertDescription,
@@ -10,7 +11,6 @@ import {
   Input,
   Label,
 } from "@repo/ui";
-import { createSupabaseServerClient } from "@repo/auth/server";
 import { redirect } from "next/navigation";
 import { changePassword } from "../actions";
 

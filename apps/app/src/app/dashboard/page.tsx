@@ -1,13 +1,5 @@
 import { createSupabaseServerClient } from "@repo/auth/server";
-import {
-  Button,
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-  Input,
-} from "@repo/ui";
+import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle, Input } from "@repo/ui";
 import { redirect } from "next/navigation";
 import { addNote, deleteNote } from "./actions";
 
@@ -40,8 +32,8 @@ export default async function DashboardPage() {
         <CardHeader>
           <CardTitle>Tvoje beleške</CardTitle>
           <CardDescription>
-            Demo RLS obrasca: svaki korisnik vidi isključivo svoje podatke — politika je u bazi,
-            ne u kodu aplikacije.
+            Demo RLS obrasca: svaki korisnik vidi isključivo svoje podatke — politika je u bazi, ne
+            u kodu aplikacije.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -65,9 +57,7 @@ export default async function DashboardPage() {
               </li>
             ))}
             {!notes?.length ? (
-              <li className="py-4 text-center text-muted-foreground text-sm">
-                Još nema beležaka.
-              </li>
+              <li className="py-4 text-center text-muted-foreground text-sm">Još nema beležaka.</li>
             ) : null}
           </ul>
         </CardContent>

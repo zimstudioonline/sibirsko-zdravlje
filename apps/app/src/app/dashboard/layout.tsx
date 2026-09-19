@@ -1,9 +1,9 @@
+import { AppSidebar } from "@/components/app-sidebar";
 import { createSupabaseServerClient } from "@repo/auth/server";
 import { Separator } from "@repo/ui";
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "@repo/ui/ui/sidebar";
 import { redirect } from "next/navigation";
 import type { ReactNode } from "react";
-import { AppSidebar } from "@/components/app-sidebar";
 
 /** Zajednički okvir dashboarda: sidebar + header. Stranice renderuju samo sadržaj. */
 export default async function DashboardLayout({ children }: { children: ReactNode }) {

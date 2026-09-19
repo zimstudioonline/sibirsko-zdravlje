@@ -1,8 +1,8 @@
+import { AdminSidebar } from "@/components/admin-sidebar";
+import { requireAdmin } from "@/lib/admin";
 import { Separator } from "@repo/ui";
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "@repo/ui/ui/sidebar";
 import type { ReactNode } from "react";
-import { AdminSidebar } from "@/components/admin-sidebar";
-import { requireAdmin } from "@/lib/admin";
 
 /**
  * Okvir admin portala: poseban sidebar sa admin linkovima. Guard po ulozi je

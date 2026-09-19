@@ -1,4 +1,4 @@
-import { createSupabaseServerClient, type EmailOtpType } from "@repo/auth/server";
+import { type EmailOtpType, createSupabaseServerClient } from "@repo/auth/server";
 import { type NextRequest, NextResponse } from "next/server";
 
 /**

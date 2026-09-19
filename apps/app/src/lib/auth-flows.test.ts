@@ -1,6 +1,6 @@
 import { afterAll, beforeAll, describe, expect, test } from "bun:test";
-import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { localSupabaseUp, testEmail } from "@repo/db/test-helpers";
+import { type SupabaseClient, createClient } from "@supabase/supabase-js";
 
 /**
  * E2E testovi auth tokova nad LOKALNIM Supabase stackom

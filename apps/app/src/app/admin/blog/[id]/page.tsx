@@ -1,8 +1,8 @@
+import { PostEditor } from "@/components/admin/post-editor";
+import { requireAdmin } from "@/lib/admin";
 import { createSupabaseAdminClient } from "@repo/auth/server";
 import { Alert, AlertDescription } from "@repo/ui";
 import { notFound } from "next/navigation";
-import { PostEditor } from "@/components/admin/post-editor";
-import { requireAdmin } from "@/lib/admin";
 import { updatePost } from "../actions";
 
 export const metadata = { title: "Izmena objave — Admin portal" };

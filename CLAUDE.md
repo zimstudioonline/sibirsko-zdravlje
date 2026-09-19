@@ -11,7 +11,7 @@ apps/
   app/         # SaaS proizvod (iza auth-a), port 3000
   marketing/   # javni sajt (katalog, upit, SEO), port 3001 — deploy na Cloudflare Workers (vidi apps/marketing/CLOUDFLARE.md), NE Vercel
 packages/
-  ui/          # design system (Space Grotesk, primarna #39BB79, podloga #F7F6F1)
+  ui/          # design system (Space Grotesk, primarna #0EA5E9, podloga #F7F6F1)
   db/          # Drizzle šema + migracije (Supabase Postgres)
   auth/        # Supabase Auth klijenti (server, browser, admin, middleware)
   config/      # Zod env šeme + deljeni tsconfig

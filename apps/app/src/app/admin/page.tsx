@@ -1,7 +1,7 @@
+import { requireAdmin } from "@/lib/admin";
 import { createSupabaseAdminClient } from "@repo/auth/server";
 import { Card, CardContent, CardHeader, CardTitle } from "@repo/ui";
 import { Users } from "lucide-react";
-import { requireAdmin } from "@/lib/admin";
 
 export const metadata = { title: "Admin portal" };
 

@@ -1,6 +1,6 @@
-import { Alert, AlertDescription } from "@repo/ui";
 import { PostEditor } from "@/components/admin/post-editor";
 import { requireAdmin } from "@/lib/admin";
+import { Alert, AlertDescription } from "@repo/ui";
 import { createPost } from "../actions";
 
 export const metadata = { title: "Nova objava — Admin portal" };

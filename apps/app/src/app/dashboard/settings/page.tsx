@@ -1,3 +1,4 @@
+import { changePassword } from "@/app/(auth)/actions";
 import { createSupabaseServerClient } from "@repo/auth/server";
 import {
   Alert,
@@ -13,7 +14,6 @@ import {
   Label,
 } from "@repo/ui";
 import { redirect } from "next/navigation";
-import { changePassword } from "@/app/(auth)/actions";
 
 export const metadata = { title: "Podešavanja" };
 
@@ -70,8 +70,7 @@ export default async function SettingsPage({
         <CardHeader>
           <CardTitle>Promena lozinke</CardTitle>
           <CardDescription>
-            Ako si se registrovao preko Google-a, ovde možeš da postaviš lozinku za prijavu
-            emailom.
+            Ako si se registrovao preko Google-a, ovde možeš da postaviš lozinku za prijavu emailom.
           </CardDescription>
         </CardHeader>
         <CardContent>

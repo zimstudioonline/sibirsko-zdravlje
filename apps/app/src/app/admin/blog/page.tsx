@@ -1,3 +1,4 @@
+import { requireAdmin } from "@/lib/admin";
 import { createSupabaseAdminClient } from "@repo/auth/server";
 import {
   Alert,
@@ -17,7 +18,6 @@ import {
   TableRow,
 } from "@repo/ui";
 import Link from "next/link";
-import { requireAdmin } from "@/lib/admin";
 import { deletePost } from "./actions";
 
 export const metadata = { title: "Blog — Admin portal" };

@@ -1,3 +1,4 @@
+import { GoogleIcon } from "@/components/google-icon";
 import {
   Alert,
   AlertDescription,
@@ -11,7 +12,6 @@ import {
   Label,
 } from "@repo/ui";
 import Link from "next/link";
-import { GoogleIcon } from "@/components/google-icon";
 import { signInWithGoogle, signup } from "../actions";
 
 export const metadata = { title: "Registracija" };

@@ -2,7 +2,15 @@
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "vcs": { "enabled": false, "clientKind": "git", "useIgnoreFile": false },
   "files": {
-    "ignore": ["**/node_modules/**", "**/.next/**", "**/.turbo/**", "**/dist/**", "**/bun.lock"]
+    "ignore": [
+      "**/node_modules/**",
+      "**/.next/**",
+      "**/.open-next/**",
+      "**/.wrangler/**",
+      "**/.turbo/**",
+      "**/dist/**",
+      "**/bun.lock"
+    ]
   },
   "formatter": {
     "enabled": true,

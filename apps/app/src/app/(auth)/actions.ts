@@ -102,15 +102,18 @@ export async function requestPasswordReset(formData: FormData) {
 
   // Ista poruka bez obzira da li nalog postoji — ne otkrivamo tuđe emailove.
   redirect(
-    withParam("/forgot-password", "message", "Ako nalog postoji, poslali smo ti link za promenu lozinke."),
+    withParam(
+      "/forgot-password",
+      "message",
+      "Ako nalog postoji, poslali smo ti link za promenu lozinke.",
+    ),
   );
 }
 
 export async function changePassword(formData: FormData) {
   const backTo = typeof formData.get("backTo") === "string" ? String(formData.get("backTo")) : "";
   // Samo interne putanje — "//host" je protokol-relativni URL, tj. open-redirect.
-  const back =
-    backTo.startsWith("/") && !backTo.startsWith("//") ? backTo : "/dashboard/settings";
+  const back = backTo.startsWith("/") && !backTo.startsWith("//") ? backTo : "/dashboard/settings";
 
   const password = formData.get("password");
   const confirm = formData.get("confirm");

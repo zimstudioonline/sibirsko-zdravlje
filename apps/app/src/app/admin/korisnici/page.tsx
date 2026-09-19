@@ -1,3 +1,4 @@
+import { requireAdmin } from "@/lib/admin";
 import { createSupabaseAdminClient } from "@repo/auth/server";
 import {
   Alert,
@@ -16,7 +17,6 @@ import {
   TableHeader,
   TableRow,
 } from "@repo/ui";
-import { requireAdmin } from "@/lib/admin";
 import { setRole } from "./actions";
 
 export const metadata = { title: "Korisnici — Admin portal" };
@@ -63,8 +63,8 @@ export default async function AdminUsersPage({
         <CardHeader>
           <CardTitle>Korisnici</CardTitle>
           <CardDescription>
-            Registrovani nalozi i uloge. Uloga se čuva u app_metadata — korisnik ne može sam da
-            je promeni.
+            Registrovani nalozi i uloge. Uloga se čuva u app_metadata — korisnik ne može sam da je
+            promeni.
           </CardDescription>
         </CardHeader>
         <CardContent>

@@ -1,5 +1,6 @@
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@repo/ui";
 import { Menu } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const links: Array<{ href: string; label: string }> = [
@@ -16,8 +17,15 @@ export function SiteNav() {
   return (
     <header className="border-ink/10 border-b">
       <nav className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
-        <Link href="/" className="shrink-0 font-semibold text-ink text-lg">
-          Sibirsko Zdravlje
+        <Link href="/" className="relative h-12 w-40 shrink-0">
+          <Image
+            src="/logo.png"
+            alt="Sibirsko Zdravlje"
+            fill
+            className="object-contain object-left"
+            priority
+            unoptimized
+          />
         </Link>
 
         <div className="hidden items-center gap-5 lg:flex">

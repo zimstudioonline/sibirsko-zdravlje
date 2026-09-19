@@ -1,5 +1,6 @@
 "use client";
 
+import { logout } from "@/app/(auth)/actions";
 import { Avatar, AvatarFallback, Badge } from "@repo/ui";
 import {
   DropdownMenu,
@@ -13,7 +14,6 @@ import {
 import { SidebarMenu, SidebarMenuButton, SidebarMenuItem, useSidebar } from "@repo/ui/ui/sidebar";
 import { EllipsisVertical, LogOut, Settings, ShieldCheck } from "lucide-react";
 import Link from "next/link";
-import { logout } from "@/app/(auth)/actions";
 
 export interface SidebarUser {
   name: string;

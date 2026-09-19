@@ -1,9 +1,9 @@
 "use server";
 
+import { requireAdmin } from "@/lib/admin";
 import { createSupabaseAdminClient } from "@repo/auth/server";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { requireAdmin } from "@/lib/admin";
 
 /**
  * Dodela uloge (admin/user) — guard po ulozi važi i OVDE, ne samo na stranici:

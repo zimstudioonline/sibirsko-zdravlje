@@ -14,10 +14,10 @@ import {
   SidebarRail,
 } from "@repo/ui/ui/sidebar";
 import { ArrowLeft, LayoutDashboard, type LucideIcon, ShieldCheck, Users } from "lucide-react";
+import { Newspaper } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NavUser, type SidebarUser } from "./nav-user";
-import { Newspaper } from "lucide-react";
 
 interface AdminNavItem {
   href: string;
@@ -66,7 +66,9 @@ export function AdminSidebar({ user }: { user: SidebarUser }) {
                   <SidebarMenuButton
                     asChild
                     isActive={
-                      item.href === "/admin" ? pathname === "/admin" : pathname.startsWith(item.href)
+                      item.href === "/admin"
+                        ? pathname === "/admin"
+                        : pathname.startsWith(item.href)
                     }
                     tooltip={item.label}
                   >
