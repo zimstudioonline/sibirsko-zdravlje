@@ -1,18 +1,24 @@
 import { buildMetadata } from "@/lib/seo";
 import { marketingEnv } from "@repo/config/marketing-env";
-import { Check } from "lucide-react";
+import { Button, Card, CardContent } from "@repo/ui";
+import { Check, ExternalLink } from "lucide-react";
 
 export const metadata = buildMetadata({
   title: "Priključi se",
-  description: "Postani Siberian Wellness konsultant — saznaj kako izgleda saradnja.",
+  description:
+    "Postani Privilegovani klijent Siberian Wellness-a i ostvari cashback do 15%, ili postani Konsultant i pokreni sopstveni biznis.",
   path: "/prikljuci-se",
 });
 
-const prednosti = [
-  "[PRILAGODI] Fleksibilno radno vreme — radiš kad tebi odgovara.",
-  "[PRILAGODI] Popust na sopstvenu kupovinu proizvoda.",
-  "[PRILAGODI] Provizija od prodaje i tim bonusi.",
-  "[PRILAGODI] Obuka i podrška od prvog dana.",
+const REFERRAL = "5633043";
+const PRIVILEGED_CLIENT_URL = `https://rs.siberianhealth.com/rs/shop/user/registration/PRIVILEGED_CLIENT/?referral=${REFERRAL}`;
+const CONSULTANT_URL = `https://rs.siberianhealth.com/rs/shop/user/registration/CONSULTANT/?referral=${REFERRAL}`;
+const SHOP_URL = `https://rs.siberianhealth.com/rs/?referral=${REFERRAL}`;
+
+const cashbackTiers = [
+  { percent: "5%", points: "30 bodova", amount: "3250 RSD" },
+  { percent: "10%", points: "50 bodova", amount: "5450 RSD" },
+  { percent: "15%", points: "100 bodova", amount: "10 850 RSD" },
 ];
 
 export default function PrikljuciSePage() {
@@ -20,31 +26,83 @@ export default function PrikljuciSePage() {
   const email = marketingEnv().NEXT_PUBLIC_CONTACT_EMAIL;
 
   return (
-    <main className="mx-auto max-w-2xl px-6 py-16">
-      <h1 className="font-bold text-3xl text-ink sm:text-4xl">Priključi se timu</h1>
-
-      <div className="mt-4 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-amber-900 text-sm">
-        <strong>Šablon stranice.</strong> Sadržaj ispod je placeholder — zameni tekst o prednostima,
-        uslovima uključivanja i procesu saradnje svojim stvarnim ponudama za nove konsultante, pa
-        ukloni ovaj okvir.
-      </div>
-
-      <p className="mt-6 text-ink/80">
-        [PRILAGODI] Postani deo mreže Siberian Wellness konsultanata i gradi sopstveni posao uz
-        proizvode u koje veruješ. Kratko objasni ovde kome je ovo namenjeno i šta dobijaju.
+    <main className="mx-auto max-w-4xl px-6 py-16">
+      <h1 className="font-bold text-3xl text-ink sm:text-4xl">Priključi se</h1>
+      <p className="mt-4 max-w-2xl text-ink/80">
+        Postani deo Siberian Wellness zajednice — kao Privilegovani klijent uz cashback na svaku
+        kupovinu, ili kao Konsultant uz mogućnost izgradnje sopstvenog biznisa.
       </p>
 
-      <ul className="mt-6 space-y-3">
-        {prednosti.map((item) => (
-          <li key={item} className="flex items-start gap-3 text-ink/80 text-sm">
-            <Check className="mt-0.5 size-4 shrink-0 text-primary" />
-            <span>{item}</span>
-          </li>
-        ))}
-      </ul>
+      <div className="mt-10 grid gap-6 md:grid-cols-2">
+        <Card className="flex h-full flex-col">
+          <CardContent className="flex flex-1 flex-col gap-4 p-6">
+            <h2 className="font-semibold text-ink text-xl">Privilegovani klijent</h2>
+            <p className="text-ink/80 text-sm">
+              Postani Privilegovani klijent Siberian Wellness-a i dobićeš cashback do 15% od svake
+              kupovine.*
+            </p>
+            <ul className="space-y-2">
+              {cashbackTiers.map((tier) => (
+                <li key={tier.percent} className="flex items-start gap-3 text-ink/80 text-sm">
+                  <Check className="mt-0.5 size-4 shrink-0 text-primary" />
+                  <span>
+                    <strong className="text-ink">{tier.percent}</strong> ukoliko je zbir kupovina u
+                    tekućem mesecu {tier.points} (otprilike {tier.amount})
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="text-ink/50 text-xs">
+              * Cashback se obračunava od cene kupovine bez PDV-a.
+            </p>
+            <div className="mt-auto flex flex-col gap-2 pt-2">
+              <Button asChild>
+                <a href={PRIVILEGED_CLIENT_URL} target="_blank" rel="noopener noreferrer">
+                  Registruj se kao Privilegovani klijent
+                  <ExternalLink />
+                </a>
+              </Button>
+              <Button asChild variant="outline">
+                <a href={SHOP_URL} target="_blank" rel="noopener noreferrer">
+                  Poseti internet prodavnicu
+                  <ExternalLink />
+                </a>
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="flex h-full flex-col">
+          <CardContent className="flex flex-1 flex-col gap-4 p-6">
+            <h2 className="font-semibold text-ink text-xl">Konsultant</h2>
+            <p className="text-ink/80 text-sm">
+              Izgradi sopstveni online biznis kroz preporuku Siberian Wellness proizvoda — uz popust
+              na sopstvenu kupovinu, proviziju od prodaje i podršku kroz edukaciju od prvog dana.
+            </p>
+            <p className="text-ink/80 text-sm">
+              Pročitaj više o poslovnoj prilici na{" "}
+              <a
+                href="/blog/poslovna-prilika-siberian-wellness-kako-pokrenuti-uspesan-online-biznis-i-ostvariti-dodatnu-zaradu"
+                className="text-primary hover:underline"
+              >
+                blogu
+              </a>
+              .
+            </p>
+            <div className="mt-auto pt-2">
+              <Button asChild>
+                <a href={CONSULTANT_URL} target="_blank" rel="noopener noreferrer">
+                  Registruj se kao Konsultant
+                  <ExternalLink />
+                </a>
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
 
       <div className="mt-10 rounded-xl bg-primary px-6 py-8 text-center text-primary-foreground">
-        <h2 className="font-semibold text-xl">Zainteresovan/a si?</h2>
+        <h2 className="font-semibold text-xl">Nisi siguran/na šta bira?</h2>
         <p className="mt-2 text-primary-foreground/80 text-sm">
           Javi nam se telefonom, Viberom ili mejlom i objasnićemo ti sledeće korake.
         </p>
