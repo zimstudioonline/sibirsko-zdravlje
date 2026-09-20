@@ -8,12 +8,14 @@ import { Leaf } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 
 export function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
 }
+
+// Zatvoren, poznat skup slugova — bilo šta van generateStaticParams je 404,
+// nikad ne treba runtime fallback render.
+export const dynamicParams = false;
 
 function formatPrice(price: number): string {
   return `${price.toLocaleString("sr-RS")} RSD`;
@@ -102,9 +104,11 @@ export default async function ProizvodPage({ params }: { params: Promise<{ slug:
       {description ? (
         <div className="mt-10 max-w-3xl">
           <h2 className="mb-3 font-semibold text-ink text-lg">O proizvodu</h2>
-          <div className="text-ink/80 text-sm leading-relaxed [&_h2]:mt-6 [&_h2]:mb-2 [&_h2]:font-semibold [&_h2]:text-base [&_h2]:text-ink [&_li]:mb-2 [&_p]:mb-4 [&_strong]:font-semibold [&_strong]:text-ink [&_ul]:mb-4 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-5">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{description}</ReactMarkdown>
-          </div>
+          <div
+            className="text-ink/80 text-sm leading-relaxed [&_li]:mb-2 [&_p]:mb-4 [&_strong]:font-semibold [&_strong]:text-ink [&_ul]:mb-4 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-5"
+            // biome-ignore lint/security/noDangerouslySetInnerHtml: pre-rendered iz sopstvenog build-time HTML-a (vidi product-descriptions.ts), nikad iz korisničkog unosa
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
         </div>
       ) : null}
 
