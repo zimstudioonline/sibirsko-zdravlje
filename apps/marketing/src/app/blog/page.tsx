@@ -39,7 +39,7 @@ function formatDate(value: string | null): string {
 // minimalna) — prva slika iz markdown sadržaja služi kao slika kartice.
 function coverImage(content: string): string | null {
   const match = content.match(/!\[[^\]]*\]\(([^)\s]+)\)/);
-  return match ? match[1] : null;
+  return match?.[1] ?? null;
 }
 
 // Procena vremena čitanja iz broja reči u sadržaju (~180 reči/min) — nema
