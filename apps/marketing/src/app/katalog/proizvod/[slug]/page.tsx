@@ -13,10 +13,6 @@ export function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
 }
 
-// Zatvoren, poznat skup slugova — bilo šta van generateStaticParams je 404,
-// nikad ne treba runtime fallback render.
-export const dynamicParams = false;
-
 function formatPrice(price: number): string {
   return `${price.toLocaleString("sr-RS")} RSD`;
 }
