@@ -4,6 +4,13 @@
  * Nema baze za ovaj modul (deploy ide na Cloudflare bez servera) — kategorije
  * i proizvodi žive kao statički podaci. Sami proizvodi su u `products-data.ts`
  * (generisano iz WooCommerce CSV eksporta) — ovde žive samo kategorije i tipovi.
+ *
+ * Duži opisi proizvoda (markdown) namerno NISU deo `Product`/`products-data.ts` —
+ * žive u `product-descriptions.ts`, koji uvozi SAMO stranica pojedinačnog
+ * proizvoda. `products-data.ts` uvoze i stranice liste/kategorija (renderuju
+ * sve proizvode odjednom), pa dodavanje ~600KB opisa u svaki objekat je
+ * naduvalo taj fajl dovoljno da obori Cloudflare Worker resource limit na
+ * `/katalog` (Error 1102) — otud razdvajanje.
  */
 
 import { products } from "./products-data";
@@ -24,8 +31,6 @@ export interface Product {
   /** Slugovi kategorija kojima proizvod pripada (namena + brend + top-level). */
   categorySlugs: string[];
   shortDescription: string;
-  /** Duži opis (markdown) za stranicu proizvoda — generisan iz WooCommerce CSV opisa. */
-  description?: string;
   /** URL slike proizvoda (spoljni link ili putanja u /public). */
   image?: string;
   /** Cena u RSD (dinari), bez simbola valute. Izostavi ako je "cena na upit". */

@@ -1,6 +1,7 @@
 import { ProductGrid } from "@/components/catalog/product-grid";
 import { RequestInquiryButton } from "@/components/inquiry/request-inquiry-button";
 import { categoryBySlug, getProductBySlug, getProductsByCategory, products } from "@/lib/catalog";
+import { productDescriptions } from "@/lib/product-descriptions";
 import { buildMetadata } from "@/lib/seo";
 import { Badge } from "@repo/ui";
 import { Leaf } from "lucide-react";
@@ -37,6 +38,7 @@ export default async function ProizvodPage({ params }: { params: Promise<{ slug:
   const relatedProducts = getProductsByCategory(product.categorySlugs[0] ?? "")
     .filter((item) => item.slug !== product.slug)
     .slice(0, 4);
+  const description = productDescriptions[product.slug];
 
   return (
     <div>
@@ -97,11 +99,11 @@ export default async function ProizvodPage({ params }: { params: Promise<{ slug:
         </div>
       </div>
 
-      {product.description ? (
+      {description ? (
         <div className="mt-10 max-w-3xl">
           <h2 className="mb-3 font-semibold text-ink text-lg">O proizvodu</h2>
           <div className="text-ink/80 text-sm leading-relaxed [&_h2]:mt-6 [&_h2]:mb-2 [&_h2]:font-semibold [&_h2]:text-base [&_h2]:text-ink [&_li]:mb-2 [&_p]:mb-4 [&_strong]:font-semibold [&_strong]:text-ink [&_ul]:mb-4 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-5">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{product.description}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{description}</ReactMarkdown>
           </div>
         </div>
       ) : null}
