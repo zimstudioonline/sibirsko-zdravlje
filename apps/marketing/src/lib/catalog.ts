@@ -24,6 +24,8 @@ export interface Product {
   /** Slugovi kategorija kojima proizvod pripada (namena + brend + top-level). */
   categorySlugs: string[];
   shortDescription: string;
+  /** Duži opis (markdown) za stranicu proizvoda — generisan iz WooCommerce CSV opisa. */
+  description?: string;
   /** URL slike proizvoda (spoljni link ili putanja u /public). */
   image?: string;
   /** Cena u RSD (dinari), bez simbola valute. Izostavi ako je "cena na upit". */
