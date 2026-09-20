@@ -51,11 +51,15 @@ bun run cf:deploy    # build + wrangler deploy (traži wrangler login)
   statičkim podacima i Google Apps Scriptom (vidi `google-apps-script/SETUP.md`),
   bez potrebe za Supabase promenljivama. `NEXT_PUBLIC_SUPABASE_*` su potrebne
   samo ako je uključen blog modul.
-- **Blog ISR** (`revalidate = 60`) radi bez deljenog cache-a između Worker
-  instanci (nema R2 bucket za `incrementalCache`) — svaki isolate revalidira
-  nezavisno. Za sajt sa retkim objavama ovo je zanemarljivo; ako zatreba
-  deljen cache, dodaj R2 bucket i `incrementalCache` override u
-  `open-next.config.ts` (vidi OpenNext dokumentaciju za caching).
+- **Deljen incremental cache preko Cloudflare KV** — `open-next.config.ts`
+  koristi `kv-incremental-cache` (binding `NEXT_INC_CACHE_KV` u
+  `wrangler.jsonc`). Bez ovoga svaki Worker isolate renderuje statičke
+  stranice nezavisno na hladnom startu — za `/katalog` (166 proizvoda
+  odjednom) to je obaralo Cloudflare-ov CPU resource limit (Error 1102).
+  KV namespace je kreiran preko `wrangler kv namespace create` i ID je
+  upisan direktno u `wrangler.jsonc` (nije tajna, samo referenca na resurs
+  na Cloudflare nalogu). Ovo takođe ispravno deli blog ISR (`revalidate = 60`)
+  revalidaciju između isolate-a, umesto da svaki revalidira nezavisno.
 - `next/image` se koristi sa `unoptimized` (vidi `product-card.tsx`) — slike
   proizvoda se serviraju direktno sa `sibirskozdravlje.com`, bez Cloudflare
   Images optimizacije. Dovoljno za sada; može se kasnije dodati `images`

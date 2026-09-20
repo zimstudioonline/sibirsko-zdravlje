@@ -7,11 +7,14 @@
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
-  }
-  // Blog stranice koriste ISR (revalidate = 60) — bez R2 bucket-a za
-  // incremental cache, svaki Worker isolate ima svoj in-memory cache pa se
-  // revalidacija dešava po zahtevu umesto da se deli globalno. To je u redu
-  // za ovaj sajt (blog objave se retko menjaju); ako zatreba deljen cache,
-  // dodaj R2 bucket + `incrementalCache` override u open-next.config.ts
-  // (vidi https://opennext.js.org/cloudflare/caching).
+  },
+  // Deljen incremental cache (vidi open-next.config.ts) — bez ovoga svaki
+  // Worker isolate re-renderuje statičke stranice (uključujući /katalog sa
+  // svih 166 proizvoda) nezavisno na hladnom startu, što je obaralo
+  // /katalog na Cloudflare-ov CPU resource limit (Error 1102 / exceededCpu,
+  // uhvaćeno preko `wrangler tail`). Sa KV-om, prvi zahtev nakon deploy-a
+  // renderuje i upiše u cache, svi naredni zahtevi (na bilo kom isolate-u)
+  // čitaju iz KV-a. Ovo takođe ispravno deli ISR revalidaciju bloga između
+  // isolate-a (ranije svaki isolate revalidirao nezavisno).
+  "kv_namespaces": [{ "binding": "NEXT_INC_CACHE_KV", "id": "e6ac97d489ab43279c84a2abff6f8171" }]
 }
