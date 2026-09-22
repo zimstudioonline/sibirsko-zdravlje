@@ -42,6 +42,7 @@ export const products: Product[] = [
       "elasticni-zglobovi",
       "duga-mladost",
       "suplementi-za-zeludac-i-creva",
+      "suplementi-za-jetru",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -68,6 +69,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "elasticni-zglobovi",
       "suplementi-za-zeludac-i-creva",
+      "suplementi-za-jetru",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -93,6 +95,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
+      "suplementi-za-jetru",
     ],
     shortDescription:
       "Formula 4 N.V.M.N sadrži kompleks s vitaminima  A,C,E , skoro 20 godina se smatra da je to jedna od najjačih antioksidantnih formula.",
@@ -423,6 +426,7 @@ export const products: Product[] = [
       "elasticni-zglobovi",
       "duga-mladost",
       "suplementi-za-zeludac-i-creva",
+      "suplementi-za-jetru",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -433,7 +437,11 @@ export const products: Product[] = [
     slug: "trigelm-paracleanse-triple-set",
     name: "Trigelm - Paracleanse Triple Set",
     brand: "Paracleanse Triple Set",
-    categorySlugs: ["paracleanse-triple-set", "suplementi-za-zeludac-i-creva"],
+    categorySlugs: [
+      "paracleanse-triple-set",
+      "suplementi-za-zeludac-i-creva",
+      "suplementi-za-jetru",
+    ],
     shortDescription:
       "Trigelm - Paracleanse Triple Set trofazni biljni kompleks za normalizovanje funkcije creva i održavanje mikroflore.",
     image: "/products/trigelm-paracleanse-triple-set.png",
@@ -1342,6 +1350,7 @@ export const products: Product[] = [
       "detoks-i-ciscenje-organizma",
       "anti-age-proizvode",
       "suplementi-za-zeludac-i-creva",
+      "suplementi-za-jetru",
     ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Detox Pro.Active profesionalni sistem unutrašnje kontrole detoksikacije i sveobuhvatnog čišćenja organizma",
@@ -1725,7 +1734,12 @@ export const products: Product[] = [
     slug: "tree-mushroom-complex-essential-botanics",
     name: "Tree Mushroom Complex - Essential Botanics",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "suplementi-za-imunitet", "anti-age-proizvode"],
+    categorySlugs: [
+      "essential-botanics",
+      "suplementi-za-imunitet",
+      "anti-age-proizvode",
+      "suplementi-za-jetru",
+    ],
     shortDescription:
       "Tree Mushroom Complex - Essential Botanics dodatak ishrani sa četiri vrste gljiva ( čaga, šiitake, reiši i maitake ) namenjen je nutritivnoj podršci imunitetu",
     image: "/products/tree-mushroom-complex-essential-botanics.png",
