@@ -159,7 +159,7 @@ export const products: Product[] = [
     slug: "ujan-nomo-balzam-za-telo",
     name: "Ujan Nomo Balzam za telo",
     brand: "Sibirski balzami",
-    categorySlugs: ["elasticni-zglobovi"],
+    categorySlugs: ["elasticni-zglobovi", "kozmetika-siberian-wellness"],
     shortDescription:
       "Ujan Nomo Balzam za telo značajno poboljšava kretanje, pružajući trenutni osećaj hlađenja i olakšanja od upala.",
     image: "/products/ujan-nomo-balzam-za-telo.png",
@@ -1226,7 +1226,7 @@ export const products: Product[] = [
     slug: "balzam-za-telo-spongilla-i-gavez-zivokost-siberian-wellness",
     name: "Balzam za telo Spongilla&Gavez Živokost - Siberian Wellness",
     brand: "Sibirski balzami",
-    categorySlugs: ["elasticni-zglobovi"],
+    categorySlugs: ["elasticni-zglobovi", "kozmetika-siberian-wellness"],
     shortDescription:
       "Balzam za telo Spongilla&Gavez Živokost – Siberian Wellness prirodni balzam sa biljnim ekstraktima pomaže u vraćanju osećaja lakoće",
     image: "/products/balzam-za-telo-spongilla-i-gavez-zivokost-siberian-wellness.png",
@@ -1256,7 +1256,7 @@ export const products: Product[] = [
     slug: "hidratantna-pena-za-ciscenje-lica-siberian-wellness-herbal-cosmetics",
     name: "Hidratantna pena za čišćenje lica - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics"],
+    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
     shortDescription:
       "Hidratantna pena za čišćenje lica – Siberian Wellness Herbal Cosmetics lagana, nežna pena sa sokom aloe vere i mlečnom kiselinom nežno čisti, umiruje i hidrira",
     image: "/products/hidratantna-pena-za-ciscenje-lica-siberian-wellness-herbal-cosmetics.png",
@@ -1266,7 +1266,7 @@ export const products: Product[] = [
     slug: "pena-za-intimnu-higijenu-siberian-wellness-herbal-cosmetics",
     name: "Pena za intimnu higijenu - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics"],
+    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
     shortDescription:
       "Pena za intimnu higijenu – Siberian Wellness Herbal Cosmetics sa kompleksom biljnih ekstrakata nežno čisti i neguje intimnu zonu.",
     image: "/products/pena-za-intimnu-higijenu-siberian-wellness-herbal-cosmetics.png",
@@ -1276,7 +1276,7 @@ export const products: Product[] = [
     slug: "enzimski-piling-za-lice-siberian-wellness-herbal-cosmetics",
     name: "Enzimski piling za lice - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics"],
+    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
     shortDescription:
       "Enzimski piling za lice – Siberian Wellness Herbal Cosmetics podstiče blagi efekat pilinga. Ekstrakt nara, koji je bogat polifeonolima i vitaminima",
     image: "/products/enzimski-piling-za-lice-siberian-wellness-herbal-cosmetics.png",
@@ -1286,7 +1286,7 @@ export const products: Product[] = [
     slug: "hidratantni-tonik-za-lice-siberian-wellness-herbal-cosmetics",
     name: "Hidratantni tonik za lice - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics"],
+    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
     shortDescription:
       "Hidratantni tonik za lice – Siberian Wellness Herbal Cosmetics sa hidrolatima hamamelisa, smilja i aminokiselinama dubinski hidrira, tonizira i omekšava kožu",
     image: "/products/hidratantni-tonik-za-lice-siberian-wellness-herbal-cosmetics.png",
@@ -1296,7 +1296,7 @@ export const products: Product[] = [
     slug: "matirajuci-tonik-za-lice-siberian-wellness-herbal-cosmetics",
     name: "Matirajući tonik za lice - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics"],
+    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
     shortDescription:
       "Matirajući tonik za lice – Siberian Wellness Herbal Cosmetics dubinski i nežno čisti pore, kontroliše nivo sebuma na površini kože",
     image: "/products/matirajuci-tonik-za-lice-siberian-wellness-herbal-cosmetics.png",
@@ -1306,7 +1306,7 @@ export const products: Product[] = [
     slug: "intimni-gel-siberian-wellness-herbal-cosmetics",
     name: "Intimni gel - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics"],
+    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
     shortDescription:
       "Intimni gel – Siberian Wellness Herbal Cosmetics nežni sapun brižljivo čisti osetljivu kožu intimne regije, pruža pouzdanu antibakterijsku zaštitu",
     image: "/products/intimni-gel-siberian-wellness-herbal-cosmetics.png",
@@ -1316,7 +1316,7 @@ export const products: Product[] = [
     slug: "gel-za-ciscenje-lica-siberian-wellness-herbal-cosmetics",
     name: "Gel za čišćenje lica - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics"],
+    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
     shortDescription:
       "Gel za čišćenje lica – Siberian Wellness Herbal Cosmetics nežni penasti gel sa kompleksom biljnih ekstrakata i mlečne kiseline nežno čisti kožu",
     image: "/products/gel-za-ciscenje-lica-siberian-wellness-herbal-cosmetics.png",
@@ -1613,7 +1613,7 @@ export const products: Product[] = [
     slug: "extra-rich-massage-balsam-koren-280ml",
     name: "Extra Rich Massage Balsam Koren 280ml",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami"],
+    categorySlugs: ["sibirski-balzami", "kozmetika-siberian-wellness"],
     shortDescription:
       "Extra Rich Massage Balsam Koren 280ml koji deluje zagrevajuće i opuštajuće sa veličanstvenom aromom, je jedinstven i veoma efikasan kompleks",
     image: "/products/extra-rich-massage-balsam-koren-280ml.png",
