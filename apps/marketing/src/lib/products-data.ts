@@ -53,6 +53,7 @@ export const products: Product[] = [
       "antiparazitni-program",
       "celicni-nervi",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -86,6 +87,7 @@ export const products: Product[] = [
       "suplementi-za-imunitet",
       "celicni-nervi",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -114,6 +116,7 @@ export const products: Product[] = [
       "suplementi-za-jetru",
       "suplementi-za-imunitet",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Formula 4 N.V.M.N sadrži kompleks s vitaminima  A,C,E , skoro 20 godina se smatra da je to jedna od najjačih antioksidantnih formula.",
@@ -228,7 +231,11 @@ export const products: Product[] = [
     slug: "essential-botanics-bearberry-i-lingonberry",
     name: "Essential Botanics - Bearberry&Lingonberry",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "zdravi-bubrezi"],
+    categorySlugs: [
+      "essential-botanics",
+      "zdravi-bubrezi",
+      "suplementi-za-muskarce",
+    ],
     shortDescription:
       "Essential Botanics - Bearberry&Lingonberry biljna formula na bazi ekstrakta medveđe bobice i rena sa listovima i plodom brusnice sprečava stagnaciju tečnosti",
     image: "/products/essential-botanics-bearberry-i-lingonberry.png",
@@ -415,6 +422,7 @@ export const products: Product[] = [
       "suplementi-za-imunitet",
       "celicni-nervi",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
@@ -495,6 +503,7 @@ export const products: Product[] = [
       "antiparazitni-program",
       "celicni-nervi",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -526,6 +535,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "prevencija-alergija",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Synchrovitals V - Hronobiološka zaštita imuniteta se preporučuje odraslima kao izvor ginsenozida i dodatni izvor apigenina.",
@@ -681,6 +691,7 @@ export const products: Product[] = [
       "cvrste-kosti",
       "suplementi-za-imunitet",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Essential Vitamins - Vitamin D3, rastvor za oralnu upotrebu je dijetetski suplement sa vitaminom D.",
@@ -752,6 +763,7 @@ export const products: Product[] = [
       "duga-mladost",
       "cvrste-kosti",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "LITE STEP BOX - Lagani hod dvostepena zaštita od proširenih vena: normalizuje cirkulaciju krvi, jača zidove kapilara i krvnih sudova.",
@@ -768,6 +780,7 @@ export const products: Product[] = [
       "duga-mladost",
       "zdravo-srce",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Essential Vitamins - Diosmin i rutin prirodni venotonik na bazi diosmina i rutina za sprečavanje narušavanja limfotoka i cirkulacije u nogama.",
@@ -797,6 +810,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
       "suplementi-za-imunitet",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Essential Minerals - Zinc with Siberian herbs kompleks sa organskim cinkom i bakrom u kombinaciji sa biljnim ekstraktima štiti telo od slobodnih radikala",
@@ -992,7 +1006,7 @@ export const products: Product[] = [
     slug: "l-arginin-fitness-catalyst",
     name: "L-arginin - Fitness Catalyst",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst"],
+    categorySlugs: ["fitness-catalyst", "suplementi-za-muskarce"],
     shortDescription:
       "L-arginin – Fitness Catalyst izvor aminokiselina za jačanje i povećavanje mišićne mase tokom treninga i ubrzani oporavak mišića nakon vežbanja.",
     image: "/products/l-arginin-fitness-catalyst.png",
@@ -1476,7 +1490,11 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-eco-natural-vitamins",
     name: "Siberian Super Natural Nutrition - ECO. Natural Vitamins",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition", "anti-age-proizvode"],
+    categorySlugs: [
+      "siberian-super-natural-nutrition",
+      "anti-age-proizvode",
+      "suplementi-za-muskarce",
+    ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Natural Vitamins vitamini, minerali i omega-3 kiseline: prirodna podrška telu u ekološkom pakovanju.",
     image: "/products/siberian-super-natural-nutrition-eco-natural-vitamins.png",
@@ -1752,6 +1770,7 @@ export const products: Product[] = [
       "zdravo-srce",
       "anti-age-proizvode",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Biodostupni Koenzim Q10 štiti srce i krvne sudove od procesa starenja, povećava energetski potencijal ćelija i održava lepotu kože i kose.",
@@ -1770,6 +1789,7 @@ export const products: Product[] = [
       "zdravo-srce",
       "prevencija-dijabetesa",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Magnesium Multi-Chelate - Expert Line u bioraspoloživim oblicima pomaže u smanjenju nervne napetosti i vraćanju emocionalne ravnoteže",
@@ -1907,6 +1927,7 @@ export const products: Product[] = [
       "suplementi-za-jetru",
       "zdravo-srce",
       "suplementi-za-zene",
+      "suplementi-za-muskarce",
     ],
     shortDescription:
       "Tree Mushroom Complex - Essential Botanics dodatak ishrani sa četiri vrste gljiva ( čaga, šiitake, reiši i maitake ) namenjen je nutritivnoj podršci imunitetu",
