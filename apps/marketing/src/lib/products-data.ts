@@ -1047,7 +1047,7 @@ export const products: Product[] = [
     slug: "krema-za-lice-hidratantna-siberian-wellness",
     name: "Krema za lice hidratantna - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika-siberian-wellness-herbal-cosmetics"],
     shortDescription:
       "Krema za lice hidratantna Siberian Wellness bioaktivna lagana krema sa kompleksom ekstrakata sibirskih endema vlaži kožu, ispunjava je vitalnošću i mladošću",
     image: "/products/krema-za-lice-hidratantna-siberian-wellness.png",
@@ -1880,7 +1880,7 @@ export const products: Product[] = [
     slug: "all-in-one-anti-aging-treatment-siberian-wellness",
     name: "All-In-One Anti-Aging Treatment - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika-siberian-wellness-herbal-cosmetics"],
     shortDescription:
       "All-In-One Anti-Aging Treatment - Siberian Wellness hranljiva krema pruža finu negu zrele kože, obnavlja je i hidrira.",
     image: "/products/all-in-one-anti-aging-treatment-siberian-wellness.png",
