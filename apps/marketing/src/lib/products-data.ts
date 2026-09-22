@@ -866,7 +866,7 @@ export const products: Product[] = [
     slug: "protein-surutke-fitness-catalyst-sladoled-od-vanile",
     name: "Protein surutke Fitness Catalyst - sladoled od vanile",
     brand: "Proteini",
-    categorySlugs: ["proteini"],
+    categorySlugs: ["proteini", "fitness-catalyst"],
     shortDescription:
       "Protein surutke Fitness Catalyst - sladoled od vanile Izuzetno kvalitetan koncentrat proteina surutke s izuzetnim ukusom i odličnim aminokiselinama.",
     image: "/products/protein-surutke-fitness-catalyst-sladoled-od-vanile.png",
@@ -876,7 +876,7 @@ export const products: Product[] = [
     slug: "protein-surutke-fitness-catalyst-cokoladni-keks",
     name: "Protein surutke Fitness Catalyst - čokoladni keks",
     brand: "Proteini",
-    categorySlugs: ["proteini"],
+    categorySlugs: ["proteini", "fitness-catalyst"],
     shortDescription:
       "Protein surutke Fitness Catalyst - čokoladni keks Izuzetno kvalitetan koncentrat proteina surutke s izuzetnim ukusom i odličnim aminokiselinama.",
     image: "/products/protein-surutke-fitness-catalyst-cokoladni-keks.png",
@@ -1500,7 +1500,6 @@ export const products: Product[] = [
     name: "MEN'S POWER Maca+Zinc+L-Carnitine - Fitness Catalist",
     brand: "Fitness Catalyst",
     categorySlugs: [
-      "fitness-catalyst",
       "suplementi-za-muskarce",
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
