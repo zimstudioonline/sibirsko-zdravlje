@@ -1437,7 +1437,11 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-eco-neurovision",
     name: "Siberian Super Natural Nutrition - ECO. Neurovision",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition", "anti-age-proizvode"],
+    categorySlugs: [
+      "siberian-super-natural-nutrition",
+      "anti-age-proizvode",
+      "siberian-super-natural-nutrition-eco",
+    ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Neurovision inovativni program za aktivan rad mozga i očuvanje vida, sada dostupan u novom, eko pakovanju.",
     image: "/products/siberian-super-natural-nutrition-eco-neurovision.png",
@@ -1451,6 +1455,7 @@ export const products: Product[] = [
       "siberian-super-natural-nutrition",
       "anti-age-proizvode",
       "suplementi-za-muskarce",
+      "siberian-super-natural-nutrition-eco",
     ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Natural Vitamins vitamini, minerali i omega-3 kiseline: prirodna podrška telu u ekološkom pakovanju.",
@@ -1466,6 +1471,7 @@ export const products: Product[] = [
       "antistres-zastita",
       "anti-age-proizvode",
       "vegetarijanski-proizvodi",
+      "siberian-super-natural-nutrition-eco",
     ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Stress Re.Live Inovativni organski kompleksi za zaštitu nervnog sistema i sprečavanje stresa",
@@ -1482,6 +1488,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-zeludac-i-creva",
       "suplementi-za-jetru",
+      "siberian-super-natural-nutrition-eco",
     ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Detox Pro.Active profesionalni sistem unutrašnje kontrole detoksikacije i sveobuhvatnog čišćenja organizma",
@@ -1709,6 +1716,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "duga-mladost",
       "suplementi-za-zene",
+      "siberian-super-natural-nutrition-eco",
     ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. BeautySense nutrikozmetički anti-age sistem za očuvanje mladalačkog izgleda kože u novom ekološkom pakovanju.",
