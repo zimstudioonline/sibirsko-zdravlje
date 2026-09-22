@@ -122,7 +122,11 @@ export const products: Product[] = [
     slug: "glucosamine-and-chondroitin-fitness-catalyst",
     name: "Glucosamine and Chondroitin - Fitness Catalyst",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "elasticni-zglobovi"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "elasticni-zglobovi",
+      "sport",
+    ],
     shortDescription:
       "Glucosamine and Chondroitin - Fitness Catalyst maksimalna podrška zglobovima.",
     image: "/products/glucosamine-and-chondroitin-fitness-catalyst.png",
@@ -636,7 +640,7 @@ export const products: Product[] = [
     slug: "bcaa-complex-fitness-catalist",
     name: "BCAA Complex - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst"],
+    categorySlugs: ["fitness-catalyst", "sport"],
     shortDescription:
       "BCAA Complex - Fitness Catalist za intenzivne treninge, sadrži tri vrste aminokiselina u idealnom odnosu za anabolizam: L-valin, L-izoleucin i L-leucin.",
     image: "/products/bcaa-complex-fitness-catalist.png",
@@ -866,7 +870,11 @@ export const products: Product[] = [
     slug: "protein-surutke-fitness-catalyst-sladoled-od-vanile",
     name: "Protein surutke Fitness Catalyst - sladoled od vanile",
     brand: "Proteini",
-    categorySlugs: ["proteini", "fitness-catalyst"],
+    categorySlugs: [
+      "proteini",
+      "fitness-catalyst",
+      "sport",
+    ],
     shortDescription:
       "Protein surutke Fitness Catalyst - sladoled od vanile Izuzetno kvalitetan koncentrat proteina surutke s izuzetnim ukusom i odličnim aminokiselinama.",
     image: "/products/protein-surutke-fitness-catalyst-sladoled-od-vanile.png",
@@ -876,7 +884,11 @@ export const products: Product[] = [
     slug: "protein-surutke-fitness-catalyst-cokoladni-keks",
     name: "Protein surutke Fitness Catalyst - čokoladni keks",
     brand: "Proteini",
-    categorySlugs: ["proteini", "fitness-catalyst"],
+    categorySlugs: [
+      "proteini",
+      "fitness-catalyst",
+      "sport",
+    ],
     shortDescription:
       "Protein surutke Fitness Catalyst - čokoladni keks Izuzetno kvalitetan koncentrat proteina surutke s izuzetnim ukusom i odličnim aminokiselinama.",
     image: "/products/protein-surutke-fitness-catalyst-cokoladni-keks.png",
@@ -886,7 +898,11 @@ export const products: Product[] = [
     slug: "sportski-obnavljajuci-gel-fitness-catalist",
     name: "Sportski obnavljajući gel - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "elasticni-zglobovi"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "elasticni-zglobovi",
+      "sport",
+    ],
     shortDescription:
       "Sportski obnavljajući gel - Fitness Catalist otklanja neprijatan osećaj da ste se preforsirali i ubrzava obnavljanje nakon intenzivnog fizičkog opterećenja.",
     image: "/products/sportski-obnavljajuci-gel-fitness-catalist.png",
@@ -896,7 +912,7 @@ export const products: Product[] = [
     slug: "siberian-super-natural-sport-l-carnitine-fitness-catalist",
     name: "Siberian Super Natural Sport L-Carnitine - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst"],
+    categorySlugs: ["fitness-catalyst", "sport"],
     shortDescription:
       "Siberian Super Natural Sport L-Carnitine - Fitness Catalist učestvuje u razmeni masti, povećava izdržljivost organizma prilikom bavljenja aerobnim vrstama sporta",
     image: "/products/siberian-super-natural-sport-l-carnitine-fitness-catalist.png",
@@ -906,7 +922,12 @@ export const products: Product[] = [
     slug: "omega-3-ultra-fitness-catalist",
     name: "Omega-3 Ultra - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "cvrste-kosti", "suplementi-za-imunitet"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "cvrste-kosti",
+      "suplementi-za-imunitet",
+      "sport",
+    ],
     shortDescription:
       "Maksimum Omega-3 Ultra - Fitness Catalist kiselina za snažnu podršku telu tokom intenzivne fizičke aktivnosti.",
     image: "/products/omega-3-ultra-fitness-catalist.png",
@@ -916,7 +937,12 @@ export const products: Product[] = [
     slug: "chromlipaza-fitness-catalist",
     name: "Chromlipaza - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "anti-age-proizvode", "prevencija-dijabetesa"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "anti-age-proizvode",
+      "prevencija-dijabetesa",
+      "sport",
+    ],
     shortDescription:
       "Chromlipaza - Fitness Catalist je idealan suplement za sve koji žele efikasno da kontrolišu svoju težinu i apetit.",
     image: "/products/chromlipaza-fitness-catalist.png",
@@ -926,7 +952,11 @@ export const products: Product[] = [
     slug: "metilsulfonilmetan-fitness-catalyst",
     name: "Metilsulfonilmetan - Fitness Catalyst",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "elasticni-zglobovi"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "elasticni-zglobovi",
+      "sport",
+    ],
     shortDescription:
       "Metilsulfonilmetan - Fitness Catalyst je jedinjenje organskog sumpora, koje je odgovorno za sintezu hrskavice i vezivnog tkiva",
     image: "/products/metilsulfonilmetan-fitness-catalyst.png",
@@ -972,7 +1002,11 @@ export const products: Product[] = [
     slug: "l-arginin-fitness-catalyst",
     name: "L-arginin - Fitness Catalyst",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "suplementi-za-muskarce"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "suplementi-za-muskarce",
+      "sport",
+    ],
     shortDescription:
       "L-arginin – Fitness Catalyst izvor aminokiselina za jačanje i povećavanje mišićne mase tokom treninga i ubrzani oporavak mišića nakon vežbanja.",
     image: "/products/l-arginin-fitness-catalyst.png",
@@ -982,7 +1016,11 @@ export const products: Product[] = [
     slug: "instant-veganski-bcaa-kompleks-guarana-fitness-catalist",
     name: "Instant veganski BCAA  kompleks - Guarana - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "vegetarijanski-proizvodi"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "vegetarijanski-proizvodi",
+      "sport",
+    ],
     shortDescription:
       "Instant veganski BCAA kompleks - Guarana - Fitness Catalist napitak s aminokiselinama i guaranom je stvoren za one koji su uvek u pokretu",
     image: "/products/instant-veganski-bcaa-kompleks-guarana-fitness-catalist.png",
@@ -1509,7 +1547,11 @@ export const products: Product[] = [
     slug: "taurin-fitness-catalist",
     name: "Таurin - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "anti-age-proizvode"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "anti-age-proizvode",
+      "sport",
+    ],
     shortDescription:
       "Таurin - Fitness Catalist moćni aktivator antioksidantne zaštite. Povećava otpornost ćelijskih membrana na uticaj slobodnih radikala",
     image: "/products/taurin-fitness-catalist.png",
@@ -1519,7 +1561,7 @@ export const products: Product[] = [
     slug: "energetski-booster-fitness-catalist",
     name: "Energetski Booster - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst"],
+    categorySlugs: ["fitness-catalyst", "sport"],
     shortDescription:
       "Energetski Booster - Fitness Catalist s zasićenim ukusom čokolade - tvoj pratilac u svet divnih utisaka! Inovativni ženšen Cereboost™ snabdeva mozak energijom",
     image: "/products/energetski-booster-fitness-catalist.png",
