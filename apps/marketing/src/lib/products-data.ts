@@ -34,6 +34,7 @@ export const products: Product[] = [
       "renaissance-triple-set",
       "suplementi-za-energiju-i-fokus",
       "detoks-i-ciscenje-organizma",
+      "elasticni-zglobovi",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -58,6 +59,7 @@ export const products: Product[] = [
       "renaissance-triple-set",
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
+      "elasticni-zglobovi",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -112,7 +114,7 @@ export const products: Product[] = [
     slug: "set-pomoc-za-zglobove-ujan-nomo-balzam-sirokog-spektra-koren",
     name: "Set pomoć za zglobove - Ujan Nomo + Balzam širokog spektra Koren",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami", "elasticni-zglobovi"],
+    categorySlugs: ["sibirski-balzami"],
     shortDescription:
       "Set pomoć za zglobove čine: Ujan Nomo Balzam za telo i Balzam širokog spektra Koren.",
     image: "/products/set-pomoc-za-zglobove-ujan-nomo-balzam-sirokog-spektra-koren.png",
@@ -122,7 +124,7 @@ export const products: Product[] = [
     slug: "ujan-nomo-balzam-za-telo",
     name: "Ujan Nomo Balzam za telo",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami"],
+    categorySlugs: ["sibirski-balzami", "elasticni-zglobovi"],
     shortDescription:
       "Ujan Nomo Balzam za telo značajno poboljšava kretanje, pružajući trenutni osećaj hlađenja i olakšanja od upala.",
     image: "/products/ujan-nomo-balzam-za-telo.png",
@@ -270,7 +272,7 @@ export const products: Product[] = [
     slug: "3d-flex-cube-sloboda-pokreta",
     name: "3D Flex Cube - Sloboda pokreta",
     brand: "3D Cube",
-    categorySlugs: ["3d-cube"],
+    categorySlugs: ["3d-cube", "elasticni-zglobovi"],
     shortDescription:
       "3D Flex Cube - Sloboda pokreta maksimalna motorička aktivnost i lakoća kretanja - zahvaljujući kompleksnoj podršci hondroprotektora, omega-3 kiselina",
     image: "/products/3d-flex-cube-sloboda-pokreta.jpg",
@@ -309,7 +311,13 @@ export const products: Product[] = [
     slug: "3d-bone-vegan-cube-izdrzljivost-i-snaga",
     name: "3D Bone Vegan Cube - Izdržljivost i snaga",
     brand: "3D Cube",
-    categorySlugs: ["3d-cube", "vegetarijanski-proizvodi", "cvrste-kosti", "anti-age-proizvode"],
+    categorySlugs: [
+      "3d-cube",
+      "vegetarijanski-proizvodi",
+      "cvrste-kosti",
+      "anti-age-proizvode",
+      "elasticni-zglobovi",
+    ],
     shortDescription:
       "3D Bone Vegan Cube - Izdržljivost i snaga jedinstveni SMART- kompleks za snagu i jačanje koštanog sistema. Smanjuje rizik od oštećenja kostiju",
     image: "/products/3d-bone-vegan-cube-izdrzljivost-i-snaga.jpg",
@@ -324,6 +332,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "antistres-zastita",
       "suplementi-za-energiju-i-fokus",
+      "elasticni-zglobovi",
     ],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
@@ -378,6 +387,7 @@ export const products: Product[] = [
       "renaissance-triple-set",
       "detoks-i-ciscenje-organizma",
       "suplementi-za-energiju-i-fokus",
+      "elasticni-zglobovi",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -521,7 +531,12 @@ export const products: Product[] = [
     slug: "essential-vitamins-vitamin-d3",
     name: "Essential Vitamins - Vitamin D3",
     brand: "Essential Vitamins",
-    categorySlugs: ["essential-vitamins", "anti-age-proizvode", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "essential-vitamins",
+      "anti-age-proizvode",
+      "suplementi-za-energiju-i-fokus",
+      "elasticni-zglobovi",
+    ],
     shortDescription:
       "Essential Vitamins - Vitamin D3, rastvor za oralnu upotrebu je dijetetski suplement sa vitaminom D.",
     image: "/products/essential-vitamins-vitamin-d3.png",
@@ -709,7 +724,7 @@ export const products: Product[] = [
     slug: "sportski-obnavljajuci-gel-fitness-catalist",
     name: "Sportski obnavljajući gel - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst"],
+    categorySlugs: ["fitness-catalyst", "elasticni-zglobovi"],
     shortDescription:
       "Sportski obnavljajući gel - Fitness Catalist otklanja neprijatan osećaj da ste se preforsirali i ubrzava obnavljanje nakon intenzivnog fizičkog opterećenja.",
     image: "/products/sportski-obnavljajuci-gel-fitness-catalist.png",
@@ -1042,7 +1057,7 @@ export const products: Product[] = [
     slug: "balzam-za-telo-spongilla-i-gavez-zivokost-siberian-wellness",
     name: "Balzam za telo Spongilla&Gavez Živokost - Siberian Wellness",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami"],
+    categorySlugs: ["sibirski-balzami", "elasticni-zglobovi"],
     shortDescription:
       "Balzam za telo Spongilla&Gavez Živokost – Siberian Wellness prirodni balzam sa biljnim ekstraktima pomaže u vraćanju osećaja lakoće",
     image: "/products/balzam-za-telo-spongilla-i-gavez-zivokost-siberian-wellness.png",
