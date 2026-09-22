@@ -144,7 +144,7 @@ export const products: Product[] = [
     slug: "essential-minerals-selenium-with-siberian-herbs",
     name: "Essential Minerals - Selenium with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode"],
+    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode", "antistres-zastita"],
     shortDescription:
       "Essential Minerals. Selenium with Siberian herbs kompleks sa visoko bioraspoloživim organskim selenom, obogaćen vitaminima i biljnim ekstraktima",
     image: "/products/essential-minerals-selenium-with-siberian-herbs.png",
@@ -174,7 +174,7 @@ export const products: Product[] = [
     slug: "essential-botanics-valerian-i-melissa",
     name: "Essential Botanics - Valerian&Melissa",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "celicni-nervi"],
+    categorySlugs: ["essential-botanics", "celicni-nervi", "antistres-zastita"],
     shortDescription:
       "Essential Botanics - Valerian&Melissa formula prirodnog spokoja: ekstrakt valerijane, matičnjaka i origana umiruju nervni sistem, smanjuju razdražljivost",
     image: "/products/essential-botanics-valerian-i-melissa.png",
@@ -204,7 +204,7 @@ export const products: Product[] = [
     slug: "beauty-box-lepota-i-sjaj",
     name: "BEAUTY BOX - Lepota i sjaj",
     brand: "Daily Box",
-    categorySlugs: ["daily-box", "duga-mladost", "antistres-zastita"],
+    categorySlugs: ["daily-box", "duga-mladost"],
     shortDescription:
       "BEAUTY BOX – Lepota i sjaj vitaminsko-antioksidativni kompleks obezbediće da vaša lepota i mladost ne zavise od okoline, stresa i nedostatka sna",
     image: "/products/beauty-box-lepota-i-sjaj.png",
@@ -234,7 +234,7 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-stress-re-live",
     name: "Siberian Super Natural Nutrition - Stress Re.Live",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition", "antistres-zastita", "celicni-nervi"],
+    categorySlugs: ["siberian-super-natural-nutrition", "celicni-nervi"],
     shortDescription:
       "Siberian Super Natural Nutrition - Stress Re.Live inovativni organski kompleks za zaštitu nervnog sistema i prevenciju stresa",
     image: "/products/siberian-super-natural-nutrition-stress-re-live.png",
@@ -303,7 +303,7 @@ export const products: Product[] = [
     slug: "healthy-rhythms",
     name: "Healthy Rhythms",
     brand: "Healthy Rhythms",
-    categorySlugs: ["healthy-rhythms", "anti-age-proizvode"],
+    categorySlugs: ["healthy-rhythms", "anti-age-proizvode", "antistres-zastita"],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
     image: "/products/healthy-rhythms.jpg",
@@ -596,7 +596,7 @@ export const products: Product[] = [
     slug: "essential-mineral-magnesium-with-siberian-herbs",
     name: "Essential Mineral - Magnesium with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals"],
+    categorySlugs: ["essential-minerals-elemvitals", "antistres-zastita"],
     shortDescription:
       "Essential Mineral - Magnesium with Siberian herbs kompleks sa glavnim mineralom relaksiranja - organskim magnezijumom, obogaćenim ekstraktom valerijane",
     image: "/products/essential-mineral-magnesium-with-siberian-herbs.png",
@@ -1169,7 +1169,7 @@ export const products: Product[] = [
     slug: "essential-botanics-plant-derived-melatonin",
     name: "Essential Botanics - Plant - Derived Melatonin",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "celicni-nervi"],
+    categorySlugs: ["essential-botanics", "celicni-nervi", "antistres-zastita"],
     shortDescription:
       "Essential Botanics – Plant – Derived Melatonin je neophodna komponenta za zdrav, čvrst san i harmonično funkcionisanje nervnog sistema.",
     image: "/products/essential-botanics-plant-derived-melatonin.png",
@@ -1458,7 +1458,7 @@ export const products: Product[] = [
     slug: "magnesium-multi-chelate-expert-line",
     name: "Magnesium Multi-Chelate - Expert Line",
     brand: "Expert Line",
-    categorySlugs: ["expert-line", "celicni-nervi", "anti-age-proizvode"],
+    categorySlugs: ["expert-line", "celicni-nervi", "anti-age-proizvode", "antistres-zastita"],
     shortDescription:
       "Magnesium Multi-Chelate - Expert Line u bioraspoloživim oblicima pomaže u smanjenju nervne napetosti i vraćanju emocionalne ravnoteže",
     image: "/products/magnesium-multi-chelate-expert-line.png",
@@ -1598,7 +1598,12 @@ export const products: Product[] = [
     slug: "lion-s-mane-i-cordyceps-essential-botanics",
     name: "Lion's Mane & Cordyceps - Essential Botanics",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "suplementi-za-energiju-i-fokus", "anti-age-proizvode"],
+    categorySlugs: [
+      "essential-botanics",
+      "suplementi-za-energiju-i-fokus",
+      "anti-age-proizvode",
+      "antistres-zastita",
+    ],
     shortDescription:
       "Lion's Mane & Cordyceps - Essential Botanics dodatak ishrani sa ekstraktima lavlje grive, kordicepsa i L-lizina, namenjen podršci mentalnoj aktivnosti, fokusu",
     image: "/products/lion-s-mane-i-cordyceps-essential-botanics.png",
@@ -1648,7 +1653,12 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-11-energija-i-vitalnost",
     name: "Fito čaj od divljeg bilja №11 – Energija i vitalnost",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "suplementi-za-energiju-i-fokus", "duga-mladost"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
+      "antistres-zastita",
+    ],
     shortDescription:
       "Fito čaj od divljeg bilja №11 – Energija i vitalnost pravi tajga ukus i aroma – bez kofeina i veštačkih dodataka.",
     image: "/products/fito-caj-od-divljeg-bilja-11-energija-i-vitalnost.png",
