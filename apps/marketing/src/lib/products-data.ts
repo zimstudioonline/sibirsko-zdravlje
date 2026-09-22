@@ -9,6 +9,7 @@ export const products: Product[] = [
       "essential-sorbents-lymphosan",
       "detoks-i-ciscenje-organizma",
       "elasticni-zglobovi",
+      "anti-age-proizvode",
     ],
     shortDescription:
       "Essential Sorbents - Joint Comfort mešavina za pripremu detoks koktela sa hondroprotektivnim komponentama pomaže u efikasnom čišćenju tela i zaštiti zglobova",
@@ -53,7 +54,7 @@ export const products: Product[] = [
     slug: "renaissance-triple-set-formula-3",
     name: "Renaissance Triple Set - Formula 3",
     brand: "Renaissance Triple Set",
-    categorySlugs: ["renaissance-triple-set"],
+    categorySlugs: ["renaissance-triple-set", "anti-age-proizvode"],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
     image: "/products/renaissance-triple-set-formula-3.png",
@@ -73,7 +74,7 @@ export const products: Product[] = [
     slug: "formula-4-n-v-m-n",
     name: "Formula 4 N.V.M.N",
     brand: "Novomin",
-    categorySlugs: ["novomin"],
+    categorySlugs: ["novomin", "anti-age-proizvode"],
     shortDescription:
       "Formula 4 N.V.M.N sadrži kompleks s vitaminima  A,C,E , skoro 20 godina se smatra da je to jedna od najjačih antioksidantnih formula.",
     image: "/products/formula-4-n-v-m-n.png",
@@ -93,7 +94,7 @@ export const products: Product[] = [
     slug: "essential-minerals-iodine-with-siberian-herbs",
     name: "Essential Minerals - Iodine with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals"],
+    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode"],
     shortDescription:
       "Essential Minerals - Iodine with Siberian herbs, kompleks sa visoko bioraspoloživim organskim jodom iz ekstrakta fukusa i prirodnim adaptogenom",
     image: "/products/essential-minerals-iodine-with-siberian-herbs.png",
@@ -123,7 +124,7 @@ export const products: Product[] = [
     slug: "essential-minerals-iron-with-siberian-herbs",
     name: "Essential Minerals - Iron with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals"],
+    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode"],
     shortDescription:
       "Essential Minerals - Iron with Siberian herbs kompleks sa bioraspoloživim organskim gvožđem poboljšava zasićenje organizma kiseonikom",
     image: "/products/essential-minerals-iron-with-siberian-herbs.png",
@@ -143,7 +144,7 @@ export const products: Product[] = [
     slug: "essential-minerals-selenium-with-siberian-herbs",
     name: "Essential Minerals - Selenium with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals"],
+    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode"],
     shortDescription:
       "Essential Minerals. Selenium with Siberian herbs kompleks sa visoko bioraspoloživim organskim selenom, obogaćen vitaminima i biljnim ekstraktima",
     image: "/products/essential-minerals-selenium-with-siberian-herbs.png",
@@ -193,7 +194,7 @@ export const products: Product[] = [
     slug: "essential-fatty-acids-omega-3-i-likopen",
     name: "Essential Fatty Acids - Omega-3 i likopen",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids", "zdravo-srce"],
+    categorySlugs: ["essential-fatty-acids", "zdravo-srce", "anti-age-proizvode"],
     shortDescription:
       "Essential Fatty Acids - Omega-3 i likopen prirodni kardioprotektor za vašu svakodnevnu ishranu.",
     image: "/products/essential-fatty-acids-omega-3-i-likopen.png",
@@ -292,7 +293,7 @@ export const products: Product[] = [
     slug: "3d-bone-vegan-cube-izdrzljivost-i-snaga",
     name: "3D Bone Vegan Cube - Izdržljivost i snaga",
     brand: "3D Cube",
-    categorySlugs: ["3d-cube", "vegetarijanski-proizvodi", "cvrste-kosti"],
+    categorySlugs: ["3d-cube", "vegetarijanski-proizvodi", "cvrste-kosti", "anti-age-proizvode"],
     shortDescription:
       "3D Bone Vegan Cube - Izdržljivost i snaga jedinstveni SMART- kompleks za snagu i jačanje koštanog sistema. Smanjuje rizik od oštećenja kostiju",
     image: "/products/3d-bone-vegan-cube-izdrzljivost-i-snaga.jpg",
@@ -302,7 +303,7 @@ export const products: Product[] = [
     slug: "healthy-rhythms",
     name: "Healthy Rhythms",
     brand: "Healthy Rhythms",
-    categorySlugs: ["healthy-rhythms"],
+    categorySlugs: ["healthy-rhythms", "anti-age-proizvode"],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
     image: "/products/healthy-rhythms.jpg",
@@ -312,7 +313,7 @@ export const products: Product[] = [
     slug: "essential-fatty-acids-borage-and-amaranth-oil",
     name: "Essential Fatty Acids - Borage and Amaranth Oil",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids", "anti-age-proizvode"],
+    categorySlugs: ["essential-fatty-acids"],
     shortDescription:
       "Essential Fatty Acids - Borage and Amaranth Oil lipidni kompleks sadrži jednu od omega-6 kiselina - gamalinoleinskukiselinu i kompleks vitamina E i D.",
     image: "/products/essential-fatty-acids-borage-and-amaranth-oil.png",
@@ -495,7 +496,7 @@ export const products: Product[] = [
     slug: "essential-vitamins-vitamin-d3",
     name: "Essential Vitamins - Vitamin D3",
     brand: "Essential Vitamins",
-    categorySlugs: ["essential-vitamins"],
+    categorySlugs: ["essential-vitamins", "anti-age-proizvode"],
     shortDescription:
       "Essential Vitamins - Vitamin D3, rastvor za oralnu upotrebu je dijetetski suplement sa vitaminom D.",
     image: "/products/essential-vitamins-vitamin-d3.png",
@@ -515,7 +516,7 @@ export const products: Product[] = [
     slug: "essential-vitamins-natural-vitamin-e",
     name: "Essential Vitamins - Natural Vitamin E",
     brand: "Essential Vitamins",
-    categorySlugs: ["essential-vitamins"],
+    categorySlugs: ["essential-vitamins", "anti-age-proizvode"],
     shortDescription:
       "Essential Vitamins - Natural Vitamin E  prirodni izvor vitamina E iz semenki suncokreta u visoko prečišćenom MCT ulju.",
     image: "/products/essential-vitamins-natural-vitamin-e.png",
@@ -555,7 +556,7 @@ export const products: Product[] = [
     slug: "lite-step-box-lagani-hod",
     name: "LITE STEP BOX - Lagani hod",
     brand: "Daily Box",
-    categorySlugs: ["daily-box", "zdravo-srce"],
+    categorySlugs: ["daily-box", "zdravo-srce", "anti-age-proizvode"],
     shortDescription:
       "LITE STEP BOX - Lagani hod dvostepena zaštita od proširenih vena: normalizuje cirkulaciju krvi, jača zidove kapilara i krvnih sudova.",
     image: "/products/lite-step-box-lagani-hod.jpg",
@@ -565,7 +566,7 @@ export const products: Product[] = [
     slug: "essential-vitamins-diosmin-i-rutin",
     name: "Essential Vitamins - Diosmin i rutin",
     brand: "Essential Vitamins",
-    categorySlugs: ["essential-vitamins"],
+    categorySlugs: ["essential-vitamins", "anti-age-proizvode"],
     shortDescription:
       "Essential Vitamins - Diosmin i rutin prirodni venotonik na bazi diosmina i rutina za sprečavanje narušavanja limfotoka i cirkulacije u nogama.",
     image: "/products/essential-vitamins-diosmin-i-rutin.png",
@@ -585,7 +586,7 @@ export const products: Product[] = [
     slug: "essential-minerals-zinc-with-siberian-herbs",
     name: "Essential Minerals - Zinc with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals"],
+    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode"],
     shortDescription:
       "Essential Minerals - Zinc with Siberian herbs kompleks sa organskim cinkom i bakrom u kombinaciji sa biljnim ekstraktima štiti telo od slobodnih radikala",
     image: "/products/essential-minerals-zinc-with-siberian-herbs.png",
@@ -705,7 +706,7 @@ export const products: Product[] = [
     slug: "chromlipaza-fitness-catalist",
     name: "Chromlipaza - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst"],
+    categorySlugs: ["fitness-catalyst", "anti-age-proizvode"],
     shortDescription:
       "Chromlipaza - Fitness Catalist je idealan suplement za sve koji žele efikasno da kontrolišu svoju težinu i apetit.",
     image: "/products/chromlipaza-fitness-catalist.png",
@@ -878,7 +879,7 @@ export const products: Product[] = [
     slug: "koncentrat-u-ampuli-lifting-i-elasticnost-experalta-platinum",
     name: "Koncentrat u ampuli lifting i elastičnost - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum", "anti-age-proizvode"],
+    categorySlugs: ["kozmetika-experalta-platinum"],
     shortDescription:
       "Koncentrat u ampuli lifting i elastičnost – Experalta Platinum deluje u tri pravca odjednom: podstiču smanjenje sitnih i dubokih bora",
     image: "/products/koncentrat-u-ampuli-lifting-i-elasticnost-experalta-platinum.png",
@@ -928,7 +929,7 @@ export const products: Product[] = [
     slug: "krema-za-povecanje-elasticnosti-koze-oko-ociju-experalta-platinum",
     name: "Krema za povećanje elastičnosti kože oko očiju - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum", "suplementi-za-vid", "anti-age-proizvode"],
+    categorySlugs: ["kozmetika-experalta-platinum", "suplementi-za-vid"],
     shortDescription:
       "Krema za povećanje elastičnosti kože oko očiju – Experalta Platinum moćna anti-age formula na bazi biljnih peptida kedrovih oraha i sibirskog ženšena",
     image: "/products/krema-za-povecanje-elasticnosti-koze-oko-ociju-experalta-platinum.png",
@@ -1118,7 +1119,7 @@ export const products: Product[] = [
     slug: "methylfolate-women-s-health",
     name: "Methylfolate - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health", "suplementi-za-trudnice-i-dojilje"],
+    categorySlugs: ["womens-health", "suplementi-za-trudnice-i-dojilje", "anti-age-proizvode"],
     shortDescription:
       "Methylfolate – Women's Health aktivni oblik folne kiseline Metafolin® od DSM Nutritional sa visokom biodostupnošću, odobren za upotrebu kod trudnica",
     image: "/products/methylfolate-women-s-health.png",
@@ -1138,7 +1139,7 @@ export const products: Product[] = [
     slug: "iron-bisglycinate-women-s-health",
     name: "Iron Bisglycinate - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health"],
+    categorySlugs: ["womens-health", "anti-age-proizvode"],
     shortDescription:
       "Iron Bisglycinate – Women's Health gvožđe u biodostupnom helatnom obliku za prevenciju deficita gvožđa i podršku procesima stvaranja krvi",
     image: "/products/iron-bisglycinate-women-s-health.png",
@@ -1148,7 +1149,7 @@ export const products: Product[] = [
     slug: "hijaluronska-kiselina-i-prirodni-vitamin-c-women-s-health",
     name: "Hijaluronska kiselina i prirodni vitamin C - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health"],
+    categorySlugs: ["womens-health", "anti-age-proizvode"],
     shortDescription:
       "Hijaluronska kiselina i prirodni vitamin C – Women's Health Beauty-kompleks sa hijaluronskom kiselinom i prirodnim vitaminom C",
     image: "/products/hijaluronska-kiselina-i-prirodni-vitamin-c-women-s-health.png",
@@ -1158,7 +1159,7 @@ export const products: Product[] = [
     slug: "essential-botanics-bioavailable-curcumin",
     name: "Essential Botanics - Bioavailable Curcumin",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics"],
+    categorySlugs: ["essential-botanics", "anti-age-proizvode"],
     shortDescription:
       "Essential Botanics – Bioavailable Curcumin savremeno prirodno rešenje za zaštitu od upala. Inovativna formula C3® Reduct omogućava brzo apsorbovanje",
     image: "/products/essential-botanics-bioavailable-curcumin.png",
@@ -1178,7 +1179,7 @@ export const products: Product[] = [
     slug: "essential-vitamins-vitamin-k2",
     name: "Essential Vitamins - Vitamin K2",
     brand: "Essential Vitamins",
-    categorySlugs: ["essential-vitamins", "zdravo-srce"],
+    categorySlugs: ["essential-vitamins", "zdravo-srce", "anti-age-proizvode"],
     shortDescription:
       "Essential Vitamins - Vitamin K2 biološki dostupan oblik vitamina K2, MenaQ7® pruža podršku zdravlju kardiovaskularnog i mišićno-koštanog sistema",
     image: "/products/essential-vitamins-vitamin-k2.png",
@@ -1188,7 +1189,7 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-eco-neurovision",
     name: "Siberian Super Natural Nutrition - ECO. Neurovision",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition", "suplementi-za-vid"],
+    categorySlugs: ["siberian-super-natural-nutrition", "suplementi-za-vid", "anti-age-proizvode"],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Neurovision inovativni program za aktivan rad mozga i očuvanje vida, sada dostupan u novom, eko pakovanju.",
     image: "/products/siberian-super-natural-nutrition-eco-neurovision.png",
@@ -1198,7 +1199,7 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-eco-natural-vitamins",
     name: "Siberian Super Natural Nutrition - ECO. Natural Vitamins",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition"],
+    categorySlugs: ["siberian-super-natural-nutrition", "anti-age-proizvode"],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Natural Vitamins vitamini, minerali i omega-3 kiseline: prirodna podrška telu u ekološkom pakovanju.",
     image: "/products/siberian-super-natural-nutrition-eco-natural-vitamins.png",
@@ -1208,7 +1209,12 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-eco-stress-re-live",
     name: "Siberian Super Natural Nutrition - ECO. Stress Re.Live",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition", "antistres-zastita", "celicni-nervi"],
+    categorySlugs: [
+      "siberian-super-natural-nutrition",
+      "antistres-zastita",
+      "celicni-nervi",
+      "anti-age-proizvode",
+    ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Stress Re.Live Inovativni organski kompleksi za zaštitu nervnog sistema i sprečavanje stresa",
     image: "/products/siberian-super-natural-nutrition-eco-stress-re-live.png",
@@ -1218,7 +1224,11 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-eco-detox-pro-active",
     name: "Siberian Super Natural Nutrition - ECO. Detox Pro.Active",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition", "detoks-i-ciscenje-organizma"],
+    categorySlugs: [
+      "siberian-super-natural-nutrition",
+      "detoks-i-ciscenje-organizma",
+      "anti-age-proizvode",
+    ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Detox Pro.Active profesionalni sistem unutrašnje kontrole detoksikacije i sveobuhvatnog čišćenja organizma",
     image: "/products/siberian-super-natural-nutrition-eco-detox-pro-active.png",
@@ -1238,7 +1248,7 @@ export const products: Product[] = [
     slug: "taurin-fitness-catalist",
     name: "Таurin - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst"],
+    categorySlugs: ["fitness-catalyst", "anti-age-proizvode"],
     shortDescription:
       "Таurin - Fitness Catalist moćni aktivator antioksidantne zaštite. Povećava otpornost ćelijskih membrana na uticaj slobodnih radikala",
     image: "/products/taurin-fitness-catalist.png",
@@ -1448,7 +1458,7 @@ export const products: Product[] = [
     slug: "magnesium-multi-chelate-expert-line",
     name: "Magnesium Multi-Chelate - Expert Line",
     brand: "Expert Line",
-    categorySlugs: ["expert-line", "celicni-nervi"],
+    categorySlugs: ["expert-line", "celicni-nervi", "anti-age-proizvode"],
     shortDescription:
       "Magnesium Multi-Chelate - Expert Line u bioraspoloživim oblicima pomaže u smanjenju nervne napetosti i vraćanju emocionalne ravnoteže",
     image: "/products/magnesium-multi-chelate-expert-line.png",
@@ -1528,7 +1538,7 @@ export const products: Product[] = [
     slug: "obnavljajuca-esencija-s-niacinamidom-10-experalta-platinum",
     name: "Obnavljajuća esencija s niacinamidom 10% – Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum", "anti-age-proizvode"],
+    categorySlugs: ["kozmetika-experalta-platinum"],
     shortDescription:
       "Zahvaljujući specijalnoj formuli Obnavljajuća esencija s niacinamidom 10% – Experalta Platinum podstiče vidljivo smanjenje bora i tankih linija",
     image: "/products/obnavljajuca-esencija-s-niacinamidom-10-experalta-platinum.png",
@@ -1578,7 +1588,7 @@ export const products: Product[] = [
     slug: "tree-mushroom-complex-essential-botanics",
     name: "Tree Mushroom Complex - Essential Botanics",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "suplementi-za-imunitet"],
+    categorySlugs: ["essential-botanics", "suplementi-za-imunitet", "anti-age-proizvode"],
     shortDescription:
       "Tree Mushroom Complex - Essential Botanics dodatak ishrani sa četiri vrste gljiva ( čaga, šiitake, reiši i maitake ) namenjen je nutritivnoj podršci imunitetu",
     image: "/products/tree-mushroom-complex-essential-botanics.png",
@@ -1588,7 +1598,7 @@ export const products: Product[] = [
     slug: "lion-s-mane-i-cordyceps-essential-botanics",
     name: "Lion's Mane & Cordyceps - Essential Botanics",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: ["essential-botanics", "suplementi-za-energiju-i-fokus", "anti-age-proizvode"],
     shortDescription:
       "Lion's Mane & Cordyceps - Essential Botanics dodatak ishrani sa ekstraktima lavlje grive, kordicepsa i L-lizina, namenjen podršci mentalnoj aktivnosti, fokusu",
     image: "/products/lion-s-mane-i-cordyceps-essential-botanics.png",
