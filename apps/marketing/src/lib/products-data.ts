@@ -46,6 +46,7 @@ export const products: Product[] = [
       "suplementi-za-jetru",
       "zdravi-bubrezi",
       "zdravo-srce",
+      "suplementi-za-vid",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -75,6 +76,7 @@ export const products: Product[] = [
       "suplementi-za-jetru",
       "zdravi-bubrezi",
       "zdravo-srce",
+      "suplementi-za-vid",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -441,6 +443,7 @@ export const products: Product[] = [
       "suplementi-za-jetru",
       "zdravi-bubrezi",
       "zdravo-srce",
+      "suplementi-za-vid",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -1061,7 +1064,7 @@ export const products: Product[] = [
     slug: "krema-za-povecanje-elasticnosti-koze-oko-ociju-experalta-platinum",
     name: "Krema za povećanje elastičnosti kože oko očiju - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum", "suplementi-za-vid"],
+    categorySlugs: ["kozmetika-experalta-platinum"],
     shortDescription:
       "Krema za povećanje elastičnosti kože oko očiju – Experalta Platinum moćna anti-age formula na bazi biljnih peptida kedrovih oraha i sibirskog ženšena",
     image: "/products/krema-za-povecanje-elasticnosti-koze-oko-ociju-experalta-platinum.png",
@@ -1344,7 +1347,7 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-eco-neurovision",
     name: "Siberian Super Natural Nutrition - ECO. Neurovision",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition", "suplementi-za-vid", "anti-age-proizvode"],
+    categorySlugs: ["siberian-super-natural-nutrition", "anti-age-proizvode"],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Neurovision inovativni program za aktivan rad mozga i očuvanje vida, sada dostupan u novom, eko pakovanju.",
     image: "/products/siberian-super-natural-nutrition-eco-neurovision.png",
