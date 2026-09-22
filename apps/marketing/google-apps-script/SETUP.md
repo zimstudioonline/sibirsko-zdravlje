@@ -1,9 +1,11 @@
-# Upit forma → Google Sheets (bez sopstvenog servera)
+# Upit i kontakt forme → Google Sheets (bez sopstvenog servera)
 
-Sajt se deployuje na Cloudflare bez baze i bez backend servera, pa upit forma
-(`/upit-za-proizvode`, sticky forma u katalogu) šalje podatke direktno na
-Google Apps Script Web App koji upisuje red u Google Sheet i šalje ti email
-obaveštenje. Ovo se podešava jednom, van Next.js koda.
+Sajt se deployuje na Cloudflare bez baze i bez backend servera, pa obe forme
+— upit za proizvod (`/upit-za-proizvode`, sticky forma u katalogu) i opšta
+kontakt forma (`/kontakt`) — šalju podatke direktno na ISTI Google Apps
+Script Web App, koji upisuje red u odgovarajući Google Sheet ("Upiti" ili
+"Kontakt") i šalje ti email obaveštenje. Razlikuju se po skrivenom polju
+`tip` koje svaka forma šalje. Ovo se podešava jednom, van Next.js koda.
 
 ## Podešavanje (5-10 minuta)
 
@@ -29,14 +31,18 @@ obaveštenje. Ovo se podešava jednom, van Next.js koda.
    NEXT_PUBLIC_INQUIRY_FORM_ENDPOINT=https://script.google.com/macros/s/AKfycb.../exec
    ```
 
-8. Redeploy-uj marketing sajt. Forma sad radi — testiraj slanjem upita i
-   proveri da li se pojavio red u Sheet-u i stigao email.
+8. Redeploy-uj marketing sajt. Obe forme sad rade — testiraj slanjem upita i
+   poruke sa kontakt forme, proveri da su se pojavila dva sheet-a ("Upiti" i
+   "Kontakt") i da su stigla dva emaila.
 
 ## Kako da izmeniš formu kasnije
 
-- Nova polja u formi: dodaj `<input name="novoPolje">` u
+- Nova polja u upit formi: dodaj `<input name="novoPolje">` u
   `src/components/inquiry/inquiry-form.tsx`, pa dodaj isto ime u `Code.gs`
-  (i u `sheet.appendRow(...)` i u `sendNotification`).
+  (funkcija `handleUpit`).
+- Nova polja u kontakt formi: isto, u
+  `src/components/contact/kontakt-form.tsx` i `Code.gs` (funkcija
+  `handleKontakt`).
 - Ako menjaš Apps Script kod nakon prvog deploy-a, koristi
   **Deploy → Manage deployments → uredi postojeći deployment** i klikni
   **Deploy** ponovo — URL ostaje isti, ne treba menjati env varijablu.

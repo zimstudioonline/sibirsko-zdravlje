@@ -1,3 +1,4 @@
+import { KontaktForm } from "@/components/contact/kontakt-form";
 import { buildMetadata } from "@/lib/seo";
 import { marketingEnv } from "@repo/config/marketing-env";
 import { Mail, MessageCircle, Phone } from "lucide-react";
@@ -49,12 +50,22 @@ export default function KontaktPage() {
       </div>
 
       <p className="mt-10 text-muted-foreground text-sm">
-        Radije popunjavate formu?{" "}
+        Pitanje o konkretnom proizvodu?{" "}
         <Link href="/upit-za-proizvode" className="text-primary underline underline-offset-2">
           Pošaljite upit za proizvode
         </Link>
         .
       </p>
+
+      <div className="mt-10 rounded-xl border bg-card p-6 text-left sm:p-8">
+        <h2 className="font-semibold text-ink text-xl">Pošaljite nam poruku</h2>
+        <p className="mt-1 text-muted-foreground text-sm">
+          Za sva ostala pitanja — javićemo vam se e-mailom.
+        </p>
+        <div className="mt-6">
+          <KontaktForm />
+        </div>
+      </div>
     </main>
   );
 }

@@ -6,28 +6,26 @@
  * SETUP.md za deploy korake.
  */
 
-// TODO: promeni na email na koji želiš da stižu obaveštenja o upitima.
+// TODO: promeni na email na koji želiš da stižu obaveštenja.
 var NOTIFY_EMAIL = "zdravljeisibir@gmail.com";
-var SHEET_NAME = "Upiti";
+var SHEET_NAME_UPITI = "Upiti";
+var SHEET_NAME_KONTAKT = "Kontakt";
 
+/**
+ * Isti Web App opslužuje dve forme sa sajta — razlikuju se po `tip` polju
+ * koje forma šalje (`inquiry-form.tsx` šalje "upit", `kontakt-form.tsx`
+ * šalje "kontakt"). Bez `tip` polja (stariji zahtevi) tretira se kao upit,
+ * radi unazadne kompatibilnosti.
+ */
 function doPost(e) {
   try {
     var params = (e && e.parameter) || {};
-    var sheet = getOrCreateSheet();
 
-    sheet.appendRow([
-      new Date(),
-      params.ime || "",
-      params.telefon || "",
-      params.adresa || "",
-      params.grad || "",
-      params.postanskiBroj || "",
-      params.proizvod || "",
-      params.kolicina || "",
-      params.email || "",
-    ]);
-
-    sendNotification(params);
+    if (params.tip === "kontakt") {
+      handleKontakt(params);
+    } else {
+      handleUpit(params);
+    }
 
     return ContentService.createTextOutput(JSON.stringify({ ok: true })).setMimeType(
       ContentService.MimeType.JSON,
@@ -39,27 +37,31 @@ function doPost(e) {
   }
 }
 
-function getOrCreateSheet() {
-  var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  var sheet = spreadsheet.getSheetByName(SHEET_NAME);
-  if (!sheet) {
-    sheet = spreadsheet.insertSheet(SHEET_NAME);
-    sheet.appendRow([
-      "Datum",
-      "Ime i prezime",
-      "Telefon",
-      "Ulica i broj",
-      "Grad/Mesto",
-      "Poštanski broj",
-      "Proizvod",
-      "Količina",
-      "E-mail",
-    ]);
-  }
-  return sheet;
-}
+function handleUpit(params) {
+  var sheet = getOrCreateSheet(SHEET_NAME_UPITI, [
+    "Datum",
+    "Ime i prezime",
+    "Telefon",
+    "Ulica i broj",
+    "Grad/Mesto",
+    "Poštanski broj",
+    "Proizvod",
+    "Količina",
+    "E-mail",
+  ]);
 
-function sendNotification(params) {
+  sheet.appendRow([
+    new Date(),
+    params.ime || "",
+    params.telefon || "",
+    params.adresa || "",
+    params.grad || "",
+    params.postanskiBroj || "",
+    params.proizvod || "",
+    params.kolicina || "",
+    params.email || "",
+  ]);
+
   var subject = "Novi upit sa sajta — " + (params.ime || "nepoznato ime");
   var body = [
     "Ime i prezime: " + (params.ime || ""),
@@ -72,4 +74,31 @@ function sendNotification(params) {
   ].join("\n");
 
   MailApp.sendEmail(NOTIFY_EMAIL, subject, body);
+}
+
+function handleKontakt(params) {
+  var sheet = getOrCreateSheet(SHEET_NAME_KONTAKT, ["Datum", "Ime i prezime", "E-mail", "Poruka"]);
+
+  sheet.appendRow([new Date(), params.ime || "", params.email || "", params.poruka || ""]);
+
+  var subject = "Nova poruka sa kontakt forme — " + (params.ime || "nepoznato ime");
+  var body = [
+    "Ime i prezime: " + (params.ime || ""),
+    "E-mail: " + (params.email || ""),
+    "",
+    "Poruka:",
+    params.poruka || "",
+  ].join("\n");
+
+  MailApp.sendEmail(NOTIFY_EMAIL, subject, body, { replyTo: params.email || NOTIFY_EMAIL });
+}
+
+function getOrCreateSheet(name, headerRow) {
+  var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = spreadsheet.getSheetByName(name);
+  if (!sheet) {
+    sheet = spreadsheet.insertSheet(name);
+    sheet.appendRow(headerRow);
+  }
+  return sheet;
 }
