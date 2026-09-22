@@ -47,6 +47,7 @@ export const products: Product[] = [
       "zdravi-bubrezi",
       "zdravo-srce",
       "suplementi-za-vid",
+      "prevencija-alergija",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -385,7 +386,7 @@ export const products: Product[] = [
     slug: "essential-fatty-acids-borage-and-amaranth-oil",
     name: "Essential Fatty Acids - Borage and Amaranth Oil",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids"],
+    categorySlugs: ["essential-fatty-acids", "prevencija-alergija"],
     shortDescription:
       "Essential Fatty Acids - Borage and Amaranth Oil lipidni kompleks sadrži jednu od omega-6 kiselina - gamalinoleinskukiselinu i kompleks vitamina E i D.",
     image: "/products/essential-fatty-acids-borage-and-amaranth-oil.png",
@@ -444,6 +445,7 @@ export const products: Product[] = [
       "zdravi-bubrezi",
       "zdravo-srce",
       "suplementi-za-vid",
+      "prevencija-alergija",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -468,7 +470,12 @@ export const products: Product[] = [
     slug: "synchrovitals-v-hronobioloska-zastita-imuniteta",
     name: "Synchrovitals V - Hronobiološka zaštita imuniteta",
     brand: "Synchrovitals",
-    categorySlugs: ["synchrovitals", "suplementi-za-imunitet", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "synchrovitals",
+      "suplementi-za-imunitet",
+      "suplementi-za-energiju-i-fokus",
+      "prevencija-alergija",
+    ],
     shortDescription:
       "Synchrovitals V - Hronobiološka zaštita imuniteta se preporučuje odraslima kao izvor ginsenozida i dodatni izvor apigenina.",
     image: "/products/synchrovitals-v-hronobioloska-zastita-imuniteta.png",
@@ -1592,6 +1599,7 @@ export const products: Product[] = [
       "essential-sorbents-lymphosan",
       "detoks-i-ciscenje-organizma",
       "suplementi-za-zeludac-i-creva",
+      "prevencija-alergija",
     ],
     shortDescription:
       "Essential Sorbents - Pure Life detox - koktel na bazi prirodnih fitosorbenata podstiče efikasno i nežno čišćenje organizma od toksina",
