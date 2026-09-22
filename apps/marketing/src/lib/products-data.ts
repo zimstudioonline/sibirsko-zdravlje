@@ -49,6 +49,7 @@ export const products: Product[] = [
       "suplementi-za-vid",
       "prevencija-alergija",
       "prevencija-dijabetesa",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -79,6 +80,7 @@ export const products: Product[] = [
       "zdravi-bubrezi",
       "zdravo-srce",
       "suplementi-za-vid",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -105,6 +107,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
       "suplementi-za-jetru",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Formula 4 N.V.M.N sadrži kompleks s vitaminima  A,C,E , skoro 20 godina se smatra da je to jedna od najjačih antioksidantnih formula.",
@@ -131,6 +134,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
       "prevencija-dijabetesa",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Essential Minerals - Iodine with Siberian herbs, kompleks sa visoko bioraspoloživim organskim jodom iz ekstrakta fukusa i prirodnim adaptogenom",
@@ -166,6 +170,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Essential Minerals - Iron with Siberian herbs kompleks sa bioraspoloživim organskim gvožđem poboljšava zasićenje organizma kiseonikom",
@@ -196,6 +201,7 @@ export const products: Product[] = [
       "antistres-zastita",
       "duga-mladost",
       "zdravo-srce",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Essential Minerals. Selenium with Siberian herbs kompleks sa visoko bioraspoloživim organskim selenom, obogaćen vitaminima i biljnim ekstraktima",
@@ -335,7 +341,11 @@ export const products: Product[] = [
     slug: "3d-protection-cube",
     name: "3D Protection Cube",
     brand: "3D Cube",
-    categorySlugs: ["3d-cube", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "3d-cube",
+      "suplementi-za-energiju-i-fokus",
+      "suplementi-za-imunitet",
+    ],
     shortDescription: "3D Protection Cube premijalni kompleks deluje istovremeno u tri pravca:",
     image: "/products/3d-protection-cube.jpg",
     price: 4700,
@@ -344,7 +354,7 @@ export const products: Product[] = [
     slug: "siberian-wellness-fito-caj-od-divljeg-bilja-4-lagani-dah",
     name: "Siberian Wellness Fito čaj od divljeg bilja № 4 - Lagani dah",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva"],
+    categorySlugs: ["kolekcija-fitocajeva", "suplementi-za-imunitet"],
     shortDescription:
       "Siberian Wellness Fito čaj od divljeg bilja № 4 - Lagani dah pri prvom znaku prehlade, pripremite šolju biljnog čaja sa kamilicom, lipom i majčinom dušicom",
     image: "/products/siberian-wellness-fito-caj-od-divljeg-bilja-4-lagani-dah.png",
@@ -379,6 +389,7 @@ export const products: Product[] = [
       "elasticni-zglobovi",
       "zdravo-srce",
       "prevencija-dijabetesa",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
@@ -389,7 +400,11 @@ export const products: Product[] = [
     slug: "essential-fatty-acids-borage-and-amaranth-oil",
     name: "Essential Fatty Acids - Borage and Amaranth Oil",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids", "prevencija-alergija"],
+    categorySlugs: [
+      "essential-fatty-acids",
+      "prevencija-alergija",
+      "suplementi-za-imunitet",
+    ],
     shortDescription:
       "Essential Fatty Acids - Borage and Amaranth Oil lipidni kompleks sadrži jednu od omega-6 kiselina - gamalinoleinskukiselinu i kompleks vitamina E i D.",
     image: "/products/essential-fatty-acids-borage-and-amaranth-oil.png",
@@ -450,6 +465,7 @@ export const products: Product[] = [
       "suplementi-za-vid",
       "prevencija-alergija",
       "prevencija-dijabetesa",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -489,7 +505,11 @@ export const products: Product[] = [
     slug: "adaptovit",
     name: "Adaptovit",
     brand: "Adaptovit",
-    categorySlugs: ["adaptovit", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "adaptovit",
+      "suplementi-za-energiju-i-fokus",
+      "suplementi-za-imunitet",
+    ],
     shortDescription: "„Adaptovit“ energomodulirajući kompleks  u spreju.",
     image: "/products/adaptovit.jpg",
     price: 1250,
@@ -513,6 +533,7 @@ export const products: Product[] = [
       "duga-mladost",
       "suplementi-za-zeludac-i-creva",
       "zdravo-srce",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Trimegavitals - All-Natural Beta-Carotene&Sea Buckthorn Oil formula sa prirodnim beta-karotenom smanjuje negativne efekte UV zračenja",
@@ -617,6 +638,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "elasticni-zglobovi",
       "cvrste-kosti",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Essential Vitamins - Vitamin D3, rastvor za oralnu upotrebu je dijetetski suplement sa vitaminom D.",
@@ -641,6 +663,7 @@ export const products: Product[] = [
       "essential-vitamins",
       "anti-age-proizvode",
       "zdravo-srce",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Essential Vitamins - Natural Vitamin E  prirodni izvor vitamina E iz semenki suncokreta u visoko prečišćenom MCT ulju.",
@@ -711,7 +734,11 @@ export const products: Product[] = [
     slug: "corenrg-urban-immunobooster",
     name: "CoreNRG Urban Immunobooster",
     brand: "CoreNRG",
-    categorySlugs: ["corenrg", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "corenrg",
+      "suplementi-za-energiju-i-fokus",
+      "suplementi-za-imunitet",
+    ],
     shortDescription:
       "CoreNRG Urban Immunobooster moćan koncentrat soka od jele, pojačan ekstraktima sibirskih adaptogenih biljaka. Svaka kap sadrži snagu cele Sibirske tajge!",
     image: "/products/corenrg-urban-immunobooster.webp",
@@ -725,6 +752,7 @@ export const products: Product[] = [
       "essential-minerals-elemvitals",
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Essential Minerals - Zinc with Siberian herbs kompleks sa organskim cinkom i bakrom u kombinaciji sa biljnim ekstraktima štiti telo od slobodnih radikala",
@@ -752,7 +780,11 @@ export const products: Product[] = [
     slug: "elbifid-essential-probiotics",
     name: "Elbifid - Essential Probiotics",
     brand: "Essential Probiotics",
-    categorySlugs: ["essential-probiotics", "suplementi-za-zeludac-i-creva"],
+    categorySlugs: [
+      "essential-probiotics",
+      "suplementi-za-zeludac-i-creva",
+      "suplementi-za-imunitet",
+    ],
     shortDescription:
       "Elbifid - Essential Probiotics dodatak ishrani s lakto i bifidobakterijama.Probiotički kompleks koji je po sastavu blizak prirodnom crevnom mikrobiomu.",
     image: "/products/elbifid-essential-probiotics.png",
@@ -842,7 +874,11 @@ export const products: Product[] = [
     slug: "omega-3-ultra-fitness-catalist",
     name: "Omega-3 Ultra - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "cvrste-kosti"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "cvrste-kosti",
+      "suplementi-za-imunitet",
+    ],
     shortDescription:
       "Maksimum Omega-3 Ultra - Fitness Catalist kiselina za snažnu podršku telu tokom intenzivne fizičke aktivnosti.",
     image: "/products/omega-3-ultra-fitness-catalist.png",
@@ -880,6 +916,7 @@ export const products: Product[] = [
       "essential-sorbents-lymphosan",
       "suplementi-za-zeludac-i-creva",
       "prevencija-dijabetesa",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Essential Sorbents Prirodni inulinski koncentrat- kompleks biološki aktivnih supstanci izuzetno je delotvoran",
@@ -1268,6 +1305,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-zeludac-i-creva",
       "zdravo-srce",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Age Тhеrару Antioxidants – Women's Health kompleksan anti-age program sa najvažnijim antioksidansima za svakodnevnu podršku lepoti",
@@ -1331,6 +1369,7 @@ export const products: Product[] = [
       "essential-botanics",
       "anti-age-proizvode",
       "suplementi-za-zeludac-i-creva",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Essential Botanics – Bioavailable Curcumin savremeno prirodno rešenje za zaštitu od upala. Inovativna formula C3® Reduct omogućava brzo apsorbovanje",
@@ -1477,7 +1516,7 @@ export const products: Product[] = [
     slug: "dino-vitamino-syrup-with-vitamins-and-minerals-vitamama",
     name: "Dino Vitamino Syrup with Vitamins and Minerals - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama"],
+    categorySlugs: ["vitamama", "suplementi-za-imunitet"],
     shortDescription:
       "Dino Vitamino Syrup with Vitamins and Minerals - Vitamama voćni sirup s vitaminima i mineralnim materijama za rast i normalan razvoj dečjeg organizma.",
     image: "/products/dino-vitamino-syrup-with-vitamins-and-minerals-vitamama.png",
@@ -1612,6 +1651,7 @@ export const products: Product[] = [
       "detoks-i-ciscenje-organizma",
       "suplementi-za-zeludac-i-creva",
       "prevencija-alergija",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Essential Sorbents - Pure Life detox - koktel na bazi prirodnih fitosorbenata podstiče efikasno i nežno čišćenje organizma od toksina",
@@ -1815,6 +1855,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "anti-age-proizvode",
       "antistres-zastita",
+      "suplementi-za-imunitet",
     ],
     shortDescription:
       "Lion's Mane & Cordyceps - Essential Botanics dodatak ishrani sa ekstraktima lavlje grive, kordicepsa i L-lizina, namenjen podršci mentalnoj aktivnosti, fokusu",
