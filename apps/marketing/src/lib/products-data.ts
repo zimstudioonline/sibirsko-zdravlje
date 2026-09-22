@@ -20,7 +20,12 @@ export const products: Product[] = [
     slug: "pulse-box-snazno-srce",
     name: "PULSE BOX - Snažno srce",
     brand: "Daily Box",
-    categorySlugs: ["daily-box", "zdravo-srce", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "daily-box",
+      "zdravo-srce",
+      "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
+    ],
     shortDescription:
       "PULSE BOX – Snažno srce trostepena zaštita kardiovaskularnog sistema za svakog savremenog čoveka: održavanje ćelijske regeneracije",
     image: "/products/pulse-box-snazno-srce.png",
@@ -35,6 +40,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "detoks-i-ciscenje-organizma",
       "elasticni-zglobovi",
+      "duga-mladost",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -80,7 +86,12 @@ export const products: Product[] = [
     slug: "formula-4-n-v-m-n",
     name: "Formula 4 N.V.M.N",
     brand: "Novomin",
-    categorySlugs: ["novomin", "anti-age-proizvode", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "novomin",
+      "anti-age-proizvode",
+      "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
+    ],
     shortDescription:
       "Formula 4 N.V.M.N sadrži kompleks s vitaminima  A,C,E , skoro 20 godina se smatra da je to jedna od najjačih antioksidantnih formula.",
     image: "/products/formula-4-n-v-m-n.png",
@@ -104,6 +115,7 @@ export const products: Product[] = [
       "essential-minerals-elemvitals",
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
     ],
     shortDescription:
       "Essential Minerals - Iodine with Siberian herbs, kompleks sa visoko bioraspoloživim organskim jodom iz ekstrakta fukusa i prirodnim adaptogenom",
@@ -138,6 +150,7 @@ export const products: Product[] = [
       "essential-minerals-elemvitals",
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
     ],
     shortDescription:
       "Essential Minerals - Iron with Siberian herbs kompleks sa bioraspoloživim organskim gvožđem poboljšava zasićenje organizma kiseonikom",
@@ -162,7 +175,12 @@ export const products: Product[] = [
     slug: "essential-minerals-selenium-with-siberian-herbs",
     name: "Essential Minerals - Selenium with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode", "antistres-zastita"],
+    categorySlugs: [
+      "essential-minerals-elemvitals",
+      "anti-age-proizvode",
+      "antistres-zastita",
+      "duga-mladost",
+    ],
     shortDescription:
       "Essential Minerals. Selenium with Siberian herbs kompleks sa visoko bioraspoloživim organskim selenom, obogaćen vitaminima i biljnim ekstraktima",
     image: "/products/essential-minerals-selenium-with-siberian-herbs.png",
@@ -202,7 +220,11 @@ export const products: Product[] = [
     slug: "essential-botanics-aronia-i-lutein",
     name: "Essential Botanics - Aronia&Lutein",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "suplementi-za-vid"],
+    categorySlugs: [
+      "essential-botanics",
+      "suplementi-za-vid",
+      "duga-mladost",
+    ],
     shortDescription:
       "Essential Botanics - Aronia&Lutein biljni kompleks na bazi antocijana luteina, borovnice i aronije pruža pouzdanu zaštitu očima od negativnih efekata",
     image: "/products/essential-botanics-aronia-i-lutein.png",
@@ -222,7 +244,7 @@ export const products: Product[] = [
     slug: "beauty-box-lepota-i-sjaj",
     name: "BEAUTY BOX - Lepota i sjaj",
     brand: "Daily Box",
-    categorySlugs: ["daily-box", "duga-mladost"],
+    categorySlugs: ["daily-box"],
     shortDescription:
       "BEAUTY BOX – Lepota i sjaj vitaminsko-antioksidativni kompleks obezbediće da vaša lepota i mladost ne zavise od okoline, stresa i nedostatka sna",
     image: "/products/beauty-box-lepota-i-sjaj.png",
@@ -272,7 +294,11 @@ export const products: Product[] = [
     slug: "3d-flex-cube-sloboda-pokreta",
     name: "3D Flex Cube - Sloboda pokreta",
     brand: "3D Cube",
-    categorySlugs: ["3d-cube", "elasticni-zglobovi"],
+    categorySlugs: [
+      "3d-cube",
+      "elasticni-zglobovi",
+      "duga-mladost",
+    ],
     shortDescription:
       "3D Flex Cube - Sloboda pokreta maksimalna motorička aktivnost i lakoća kretanja - zahvaljujući kompleksnoj podršci hondroprotektora, omega-3 kiselina",
     image: "/products/3d-flex-cube-sloboda-pokreta.jpg",
@@ -282,7 +308,7 @@ export const products: Product[] = [
     slug: "3d-hair-i-nails-cube-lepota-kose-i-noktiju",
     name: "3D Hair&Nails Cube - Lepota kose i noktiju",
     brand: "3D Cube",
-    categorySlugs: ["3d-cube"],
+    categorySlugs: ["3d-cube", "duga-mladost"],
     shortDescription:
       "3D Hair&Nails Cube - Lepota kose i noktiju maksimalno izbalansirani kompleks vitamina i minerala koji su neophodni za ishranu, rast",
     image: "/products/3d-hair-i-nails-cube-lepota-kose-i-noktiju.webp",
@@ -317,6 +343,7 @@ export const products: Product[] = [
       "cvrste-kosti",
       "anti-age-proizvode",
       "elasticni-zglobovi",
+      "duga-mladost",
     ],
     shortDescription:
       "3D Bone Vegan Cube - Izdržljivost i snaga jedinstveni SMART- kompleks za snagu i jačanje koštanog sistema. Smanjuje rizik od oštećenja kostiju",
@@ -373,7 +400,11 @@ export const products: Product[] = [
     slug: "synchrovitals-ii-hronobioloska-zastita-mozga",
     name: "Synchrovitals II - Hronobiološka zaštita mozga",
     brand: "Synchrovitals",
-    categorySlugs: ["synchrovitals", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "synchrovitals",
+      "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
+    ],
     shortDescription:
       "Synchrovitals II - Hronobiološka zaštita mozga dvofazni neurozaštitni kompleks na bazi ekstrakata ginko bilobe, žen-šena, gotu kole i bajkalske kapice",
     image: "/products/synchrovitals-ii-hronobioloska-zastita-mozga.png",
@@ -388,6 +419,7 @@ export const products: Product[] = [
       "detoks-i-ciscenje-organizma",
       "suplementi-za-energiju-i-fokus",
       "elasticni-zglobovi",
+      "duga-mladost",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -427,7 +459,7 @@ export const products: Product[] = [
     slug: "chronolong-women-s-health",
     name: "Chronolong - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health", "duga-mladost", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: ["womens-health", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "Chronolong – Women's Health je prirodni dodatak ishrani sa fitoestrogenima za hormonski balans, lepotu i vitalnost žena 35+.",
     image: "/products/chronolong-women-s-health.jpg",
@@ -437,7 +469,7 @@ export const products: Product[] = [
     slug: "trimegavitals-all-natural-beta-carotene-i-sea-buckthorn-oil",
     name: "Trimegavitals - All-Natural Beta-Carotene&Sea Buckthorn Oil",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids"],
+    categorySlugs: ["essential-fatty-acids", "duga-mladost"],
     shortDescription:
       "Trimegavitals - All-Natural Beta-Carotene&Sea Buckthorn Oil formula sa prirodnim beta-karotenom smanjuje negativne efekte UV zračenja",
     image: "/products/trimegavitals-all-natural-beta-carotene-i-sea-buckthorn-oil.png",
@@ -596,7 +628,12 @@ export const products: Product[] = [
     slug: "lite-step-box-lagani-hod",
     name: "LITE STEP BOX - Lagani hod",
     brand: "Daily Box",
-    categorySlugs: ["daily-box", "zdravo-srce", "anti-age-proizvode"],
+    categorySlugs: [
+      "daily-box",
+      "zdravo-srce",
+      "anti-age-proizvode",
+      "duga-mladost",
+    ],
     shortDescription:
       "LITE STEP BOX - Lagani hod dvostepena zaštita od proširenih vena: normalizuje cirkulaciju krvi, jača zidove kapilara i krvnih sudova.",
     image: "/products/lite-step-box-lagani-hod.jpg",
@@ -606,7 +643,11 @@ export const products: Product[] = [
     slug: "essential-vitamins-diosmin-i-rutin",
     name: "Essential Vitamins - Diosmin i rutin",
     brand: "Essential Vitamins",
-    categorySlugs: ["essential-vitamins", "anti-age-proizvode"],
+    categorySlugs: [
+      "essential-vitamins",
+      "anti-age-proizvode",
+      "duga-mladost",
+    ],
     shortDescription:
       "Essential Vitamins - Diosmin i rutin prirodni venotonik na bazi diosmina i rutina za sprečavanje narušavanja limfotoka i cirkulacije u nogama.",
     image: "/products/essential-vitamins-diosmin-i-rutin.png",
@@ -644,6 +685,7 @@ export const products: Product[] = [
       "essential-minerals-elemvitals",
       "antistres-zastita",
       "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
     ],
     shortDescription:
       "Essential Mineral - Magnesium with Siberian herbs kompleks sa glavnim mineralom relaksiranja - organskim magnezijumom, obogaćenim ekstraktom valerijane",
@@ -987,7 +1029,7 @@ export const products: Product[] = [
     slug: "pametna-krema-za-lice-sa-biljnim-peptidima-experalta-platinum",
     name: "Pametna krema za lice sa biljnim peptidima - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum", "duga-mladost"],
+    categorySlugs: ["kozmetika-experalta-platinum"],
     shortDescription:
       "Pametna krema za lice sa biljnim peptidima – Experalta Platinum pametni sistem za mladost kože sa biljnim peptidima i energetskim kompleksom HerbaGlow",
     image: "/products/pametna-krema-za-lice-sa-biljnim-peptidima-experalta-platinum.png",
@@ -1197,7 +1239,11 @@ export const products: Product[] = [
     slug: "hijaluronska-kiselina-i-prirodni-vitamin-c-women-s-health",
     name: "Hijaluronska kiselina i prirodni vitamin C - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health", "anti-age-proizvode"],
+    categorySlugs: [
+      "womens-health",
+      "anti-age-proizvode",
+      "duga-mladost",
+    ],
     shortDescription:
       "Hijaluronska kiselina i prirodni vitamin C – Women's Health Beauty-kompleks sa hijaluronskom kiselinom i prirodnim vitaminom C",
     image: "/products/hijaluronska-kiselina-i-prirodni-vitamin-c-women-s-health.png",
@@ -1286,7 +1332,12 @@ export const products: Product[] = [
     slug: "men-s-power-maca-zinc-l-carnitine-fitness-catalist",
     name: "MEN'S POWER Maca+Zinc+L-Carnitine - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "suplementi-za-muskarce", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "suplementi-za-muskarce",
+      "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
+    ],
     shortDescription:
       "MEN'S POWER Maca+Zinc+L-Carnitine – Fitness Catalist muška formula za očuvanje seksualnog potencijala, snage i energije",
     image: "/products/men-s-power-maca-zinc-l-carnitine-fitness-catalist.png",
@@ -1316,7 +1367,11 @@ export const products: Product[] = [
     slug: "essential-fatty-acids-siberian-linseed-oil-i-omega-3",
     name: "Essential Fatty Acids - Siberian Linseed Oil&Omega-3",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "essential-fatty-acids",
+      "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
+    ],
     shortDescription:
       "Essential Fatty Acids - Siberian Linseed Oil&Omega-3 koncentrat obogaćen vitaminom E za vašu svakodnevnu ishranu.",
     image: "/products/essential-fatty-acids-siberian-linseed-oil-i-omega-3.png",
@@ -1476,7 +1531,11 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-eco-beautysense",
     name: "Siberian Super Natural Nutrition - ECO. BeautySense",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition", "anti-age-proizvode"],
+    categorySlugs: [
+      "siberian-super-natural-nutrition",
+      "anti-age-proizvode",
+      "duga-mladost",
+    ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. BeautySense nutrikozmetički anti-age sistem za očuvanje mladalačkog izgleda kože u novom ekološkom pakovanju.",
     image: "/products/siberian-super-natural-nutrition-eco-beautysense.png",
@@ -1661,7 +1720,12 @@ export const products: Product[] = [
     slug: "lutein-i-zeaxanthin-essential-fatty-acids",
     name: "Lutein & Zeaxanthin - Essential Fatty Acids",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids", "suplementi-za-vid", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "essential-fatty-acids",
+      "suplementi-za-vid",
+      "suplementi-za-energiju-i-fokus",
+      "duga-mladost",
+    ],
     shortDescription:
       "Lutein & Zeaxanthin - Essential Fatty Acids biljni kompleks sa prirodnim svetlosnim filterima – luteinom i zeaksantinom – štiti mrežnjaču oka",
     image: "/products/lutein-i-zeaxanthin-essential-fatty-acids.png",
@@ -1701,7 +1765,7 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-11-energija-i-vitalnost",
     name: "Fito čaj od divljeg bilja №11 – Energija i vitalnost",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "duga-mladost", "antistres-zastita"],
+    categorySlugs: ["kolekcija-fitocajeva", "antistres-zastita"],
     shortDescription:
       "Fito čaj od divljeg bilja №11 – Energija i vitalnost pravi tajga ukus i aroma – bez kofeina i veštačkih dodataka.",
     image: "/products/fito-caj-od-divljeg-bilja-11-energija-i-vitalnost.png",
