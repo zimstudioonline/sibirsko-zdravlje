@@ -22,7 +22,10 @@ export function KontaktForm() {
     event.preventDefault();
     if (!endpoint) return;
 
-    const formData = new FormData(event.currentTarget);
+    // React nulira event.currentTarget posle sinhronog dela handlera — sačuvaj
+    // referencu pre await-a, ne oslanjaj se na event posle fetch-a.
+    const form = event.currentTarget;
+    const formData = new FormData(form);
     setStatus("submitting");
     try {
       await fetch(endpoint, {
@@ -31,7 +34,7 @@ export function KontaktForm() {
         body: formData,
       });
       setStatus("success");
-      event.currentTarget.reset();
+      form.reset();
     } catch {
       setStatus("error");
     }
