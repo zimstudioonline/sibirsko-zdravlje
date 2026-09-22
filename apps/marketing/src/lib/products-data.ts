@@ -50,6 +50,7 @@ export const products: Product[] = [
       "prevencija-alergija",
       "prevencija-dijabetesa",
       "suplementi-za-imunitet",
+      "antiparazitni-program",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -306,7 +307,12 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-1-ciscenje-i-drenaza",
     name: "Fito čaj od divljeg bilja № 1 - Čišćenje i drenaža",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "detoks-i-ciscenje-organizma", "suplementi-za-decu"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "detoks-i-ciscenje-organizma",
+      "suplementi-za-decu",
+      "antiparazitni-program",
+    ],
     shortDescription:
       "Fito čaj od divljeg bilja № 1 - Čišćenje i drenaža biljni čaj sa kurilskim čajem, senom i detelinom pružiće vam osećaj lakoće",
     image: "/products/fito-caj-od-divljeg-bilja-1-ciscenje-i-drenaza.png",
@@ -466,6 +472,7 @@ export const products: Product[] = [
       "prevencija-alergija",
       "prevencija-dijabetesa",
       "suplementi-za-imunitet",
+      "antiparazitni-program",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -480,6 +487,7 @@ export const products: Product[] = [
       "paracleanse-triple-set",
       "suplementi-za-zeludac-i-creva",
       "suplementi-za-jetru",
+      "antiparazitni-program",
     ],
     shortDescription:
       "Trigelm - Paracleanse Triple Set trofazni biljni kompleks za normalizovanje funkcije creva i održavanje mikroflore.",
@@ -582,6 +590,7 @@ export const products: Product[] = [
       "kolekcija-fitocajeva",
       "suplementi-za-jetru",
       "suplementi-za-zeludac-i-creva",
+      "antiparazitni-program",
     ],
     shortDescription:
       "Fito čaj od divljeg bilja № 6 - Zaštita jetre osvežavajući biljni čaj blagotvorno deluje na funkciju jetre, podstiče brzi oporavak ćelija",
