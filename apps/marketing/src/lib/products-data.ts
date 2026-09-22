@@ -163,7 +163,11 @@ export const products: Product[] = [
     slug: "ujan-nomo-balzam-za-telo",
     name: "Ujan Nomo Balzam za telo",
     brand: "Sibirski balzami",
-    categorySlugs: ["elasticni-zglobovi", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "elasticni-zglobovi",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Ujan Nomo Balzam za telo značajno poboljšava kretanje, pružajući trenutni osećaj hlađenja i olakšanja od upala.",
     image: "/products/ujan-nomo-balzam-za-telo.png",
@@ -830,7 +834,7 @@ export const products: Product[] = [
     slug: "eljbesen-novo-pakovanje",
     name: "Eljbešen novo pakovanje",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami"],
+    categorySlugs: ["sibirski-balzami", "kozmetika"],
     shortDescription:
       "Eljbešen novo pakovanje floraseptični balzam na bazi eteričnih ulja i ekstrakta makleije štiti usnu šupljinu i kožu od bakterija i ima dezodorirajući efekat.",
     image: "/products/eljbesen-novo-pakovanje.png",
@@ -840,7 +844,7 @@ export const products: Product[] = [
     slug: "tonizirajuca-krema-za-noge-sibirski-balzam",
     name: "Tonizirajuća krema za noge - Sibirski balzam",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami"],
+    categorySlugs: ["sibirski-balzami", "kozmetika"],
     shortDescription:
       "Tonirajuća krema za besprekorne noge sa aktivnim tonirajućim kompleksom za brzo otklanjanje umora i osećaja težine u nogama.",
     image: "/products/tonizirajuca-krema-za-noge-sibirski-balzam.png",
@@ -850,7 +854,7 @@ export const products: Product[] = [
     slug: "obnavljajuci-balzam-za-kozu-siberian-wellnes",
     name: "Obnavljajući balzam za kožu - Siberian Wellnes",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami"],
+    categorySlugs: ["sibirski-balzami", "kozmetika"],
     shortDescription:
       'Obnavljajući balzam za kožu u potpunosti prirodni balzam sa smolom - univerzalni "spasilac" za celu porodicu!',
     image: "/products/obnavljajuci-balzam-za-kozu-siberian-wellnes.png",
@@ -1085,7 +1089,11 @@ export const products: Product[] = [
     slug: "krema-za-lice-hidratantna-siberian-wellness",
     name: "Krema za lice hidratantna - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika-siberian-wellness-herbal-cosmetics"],
+    categorySlugs: [
+      "kozmetika-siberian-wellness",
+      "kozmetika-siberian-wellness-herbal-cosmetics",
+      "kozmetika",
+    ],
     shortDescription:
       "Krema za lice hidratantna Siberian Wellness bioaktivna lagana krema sa kompleksom ekstrakata sibirskih endema vlaži kožu, ispunjava je vitalnošću i mladošću",
     image: "/products/krema-za-lice-hidratantna-siberian-wellness.png",
@@ -1095,7 +1103,7 @@ export const products: Product[] = [
     slug: "pasta-za-zube-sa-sibirskim-propolisom",
     name: "Pasta za zube sa Sibirskim propolisom",
     brand: "Paste za zube",
-    categorySlugs: ["paste-za-zube"],
+    categorySlugs: ["paste-za-zube", "kozmetika"],
     shortDescription: "Pasta za zube sa Sibirskim propolisom 98,7% sastojaka prirodnog porekla.",
     image: "/products/pasta-za-zube-sa-sibirskim-propolisom.png",
     price: 750,
@@ -1114,7 +1122,7 @@ export const products: Product[] = [
     slug: "pasta-za-zube-sa-morskim-kalcijumom",
     name: "Pasta za zube sa morskim kalcijumom",
     brand: "Paste za zube",
-    categorySlugs: ["paste-za-zube"],
+    categorySlugs: ["paste-za-zube", "kozmetika"],
     shortDescription:
       "Pasta za zube sa morskim kalcijumom remineralizujuća pasta sa dve vrste kalcijuma – organskog kalcijuma kao dela multimineralnog kompleksa",
     image: "/products/pasta-za-zube-sa-morskim-kalcijumom.png",
@@ -1124,7 +1132,7 @@ export const products: Product[] = [
     slug: "blagi-gel-za-umivanje-s-probiotikom-experalta-platinum",
     name: "Blagi gel za umivanje s probiotikom - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Blagi gel za umivanje s probiotikom - Experalta Platinum nežan gel za čišćenje sa kompleksom pre- i probiotika pažljivo uklanja tragove prljavštine",
     image: "/products/blagi-gel-za-umivanje-s-probiotikom-experalta-platinum.png",
@@ -1134,7 +1142,7 @@ export const products: Product[] = [
     slug: "koncentrat-u-ampuli-lifting-i-elasticnost-experalta-platinum",
     name: "Koncentrat u ampuli lifting i elastičnost - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Koncentrat u ampuli lifting i elastičnost – Experalta Platinum deluje u tri pravca odjednom: podstiču smanjenje sitnih i dubokih bora",
     image: "/products/koncentrat-u-ampuli-lifting-i-elasticnost-experalta-platinum.png",
@@ -1144,7 +1152,7 @@ export const products: Product[] = [
     slug: "koncentrat-u-ampuli-sa-bakuciolom-experalta-platinum",
     name: "Koncentrat u ampuli sa bakučiolom - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Koncentrat u ampuli sa bakučiolom– Experalta Platinum biljnim analogom retinola koji poboljšava kvalitet kože.",
     image: "/products/koncentrat-u-ampuli-sa-bakuciolom-experalta-platinum.png",
@@ -1164,7 +1172,7 @@ export const products: Product[] = [
     slug: "raskosna-obnavljajuca-micelarna-voda-za-lice-experalta-platinum",
     name: "Raskošna obnavljajuća micelarna voda za lice - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Raskošna obnavljajuća micelarna voda za lice - Experalta Platinum na biljnoj bazi fino skida šminku i čisti s kože prljavštinu",
     image: "/products/raskosna-obnavljajuca-micelarna-voda-za-lice-experalta-platinum.png",
@@ -1174,7 +1182,7 @@ export const products: Product[] = [
     slug: "hidrofilno-ulje-za-ciscenje-experalta-platinum",
     name: "Hidrofilno ulje za čišćenje - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Hidrofilno ulje za čišćenje - Experalta Platinum kože sa prirodnim uljima i vitaminom E.",
     image: "/products/hidrofilno-ulje-za-ciscenje-experalta-platinum.png",
@@ -1184,7 +1192,7 @@ export const products: Product[] = [
     slug: "krema-za-povecanje-elasticnosti-koze-oko-ociju-experalta-platinum",
     name: "Krema za povećanje elastičnosti kože oko očiju - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Krema za povećanje elastičnosti kože oko očiju – Experalta Platinum moćna anti-age formula na bazi biljnih peptida kedrovih oraha i sibirskog ženšena",
     image: "/products/krema-za-povecanje-elasticnosti-koze-oko-ociju-experalta-platinum.png",
@@ -1194,7 +1202,7 @@ export const products: Product[] = [
     slug: "pametna-krema-za-lice-sa-biljnim-peptidima-experalta-platinum",
     name: "Pametna krema za lice sa biljnim peptidima - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Pametna krema za lice sa biljnim peptidima – Experalta Platinum pametni sistem za mladost kože sa biljnim peptidima i energetskim kompleksom HerbaGlow",
     image: "/products/pametna-krema-za-lice-sa-biljnim-peptidima-experalta-platinum.png",
@@ -1204,7 +1212,7 @@ export const products: Product[] = [
     slug: "pametni-serum-za-lice-sa-biljnim-peptidima-experalta-platinum",
     name: "Pametni serum za lice sa biljnim peptidima - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Pametni serum za lice sa biljnim peptidima – Experalta Platinum inovativna formula aktivno deluje u dubokim slojevima kože",
     image: "/products/pametni-serum-za-lice-sa-biljnim-peptidima-experalta-platinum.png",
@@ -1214,7 +1222,7 @@ export const products: Product[] = [
     slug: "dezodorans-za-telo-siberian-wellness",
     name: "Dezodorans za telo - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Dezodorans za telo – Siberian Wellness sa kalijum alumom efikasno reguliše prekomerno znojenje. Zahvaljujući prirodnim sastojcima, proizvod ne začepljuje pore",
     image: "/products/dezodorans-za-telo-siberian-wellness.png",
@@ -1224,7 +1232,7 @@ export const products: Product[] = [
     slug: "maska-za-izbeljivanje-siberian-wellness",
     name: "Maska za izbeljivanje - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Maska za izbeljivanje – Siberian Wellness sa niacinamidom i alfa-arbutinom sprečava višak proizvodnje melanina, podstiče efekat posvetljavanja",
     image: "/products/maska-za-izbeljivanje-siberian-wellness.png",
@@ -1234,7 +1242,7 @@ export const products: Product[] = [
     slug: "sampon-za-suvu-i-farbanu-kosu-siberian-wellness",
     name: "Šampon za suvu i farbanu kosu - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Hranljivi Šampon za suvu i farbanu kosu – Siberian Wellness sa ceramidama i proteinima pšenice fino čisti i obnavlja oštećenu i farbanu kosu",
     image: "/products/sampon-za-suvu-i-farbanu-kosu-siberian-wellness.png",
@@ -1244,7 +1252,7 @@ export const products: Product[] = [
     slug: "hidratantni-sampon-siberian-wellness",
     name: "Hidratantni šampon - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Hidratantni šampon – Siberian Wellness efikasno i brižljivo pere kosu i kožu glave, pogodan je za svakodnevno korišćenje.",
     image: "/products/hidratantni-sampon-siberian-wellness.png",
@@ -1254,7 +1262,7 @@ export const products: Product[] = [
     slug: "hidratantna-krema-za-ruke-sa-ekstraktom-semena-grozdja-siberian-wellness",
     name: "Hidratantna krema za ruke sa ekstraktom semena grožđa - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Hidratantna krema za ruke sa ekstraktom semena grožđa – Siberian Wellness, tonus i elastičnost sigurni su znaci lepe i mladalačke kože ruku",
     image: "/products/hidratantna-krema-za-ruke-sa-ekstraktom-semena-grozdja-siberian-wellness.png",
@@ -1264,7 +1272,11 @@ export const products: Product[] = [
     slug: "balzam-za-telo-spongilla-i-gavez-zivokost-siberian-wellness",
     name: "Balzam za telo Spongilla&Gavez Živokost - Siberian Wellness",
     brand: "Sibirski balzami",
-    categorySlugs: ["elasticni-zglobovi", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "elasticni-zglobovi",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Balzam za telo Spongilla&Gavez Živokost – Siberian Wellness prirodni balzam sa biljnim ekstraktima pomaže u vraćanju osećaja lakoće",
     image: "/products/balzam-za-telo-spongilla-i-gavez-zivokost-siberian-wellness.png",
@@ -1274,7 +1286,7 @@ export const products: Product[] = [
     slug: "sampon-za-ostecenu-kosu-siberian-wellness",
     name: "Šampon za oštećenu kosu - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Šampon za oštećenu kosu – Siberian Wellness sa ekstraktom čilija i niacinamidom efikasno čisti i podstiče normalizovanje folikula vlasi",
     image: "/products/sampon-za-ostecenu-kosu-siberian-wellness.png",
@@ -1284,7 +1296,7 @@ export const products: Product[] = [
     slug: "sampon-za-volumen-kose-siberian-wellness",
     name: "Šampon za volumen kose - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Šampon za volumen kose – Siberian Wellness sa fitokeratinom i sukcinskom kiselinom blago čisti kožu i kosu, podstiče smanjenje mašćenja.",
     image: "/products/sampon-za-volumen-kose-siberian-wellness.png",
@@ -1294,7 +1306,11 @@ export const products: Product[] = [
     slug: "hidratantna-pena-za-ciscenje-lica-siberian-wellness-herbal-cosmetics",
     name: "Hidratantna pena za čišćenje lica - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "kozmetika-siberian-wellness-herbal-cosmetics",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Hidratantna pena za čišćenje lica – Siberian Wellness Herbal Cosmetics lagana, nežna pena sa sokom aloe vere i mlečnom kiselinom nežno čisti, umiruje i hidrira",
     image: "/products/hidratantna-pena-za-ciscenje-lica-siberian-wellness-herbal-cosmetics.png",
@@ -1304,7 +1320,11 @@ export const products: Product[] = [
     slug: "pena-za-intimnu-higijenu-siberian-wellness-herbal-cosmetics",
     name: "Pena za intimnu higijenu - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "kozmetika-siberian-wellness-herbal-cosmetics",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Pena za intimnu higijenu – Siberian Wellness Herbal Cosmetics sa kompleksom biljnih ekstrakata nežno čisti i neguje intimnu zonu.",
     image: "/products/pena-za-intimnu-higijenu-siberian-wellness-herbal-cosmetics.png",
@@ -1314,7 +1334,11 @@ export const products: Product[] = [
     slug: "enzimski-piling-za-lice-siberian-wellness-herbal-cosmetics",
     name: "Enzimski piling za lice - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "kozmetika-siberian-wellness-herbal-cosmetics",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Enzimski piling za lice – Siberian Wellness Herbal Cosmetics podstiče blagi efekat pilinga. Ekstrakt nara, koji je bogat polifeonolima i vitaminima",
     image: "/products/enzimski-piling-za-lice-siberian-wellness-herbal-cosmetics.png",
@@ -1324,7 +1348,11 @@ export const products: Product[] = [
     slug: "hidratantni-tonik-za-lice-siberian-wellness-herbal-cosmetics",
     name: "Hidratantni tonik za lice - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "kozmetika-siberian-wellness-herbal-cosmetics",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Hidratantni tonik za lice – Siberian Wellness Herbal Cosmetics sa hidrolatima hamamelisa, smilja i aminokiselinama dubinski hidrira, tonizira i omekšava kožu",
     image: "/products/hidratantni-tonik-za-lice-siberian-wellness-herbal-cosmetics.png",
@@ -1334,7 +1362,11 @@ export const products: Product[] = [
     slug: "matirajuci-tonik-za-lice-siberian-wellness-herbal-cosmetics",
     name: "Matirajući tonik za lice - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "kozmetika-siberian-wellness-herbal-cosmetics",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Matirajući tonik za lice – Siberian Wellness Herbal Cosmetics dubinski i nežno čisti pore, kontroliše nivo sebuma na površini kože",
     image: "/products/matirajuci-tonik-za-lice-siberian-wellness-herbal-cosmetics.png",
@@ -1344,7 +1376,11 @@ export const products: Product[] = [
     slug: "intimni-gel-siberian-wellness-herbal-cosmetics",
     name: "Intimni gel - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "kozmetika-siberian-wellness-herbal-cosmetics",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Intimni gel – Siberian Wellness Herbal Cosmetics nežni sapun brižljivo čisti osetljivu kožu intimne regije, pruža pouzdanu antibakterijsku zaštitu",
     image: "/products/intimni-gel-siberian-wellness-herbal-cosmetics.png",
@@ -1354,7 +1390,11 @@ export const products: Product[] = [
     slug: "gel-za-ciscenje-lica-siberian-wellness-herbal-cosmetics",
     name: "Gel za čišćenje lica - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "kozmetika-siberian-wellness-herbal-cosmetics",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Gel za čišćenje lica – Siberian Wellness Herbal Cosmetics nežni penasti gel sa kompleksom biljnih ekstrakata i mlečne kiseline nežno čisti kožu",
     image: "/products/gel-za-ciscenje-lica-siberian-wellness-herbal-cosmetics.png",
@@ -1651,7 +1691,11 @@ export const products: Product[] = [
     slug: "extra-rich-massage-balsam-koren-280ml",
     name: "Extra Rich Massage Balsam Koren 280ml",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami", "kozmetika-siberian-wellness"],
+    categorySlugs: [
+      "sibirski-balzami",
+      "kozmetika-siberian-wellness",
+      "kozmetika",
+    ],
     shortDescription:
       "Extra Rich Massage Balsam Koren 280ml koji deluje zagrevajuće i opuštajuće sa veličanstvenom aromom, je jedinstven i veoma efikasan kompleks",
     image: "/products/extra-rich-massage-balsam-koren-280ml.png",
@@ -1661,7 +1705,7 @@ export const products: Product[] = [
     slug: "hidratantni-regenerator-za-kosu-siberian-wellness",
     name: "Hidratantni regenerator za kosu - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Hidratantni regenerator za kosu - Siberian Wellness hidrira i štiti od oštećenja, poklanja kosi volumen i elastičnost, čini je sjajnom i snažnom.",
     image: "/products/hidratantni-regenerator-za-kosu-siberian-wellness.png",
@@ -1671,7 +1715,7 @@ export const products: Product[] = [
     slug: "volumizing-hair-conditioner-siberian-wellness",
     name: "Volumizing Hair Conditioner - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Volumizing Hair Conditioner - Siberian Wellness regenerator sa sukcinskom kiselinom i biljnim proteinima povećava volumen i smanjuje krtost vlasi",
     image: "/products/volumizing-hair-conditioner-siberian-wellness.png",
@@ -1681,7 +1725,7 @@ export const products: Product[] = [
     slug: "dry-and-solored-hair-sonditioner-siberian-wellness",
     name: "Dry and Сolored Hair Сonditioner - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Dry and Сolored Hair Сonditioner - Siberian Wellness efikasni regenerator sa ceramidama i biljnim keratinom obnavlja oštećenu kosu i farbanu kosu",
     image: "/products/dry-and-solored-hair-sonditioner-siberian-wellness.png",
@@ -1691,7 +1735,7 @@ export const products: Product[] = [
     slug: "ekstra-bogata-biljna-pasta-za-izbeljivanje-zuba",
     name: "Ekstra bogata biljna pasta za izbeljivanje zuba",
     brand: "Paste za zube",
-    categorySlugs: ["paste-za-zube"],
+    categorySlugs: ["paste-za-zube", "kozmetika"],
     shortDescription:
       "Ekstra bogata biljna pasta za izbeljivanje zuba crna pasta za zube za snežno beli osmeh! Ova ultra bogata pasta za zube na biljnoj bazi sa drvenim ugljem",
     image: "/products/ekstra-bogata-biljna-pasta-za-izbeljivanje-zuba.png",
@@ -1828,7 +1872,7 @@ export const products: Product[] = [
     slug: "hranljiva-krema-za-telo-siberian-wellness",
     name: "Hranljiva krema za telo – Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Hranljiva krema za telo – Siberian Wellness s uljem pasjeg trna, hidrolatima i biljnim ekstraktima intenzivno hrani kožu, čuva lipidni balans",
     image: "/products/hranljiva-krema-za-telo-siberian-wellness.png",
@@ -1838,7 +1882,7 @@ export const products: Product[] = [
     slug: "hidratantna-krema-za-telo-siberian-wellness",
     name: "Hidratantna krema za telo – Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Hidratantna krema za telo – Siberian Wellness s ekstraktom sibirskog bilja neguje kožu i podstiče obnavljanje epidermalne barijere",
     image: "/products/hidratantna-krema-za-telo-siberian-wellness.png",
@@ -1848,7 +1892,7 @@ export const products: Product[] = [
     slug: "hidratantni-gel-za-tusiranje-siberian-wellness",
     name: "Hidratantni gel za tuširanje – Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Hidratantni gel za tuširanje – Siberian Wellness sa sibirskim biljem – prirodno sredstvo za čišćenje za svaki dan.",
     image: "/products/hidratantni-gel-za-tusiranje-siberian-wellness.png",
@@ -1858,7 +1902,7 @@ export const products: Product[] = [
     slug: "serum-za-rast-kose-siberian-wellness",
     name: "Serum za rast kose – Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Serum za rast kose – Siberian Wellness inovativna formula sa aminokiselinama i biljnim kompleksom Baicapil™ deluje protiv opadanja kose",
     image: "/products/serum-za-rast-kose-siberian-wellness.png",
@@ -1868,7 +1912,7 @@ export const products: Product[] = [
     slug: "krema-za-masnu-kozu-sklonu-aknama-siberian-wellness",
     name: "Krema za masnu kožu sklonu aknama - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Krema za masnu kožu sklonu aknama - Siberian Wellness sa bioraspoloživim sumporom i ekstraktom magnolije smanjuje izražene nesavršenosti",
     image: "/products/krema-za-masnu-kozu-sklonu-aknama-siberian-wellness.png",
@@ -1878,7 +1922,7 @@ export const products: Product[] = [
     slug: "obnavljajuca-esencija-s-niacinamidom-10-experalta-platinum",
     name: "Obnavljajuća esencija s niacinamidom 10% – Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Zahvaljujući specijalnoj formuli Obnavljajuća esencija s niacinamidom 10% – Experalta Platinum podstiče vidljivo smanjenje bora i tankih linija",
     image: "/products/obnavljajuca-esencija-s-niacinamidom-10-experalta-platinum.png",
@@ -1888,7 +1932,7 @@ export const products: Product[] = [
     slug: "revitalizing-plant-peptides-night-cream-experalta-platinum",
     name: "Revitalizing plant peptides night cream – Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "kozmetika"],
     shortDescription:
       "Revitalizing plant peptides night cream – Experalta Platinum je intenzivna krema koja obnavlja i hidrira kožu tokom noći.",
     image: "/products/revitalizing-plant-peptides-night-cream-experalta-platinum.png",
@@ -1908,7 +1952,7 @@ export const products: Product[] = [
     slug: "hranljivi-gel-za-tusiranje-siberian-wellness",
     name: "Hranljivi gel za tuširanje - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness"],
+    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika"],
     shortDescription:
       "Hranljivi gel za tuširanje - Siberian Wellness s uljem zlolesine brižljivo čisti i intenzivno hrani kožu, čuva lipidni balans",
     image: "/products/hranljivi-gel-za-tusiranje-siberian-wellness.png",
@@ -1918,7 +1962,11 @@ export const products: Product[] = [
     slug: "all-in-one-anti-aging-treatment-siberian-wellness",
     name: "All-In-One Anti-Aging Treatment - Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness", "kozmetika-siberian-wellness-herbal-cosmetics"],
+    categorySlugs: [
+      "kozmetika-siberian-wellness",
+      "kozmetika-siberian-wellness-herbal-cosmetics",
+      "kozmetika",
+    ],
     shortDescription:
       "All-In-One Anti-Aging Treatment - Siberian Wellness hranljiva krema pruža finu negu zrele kože, obnavlja je i hidrira.",
     image: "/products/all-in-one-anti-aging-treatment-siberian-wellness.png",
@@ -1978,7 +2026,7 @@ export const products: Product[] = [
     slug: "piling-za-telo-forest-dreams",
     name: "Piling za telo - Forest Dreams",
     brand: "Kozmetika Forest Dreams",
-    categorySlugs: ["kozmetika-forest-dreams"],
+    categorySlugs: ["kozmetika-forest-dreams", "kozmetika"],
     shortDescription:
       "Piling za telo - Forest Dreams zahvaljujući nežnoj teksturi piling fino skida izumrle ćelije, poklanja koži prirodan sjaj i glatkoću.",
     image: "/products/piling-za-telo-forest-dreams.png",
@@ -1988,7 +2036,7 @@ export const products: Product[] = [
     slug: "buter-krema-za-telo-forest-dreams",
     name: "Buter krema za telo – Forest Dreams",
     brand: "Kozmetika Forest Dreams",
-    categorySlugs: ["kozmetika-forest-dreams"],
+    categorySlugs: ["kozmetika-forest-dreams", "kozmetika"],
     shortDescription:
       "Buter krema za telo – Forest Dreams, hrani i hidrira kožu, poklanjajući joj mek i gladak izgled.",
     image: "/products/buter-krema-za-telo-forest-dreams.png",
@@ -1998,7 +2046,7 @@ export const products: Product[] = [
     slug: "gel-za-tusiranje-forest-dreams",
     name: "Gel za tuširanje - Forest Dreams",
     brand: "Kozmetika Forest Dreams",
-    categorySlugs: ["kozmetika-forest-dreams"],
+    categorySlugs: ["kozmetika-forest-dreams", "kozmetika"],
     shortDescription:
       "Gel za tuširanje - Forest Dreams blago čisti kožu. Nežna aroma poklanja osećaj svežine i bodrosti, kao dašak prohladnog šumskog jutra!",
     image: "/products/gel-za-tusiranje-forest-dreams.png",
@@ -2028,7 +2076,7 @@ export const products: Product[] = [
     slug: "ultra-zasicena-krema-za-lice-experalta-pro",
     name: "Ultra zasićena krema za lice - Experalta Pro",
     brand: "Kozmetika Experalta Pro",
-    categorySlugs: ["kozmetika-experalta-pro"],
+    categorySlugs: ["kozmetika-experalta-pro", "kozmetika"],
     shortDescription:
       "Ultra zasićena krema za lice sa bogatom teksturom poboljšava mikroreljef kože: konture lica postaju jasnije, ten je ujednačen.",
     image: "/products/ultra-zasicena-krema-za-lice-experalta-pro.png",
@@ -2038,7 +2086,7 @@ export const products: Product[] = [
     slug: "totalni-serum-lepote-experalta-pro",
     name: "Totalni serum lepote - Experalta Pro",
     brand: "Kozmetika Experalta Pro",
-    categorySlugs: ["kozmetika-experalta-pro"],
+    categorySlugs: ["kozmetika-experalta-pro", "kozmetika"],
     shortDescription:
       "Totalni serum lepote - Experalta Pro za intenzivno hidriranje snabdeva ćelije kože energijom, sistemski podržava njihov rad",
     image: "/products/totalni-serum-lepote-experalta-pro.png",
