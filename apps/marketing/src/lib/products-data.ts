@@ -1162,7 +1162,7 @@ export const products: Product[] = [
     slug: "pipeta-za-serum-experalta-platinum",
     name: "Pipeta za serum - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum"],
+    categorySlugs: ["kozmetika-experalta-platinum", "za-konsultante"],
     shortDescription:
       "Kupujući kozmetičku pipetu za serum – Experalta Platinum, koja se može koristiti više puta, vi dajete realni doprinos brizi o budućnosti naše planete.",
     image: "/products/pipeta-za-serum-experalta-platinum.png",
