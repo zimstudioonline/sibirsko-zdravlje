@@ -1499,11 +1499,7 @@ export const products: Product[] = [
     slug: "men-s-power-maca-zinc-l-carnitine-fitness-catalist",
     name: "MEN'S POWER Maca+Zinc+L-Carnitine - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: [
-      "suplementi-za-muskarce",
-      "suplementi-za-energiju-i-fokus",
-      "duga-mladost",
-    ],
+    categorySlugs: ["suplementi-za-muskarce", "suplementi-za-energiju-i-fokus", "duga-mladost"],
     shortDescription:
       "MEN'S POWER Maca+Zinc+L-Carnitine – Fitness Catalist muška formula za očuvanje seksualnog potencijala, snage i energije",
     image: "/products/men-s-power-maca-zinc-l-carnitine-fitness-catalist.png",
