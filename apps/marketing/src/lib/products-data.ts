@@ -1712,7 +1712,6 @@ export const products: Product[] = [
     name: "Siberian Super Natural Nutrition - ECO. BeautySense",
     brand: "Siberian Super Natural Nutrition",
     categorySlugs: [
-      "siberian-super-natural-nutrition",
       "anti-age-proizvode",
       "duga-mladost",
       "suplementi-za-zene",
