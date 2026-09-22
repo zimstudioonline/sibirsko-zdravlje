@@ -48,6 +48,7 @@ export const products: Product[] = [
       "zdravo-srce",
       "suplementi-za-vid",
       "prevencija-alergija",
+      "prevencija-dijabetesa",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -129,6 +130,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
+      "prevencija-dijabetesa",
     ],
     shortDescription:
       "Essential Minerals - Iodine with Siberian herbs, kompleks sa visoko bioraspoloživim organskim jodom iz ekstrakta fukusa i prirodnim adaptogenom",
@@ -376,6 +378,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "elasticni-zglobovi",
       "zdravo-srce",
+      "prevencija-dijabetesa",
     ],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
@@ -446,6 +449,7 @@ export const products: Product[] = [
       "zdravo-srce",
       "suplementi-za-vid",
       "prevencija-alergija",
+      "prevencija-dijabetesa",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -587,7 +591,7 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-9-kontrola-ugljenih-hidrata",
     name: "Fito čaj od divljeg bilja № 9 - Kontrola ugljenih hidrata",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva"],
+    categorySlugs: ["kolekcija-fitocajeva", "prevencija-dijabetesa"],
     shortDescription:
       "Fito čaj od divljeg bilja № 9 - Kontrola ugljenih hidrata šolja aromatičnog biljnog čaja na bazi korena čička, trave lucerke i izdanaka borovnice",
     image: "/products/fito-caj-od-divljeg-bilja-9-kontrola-ugljenih-hidrata.png",
@@ -848,7 +852,11 @@ export const products: Product[] = [
     slug: "chromlipaza-fitness-catalist",
     name: "Chromlipaza - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "anti-age-proizvode"],
+    categorySlugs: [
+      "fitness-catalyst",
+      "anti-age-proizvode",
+      "prevencija-dijabetesa",
+    ],
     shortDescription:
       "Chromlipaza - Fitness Catalist je idealan suplement za sve koji žele efikasno da kontrolišu svoju težinu i apetit.",
     image: "/products/chromlipaza-fitness-catalist.png",
@@ -868,7 +876,11 @@ export const products: Product[] = [
     slug: "essential-sorbents-prirodni-inulinski-koncentrat",
     name: "Essential Sorbents Prirodni inulinski koncentrat",
     brand: "Essential Sorbents",
-    categorySlugs: ["essential-sorbents-lymphosan", "suplementi-za-zeludac-i-creva"],
+    categorySlugs: [
+      "essential-sorbents-lymphosan",
+      "suplementi-za-zeludac-i-creva",
+      "prevencija-dijabetesa",
+    ],
     shortDescription:
       "Essential Sorbents Prirodni inulinski koncentrat- kompleks biološki aktivnih supstanci izuzetno je delotvoran",
     image: "/products/essential-sorbents-prirodni-inulinski-koncentrat.png",
@@ -1651,6 +1663,7 @@ export const products: Product[] = [
       "antistres-zastita",
       "suplementi-za-zeludac-i-creva",
       "zdravo-srce",
+      "prevencija-dijabetesa",
     ],
     shortDescription:
       "Magnesium Multi-Chelate - Expert Line u bioraspoloživim oblicima pomaže u smanjenju nervne napetosti i vraćanju emocionalne ravnoteže",
