@@ -1411,6 +1411,7 @@ export const products: Product[] = [
       "womens-health",
       "anti-age-proizvode",
       "suplementi-za-zene",
+      "suplementi-za-trudnice-i-dojilje",
     ],
     shortDescription:
       "Iron Bisglycinate – Women's Health gvožđe u biodostupnom helatnom obliku za prevenciju deficita gvožđa i podršku procesima stvaranja krvi",
