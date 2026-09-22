@@ -43,6 +43,7 @@ export const products: Product[] = [
       "duga-mladost",
       "suplementi-za-zeludac-i-creva",
       "suplementi-za-jetru",
+      "zdravi-bubrezi",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -70,6 +71,7 @@ export const products: Product[] = [
       "elasticni-zglobovi",
       "suplementi-za-zeludac-i-creva",
       "suplementi-za-jetru",
+      "zdravi-bubrezi",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -205,7 +207,7 @@ export const products: Product[] = [
     slug: "essential-botanics-bearberry-i-lingonberry",
     name: "Essential Botanics - Bearberry&Lingonberry",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics"],
+    categorySlugs: ["essential-botanics", "zdravi-bubrezi"],
     shortDescription:
       "Essential Botanics - Bearberry&Lingonberry biljna formula na bazi ekstrakta medveđe bobice i rena sa listovima i plodom brusnice sprečava stagnaciju tečnosti",
     image: "/products/essential-botanics-bearberry-i-lingonberry.png",
@@ -427,6 +429,7 @@ export const products: Product[] = [
       "duga-mladost",
       "suplementi-za-zeludac-i-creva",
       "suplementi-za-jetru",
+      "zdravi-bubrezi",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
