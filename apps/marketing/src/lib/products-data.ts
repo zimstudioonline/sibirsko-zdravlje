@@ -10,6 +10,7 @@ export const products: Product[] = [
       "detoks-i-ciscenje-organizma",
       "elasticni-zglobovi",
       "anti-age-proizvode",
+      "cvrste-kosti",
     ],
     shortDescription:
       "Essential Sorbents - Joint Comfort mešavina za pripremu detoks koktela sa hondroprotektivnim komponentama pomaže u efikasnom čišćenju tela i zaštiti zglobova",
@@ -308,6 +309,7 @@ export const products: Product[] = [
       "3d-cube",
       "elasticni-zglobovi",
       "duga-mladost",
+      "cvrste-kosti",
     ],
     shortDescription:
       "3D Flex Cube - Sloboda pokreta maksimalna motorička aktivnost i lakoća kretanja - zahvaljujući kompleksnoj podršci hondroprotektora, omega-3 kiselina",
@@ -401,7 +403,11 @@ export const products: Product[] = [
     slug: "synchrovitals-vi-hronobioloska-zastita-zglobova",
     name: "Synchrovitals VI - Hronobiološka zaštita zglobova",
     brand: "Synchrovitals",
-    categorySlugs: ["synchrovitals", "elasticni-zglobovi"],
+    categorySlugs: [
+      "synchrovitals",
+      "elasticni-zglobovi",
+      "cvrste-kosti",
+    ],
     shortDescription:
       "Synchrovitals VI - Hronobiološka zaštita zglobova predstavlja obnovljen kompleks za normalizovanje i zaštitu stanja vezivnog tkiva",
     image: "/products/synchrovitals-vi-hronobioloska-zastita-zglobova.png",
@@ -596,6 +602,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
       "elasticni-zglobovi",
+      "cvrste-kosti",
     ],
     shortDescription:
       "Essential Vitamins - Vitamin D3, rastvor za oralnu upotrebu je dijetetski suplement sa vitaminom D.",
@@ -664,6 +671,7 @@ export const products: Product[] = [
       "daily-box",
       "anti-age-proizvode",
       "duga-mladost",
+      "cvrste-kosti",
     ],
     shortDescription:
       "LITE STEP BOX - Lagani hod dvostepena zaštita od proširenih vena: normalizuje cirkulaciju krvi, jača zidove kapilara i krvnih sudova.",
@@ -719,6 +727,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
       "zdravo-srce",
+      "cvrste-kosti",
     ],
     shortDescription:
       "Essential Mineral - Magnesium with Siberian herbs kompleks sa glavnim mineralom relaksiranja - organskim magnezijumom, obogaćenim ekstraktom valerijane",
@@ -769,7 +778,7 @@ export const products: Product[] = [
     slug: "calcitops-hrskave-kuglice-s-kakao-uljem-malina-vitamama",
     name: "Calcitops, hrskave kuglice s kakao uljem malina - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama", "cvrste-kosti"],
+    categorySlugs: ["vitamama"],
     shortDescription:
       "Calcitops, hrskave kuglice s kakao uljem malina - Vitamama pokloniće snagu i postaće izvor kalcijuma za harmoničan rast.",
     image: "/products/calcitops-hrskave-kuglice-s-kakao-uljem-malina-vitamama.png",
@@ -819,7 +828,7 @@ export const products: Product[] = [
     slug: "omega-3-ultra-fitness-catalist",
     name: "Omega-3 Ultra - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst"],
+    categorySlugs: ["fitness-catalyst", "cvrste-kosti"],
     shortDescription:
       "Maksimum Omega-3 Ultra - Fitness Catalist kiselina za snažnu podršku telu tokom intenzivne fizičke aktivnosti.",
     image: "/products/omega-3-ultra-fitness-catalist.png",
@@ -982,7 +991,7 @@ export const products: Product[] = [
     slug: "pasta-za-zube-sa-morskim-kalcijumom",
     name: "Pasta za zube sa morskim kalcijumom",
     brand: "Paste za zube",
-    categorySlugs: ["paste-za-zube", "cvrste-kosti"],
+    categorySlugs: ["paste-za-zube"],
     shortDescription:
       "Pasta za zube sa morskim kalcijumom remineralizujuća pasta sa dve vrste kalcijuma – organskog kalcijuma kao dela multimineralnog kompleksa",
     image: "/products/pasta-za-zube-sa-morskim-kalcijumom.png",
@@ -1320,7 +1329,12 @@ export const products: Product[] = [
     slug: "essential-vitamins-vitamin-k2",
     name: "Essential Vitamins - Vitamin K2",
     brand: "Essential Vitamins",
-    categorySlugs: ["essential-vitamins", "zdravo-srce", "anti-age-proizvode"],
+    categorySlugs: [
+      "essential-vitamins",
+      "zdravo-srce",
+      "anti-age-proizvode",
+      "cvrste-kosti",
+    ],
     shortDescription:
       "Essential Vitamins - Vitamin K2 biološki dostupan oblik vitamina K2, MenaQ7® pruža podršku zdravlju kardiovaskularnog i mišićno-koštanog sistema",
     image: "/products/essential-vitamins-vitamin-k2.png",
