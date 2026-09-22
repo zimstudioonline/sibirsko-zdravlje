@@ -159,7 +159,7 @@ export const products: Product[] = [
     slug: "ujan-nomo-balzam-za-telo",
     name: "Ujan Nomo Balzam za telo",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami", "elasticni-zglobovi"],
+    categorySlugs: ["elasticni-zglobovi"],
     shortDescription:
       "Ujan Nomo Balzam za telo značajno poboljšava kretanje, pružajući trenutni osećaj hlađenja i olakšanja od upala.",
     image: "/products/ujan-nomo-balzam-za-telo.png",
@@ -1226,7 +1226,7 @@ export const products: Product[] = [
     slug: "balzam-za-telo-spongilla-i-gavez-zivokost-siberian-wellness",
     name: "Balzam za telo Spongilla&Gavez Živokost - Siberian Wellness",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami", "elasticni-zglobovi"],
+    categorySlugs: ["elasticni-zglobovi"],
     shortDescription:
       "Balzam za telo Spongilla&Gavez Živokost – Siberian Wellness prirodni balzam sa biljnim ekstraktima pomaže u vraćanju osećaja lakoće",
     image: "/products/balzam-za-telo-spongilla-i-gavez-zivokost-siberian-wellness.png",
