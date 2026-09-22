@@ -29,7 +29,11 @@ export const products: Product[] = [
     slug: "renaissance-triple-set",
     name: "Renaissance Triple Set",
     brand: "Renaissance Triple Set",
-    categorySlugs: ["renaissance-triple-set", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "renaissance-triple-set",
+      "suplementi-za-energiju-i-fokus",
+      "detoks-i-ciscenje-organizma",
+    ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
     image: "/products/renaissance-triple-set.png",
@@ -49,7 +53,7 @@ export const products: Product[] = [
     slug: "renaissance-triple-set-formula-3",
     name: "Renaissance Triple Set - Formula 3",
     brand: "Renaissance Triple Set",
-    categorySlugs: ["renaissance-triple-set", "detoks-i-ciscenje-organizma"],
+    categorySlugs: ["renaissance-triple-set"],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
     image: "/products/renaissance-triple-set-formula-3.png",
@@ -427,7 +431,11 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-5-komforno-varenje",
     name: "Fito čaj od divljeg bilja № 5 - Komforno varenje",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "suplementi-za-zeludac-i-creva"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "suplementi-za-zeludac-i-creva",
+      "detoks-i-ciscenje-organizma",
+    ],
     shortDescription:
       "Fito čaj od divljeg bilja № 5 - Komforno varenje osetite komfor i lakoću zahvaljujući jedinstvenom sastavu sibirskog bilja u čaju iz Siberian Wellnessa!",
     image: "/products/fito-caj-od-divljeg-bilja-5-komforno-varenje.png",
@@ -777,7 +785,7 @@ export const products: Product[] = [
     slug: "greenpin-bathroom-cleaner",
     name: "GreenPin Bathroom Cleaner",
     brand: "GreenPin",
-    categorySlugs: ["greenpin", "detoks-i-ciscenje-organizma"],
+    categorySlugs: ["greenpin"],
     shortDescription:
       "GreenPin Bathroom Cleaner je pogodno za čišćenje keramičkih pločica, keramičkih sudopera i sudopera od nerđajućeg čelika, tuš kabina i toaleta.",
     image: "/products/greenpin-bathroom-cleaner.png",
@@ -797,7 +805,7 @@ export const products: Product[] = [
     slug: "greenpin-multi-purpose-cleaner",
     name: "GreenPin Multi-Purpose Cleaner",
     brand: "GreenPin",
-    categorySlugs: ["greenpin", "detoks-i-ciscenje-organizma"],
+    categorySlugs: ["greenpin"],
     shortDescription:
       "GreenPin Multi-Purpose Cleaner univerzalno sredstvo za čišćenje pogodno je za uklanjanje zaprljanih površina (zidova, pločica, nameštaja i podova).",
     image: "/products/greenpin-multi-purpose-cleaner.png",
@@ -860,11 +868,7 @@ export const products: Product[] = [
     slug: "blagi-gel-za-umivanje-s-probiotikom-experalta-platinum",
     name: "Blagi gel za umivanje s probiotikom - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: [
-      "kozmetika-experalta-platinum",
-      "suplementi-za-zeludac-i-creva",
-      "detoks-i-ciscenje-organizma",
-    ],
+    categorySlugs: ["kozmetika-experalta-platinum"],
     shortDescription:
       "Blagi gel za umivanje s probiotikom - Experalta Platinum nežan gel za čišćenje sa kompleksom pre- i probiotika pažljivo uklanja tragove prljavštine",
     image: "/products/blagi-gel-za-umivanje-s-probiotikom-experalta-platinum.png",
@@ -914,7 +918,7 @@ export const products: Product[] = [
     slug: "hidrofilno-ulje-za-ciscenje-experalta-platinum",
     name: "Hidrofilno ulje za čišćenje - Experalta Platinum",
     brand: "Kozmetika Experalta Platinum",
-    categorySlugs: ["kozmetika-experalta-platinum", "detoks-i-ciscenje-organizma"],
+    categorySlugs: ["kozmetika-experalta-platinum"],
     shortDescription:
       "Hidrofilno ulje za čišćenje - Experalta Platinum kože sa prirodnim uljima i vitaminom E.",
     image: "/products/hidrofilno-ulje-za-ciscenje-experalta-platinum.png",
@@ -1034,7 +1038,7 @@ export const products: Product[] = [
     slug: "hidratantna-pena-za-ciscenje-lica-siberian-wellness-herbal-cosmetics",
     name: "Hidratantna pena za čišćenje lica - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "detoks-i-ciscenje-organizma"],
+    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics"],
     shortDescription:
       "Hidratantna pena za čišćenje lica – Siberian Wellness Herbal Cosmetics lagana, nežna pena sa sokom aloe vere i mlečnom kiselinom nežno čisti, umiruje i hidrira",
     image: "/products/hidratantna-pena-za-ciscenje-lica-siberian-wellness-herbal-cosmetics.png",
@@ -1094,7 +1098,7 @@ export const products: Product[] = [
     slug: "gel-za-ciscenje-lica-siberian-wellness-herbal-cosmetics",
     name: "Gel za čišćenje lica - Siberian Wellness Herbal Cosmetics",
     brand: "Kozmetika Siberian Wellness Herbal Cosmetics",
-    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics", "detoks-i-ciscenje-organizma"],
+    categorySlugs: ["kozmetika-siberian-wellness-herbal-cosmetics"],
     shortDescription:
       "Gel za čišćenje lica – Siberian Wellness Herbal Cosmetics nežni penasti gel sa kompleksom biljnih ekstrakata i mlečne kiseline nežno čisti kožu",
     image: "/products/gel-za-ciscenje-lica-siberian-wellness-herbal-cosmetics.png",
@@ -1454,7 +1458,7 @@ export const products: Product[] = [
     slug: "s-acetyl-l-glutathione-expert-line",
     name: "S-Acetyl-L-Glutathione - Expert Line",
     brand: "Expert Line",
-    categorySlugs: ["expert-line", "anti-age-proizvode"],
+    categorySlugs: ["expert-line", "anti-age-proizvode", "detoks-i-ciscenje-organizma"],
     shortDescription:
       "Lako usvojiv S-acetil-L-Glutation usporava proces starenja i jača odbrambene snage organizma. Delujući kao moćan antioksidans",
     image: "/products/s-acetyl-l-glutathione-expert-line.png",
@@ -1494,7 +1498,7 @@ export const products: Product[] = [
     slug: "hidratantni-gel-za-tusiranje-siberian-wellness",
     name: "Hidratantni gel za tuširanje – Siberian Wellness",
     brand: "Kozmetika Siberian Wellness",
-    categorySlugs: ["kozmetika-siberian-wellness", "detoks-i-ciscenje-organizma"],
+    categorySlugs: ["kozmetika-siberian-wellness"],
     shortDescription:
       "Hidratantni gel za tuširanje – Siberian Wellness sa sibirskim biljem – prirodno sredstvo za čišćenje za svaki dan.",
     image: "/products/hidratantni-gel-za-tusiranje-siberian-wellness.png",
@@ -1544,7 +1548,7 @@ export const products: Product[] = [
     slug: "greenpin-vlazne-maramice-za-ciscenje",
     name: "GreenPin vlažne maramice za čišćenje",
     brand: "GreenPin",
-    categorySlugs: ["greenpin", "detoks-i-ciscenje-organizma"],
+    categorySlugs: ["greenpin"],
     shortDescription:
       "GreenPin vlažne maramice za čišćenje će Vam pomoći da pobedite veliku prljavštinu, skinete fleke i neprijatne mirise.",
     image: "/products/greenpin-vlazne-maramice-za-ciscenje.png",
