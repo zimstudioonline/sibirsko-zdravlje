@@ -41,6 +41,7 @@ export const products: Product[] = [
       "detoks-i-ciscenje-organizma",
       "elasticni-zglobovi",
       "duga-mladost",
+      "suplementi-za-zeludac-i-creva",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -66,6 +67,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-energiju-i-fokus",
       "elasticni-zglobovi",
+      "suplementi-za-zeludac-i-creva",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -420,6 +422,7 @@ export const products: Product[] = [
       "suplementi-za-energiju-i-fokus",
       "elasticni-zglobovi",
       "duga-mladost",
+      "suplementi-za-zeludac-i-creva",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -469,7 +472,11 @@ export const products: Product[] = [
     slug: "trimegavitals-all-natural-beta-carotene-i-sea-buckthorn-oil",
     name: "Trimegavitals - All-Natural Beta-Carotene&Sea Buckthorn Oil",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids", "duga-mladost"],
+    categorySlugs: [
+      "essential-fatty-acids",
+      "duga-mladost",
+      "suplementi-za-zeludac-i-creva",
+    ],
     shortDescription:
       "Trimegavitals - All-Natural Beta-Carotene&Sea Buckthorn Oil formula sa prirodnim beta-karotenom smanjuje negativne efekte UV zračenja",
     image: "/products/trimegavitals-all-natural-beta-carotene-i-sea-buckthorn-oil.png",
@@ -513,7 +520,11 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-6-zastita-jetre",
     name: "Fito čaj od divljeg bilja № 6 - Zaštita jetre",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "suplementi-za-jetru"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "suplementi-za-jetru",
+      "suplementi-za-zeludac-i-creva",
+    ],
     shortDescription:
       "Fito čaj od divljeg bilja № 6 - Zaštita jetre osvežavajući biljni čaj blagotvorno deluje na funkciju jetre, podstiče brzi oporavak ćelija",
     image: "/products/fito-caj-od-divljeg-bilja-6-zastita-jetre.png",
@@ -696,7 +707,7 @@ export const products: Product[] = [
     slug: "elbifid-essential-probiotics",
     name: "Elbifid - Essential Probiotics",
     brand: "Essential Probiotics",
-    categorySlugs: ["essential-probiotics"],
+    categorySlugs: ["essential-probiotics", "suplementi-za-zeludac-i-creva"],
     shortDescription:
       "Elbifid - Essential Probiotics dodatak ishrani s lakto i bifidobakterijama.Probiotički kompleks koji je po sastavu blizak prirodnom crevnom mikrobiomu.",
     image: "/products/elbifid-essential-probiotics.png",
@@ -816,7 +827,7 @@ export const products: Product[] = [
     slug: "essential-sorbents-prirodni-inulinski-koncentrat",
     name: "Essential Sorbents Prirodni inulinski koncentrat",
     brand: "Essential Sorbents",
-    categorySlugs: ["essential-sorbents-lymphosan"],
+    categorySlugs: ["essential-sorbents-lymphosan", "suplementi-za-zeludac-i-creva"],
     shortDescription:
       "Essential Sorbents Prirodni inulinski koncentrat- kompleks biološki aktivnih supstanci izuzetno je delotvoran",
     image: "/products/essential-sorbents-prirodni-inulinski-koncentrat.png",
@@ -1199,7 +1210,11 @@ export const products: Product[] = [
     slug: "age-theraru-antioxidants-women-s-health",
     name: "Age Тhеrару Antioxidants - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health", "anti-age-proizvode"],
+    categorySlugs: [
+      "womens-health",
+      "anti-age-proizvode",
+      "suplementi-za-zeludac-i-creva",
+    ],
     shortDescription:
       "Age Тhеrару Antioxidants – Women's Health kompleksan anti-age program sa najvažnijim antioksidansima za svakodnevnu podršku lepoti",
     image: "/products/age-theraru-antioxidants-women-s-health.png",
@@ -1253,7 +1268,11 @@ export const products: Product[] = [
     slug: "essential-botanics-bioavailable-curcumin",
     name: "Essential Botanics - Bioavailable Curcumin",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "anti-age-proizvode"],
+    categorySlugs: [
+      "essential-botanics",
+      "anti-age-proizvode",
+      "suplementi-za-zeludac-i-creva",
+    ],
     shortDescription:
       "Essential Botanics – Bioavailable Curcumin savremeno prirodno rešenje za zaštitu od upala. Inovativna formula C3® Reduct omogućava brzo apsorbovanje",
     image: "/products/essential-botanics-bioavailable-curcumin.png",
@@ -1322,6 +1341,7 @@ export const products: Product[] = [
       "siberian-super-natural-nutrition",
       "detoks-i-ciscenje-organizma",
       "anti-age-proizvode",
+      "suplementi-za-zeludac-i-creva",
     ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Detox Pro.Active profesionalni sistem unutrašnje kontrole detoksikacije i sveobuhvatnog čišćenja organizma",
@@ -1521,7 +1541,11 @@ export const products: Product[] = [
     slug: "essential-sorbents-pure-life",
     name: "Essential Sorbents - Pure Life",
     brand: "Essential Sorbents",
-    categorySlugs: ["essential-sorbents-lymphosan", "detoks-i-ciscenje-organizma"],
+    categorySlugs: [
+      "essential-sorbents-lymphosan",
+      "detoks-i-ciscenje-organizma",
+      "suplementi-za-zeludac-i-creva",
+    ],
     shortDescription:
       "Essential Sorbents - Pure Life detox - koktel na bazi prirodnih fitosorbenata podstiče efikasno i nežno čišćenje organizma od toksina",
     image: "/products/essential-sorbents-pure-life.png",
@@ -1565,7 +1589,13 @@ export const products: Product[] = [
     slug: "magnesium-multi-chelate-expert-line",
     name: "Magnesium Multi-Chelate - Expert Line",
     brand: "Expert Line",
-    categorySlugs: ["expert-line", "celicni-nervi", "anti-age-proizvode", "antistres-zastita"],
+    categorySlugs: [
+      "expert-line",
+      "celicni-nervi",
+      "anti-age-proizvode",
+      "antistres-zastita",
+      "suplementi-za-zeludac-i-creva",
+    ],
     shortDescription:
       "Magnesium Multi-Chelate - Expert Line u bioraspoloživim oblicima pomaže u smanjenju nervne napetosti i vraćanju emocionalne ravnoteže",
     image: "/products/magnesium-multi-chelate-expert-line.png",
