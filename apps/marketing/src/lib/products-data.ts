@@ -21,12 +21,7 @@ export const products: Product[] = [
     slug: "pulse-box-snazno-srce",
     name: "PULSE BOX - Snažno srce",
     brand: "Daily Box",
-    categorySlugs: [
-      "daily-box",
-      "zdravo-srce",
-      "suplementi-za-energiju-i-fokus",
-      "duga-mladost",
-    ],
+    categorySlugs: ["daily-box", "zdravo-srce", "suplementi-za-energiju-i-fokus", "duga-mladost"],
     shortDescription:
       "PULSE BOX – Snažno srce trostepena zaštita kardiovaskularnog sistema za svakog savremenog čoveka: održavanje ćelijske regeneracije",
     image: "/products/pulse-box-snazno-srce.png",
@@ -231,11 +226,7 @@ export const products: Product[] = [
     slug: "essential-botanics-bearberry-i-lingonberry",
     name: "Essential Botanics - Bearberry&Lingonberry",
     brand: "Essential Botanics",
-    categorySlugs: [
-      "essential-botanics",
-      "zdravi-bubrezi",
-      "suplementi-za-muskarce",
-    ],
+    categorySlugs: ["essential-botanics", "zdravi-bubrezi", "suplementi-za-muskarce"],
     shortDescription:
       "Essential Botanics - Bearberry&Lingonberry biljna formula na bazi ekstrakta medveđe bobice i rena sa listovima i plodom brusnice sprečava stagnaciju tečnosti",
     image: "/products/essential-botanics-bearberry-i-lingonberry.png",
@@ -255,11 +246,7 @@ export const products: Product[] = [
     slug: "essential-botanics-aronia-i-lutein",
     name: "Essential Botanics - Aronia&Lutein",
     brand: "Essential Botanics",
-    categorySlugs: [
-      "essential-botanics",
-      "suplementi-za-vid",
-      "duga-mladost",
-    ],
+    categorySlugs: ["essential-botanics", "suplementi-za-vid", "duga-mladost"],
     shortDescription:
       "Essential Botanics - Aronia&Lutein biljni kompleks na bazi antocijana luteina, borovnice i aronije pruža pouzdanu zaštitu očima od negativnih efekata",
     image: "/products/essential-botanics-aronia-i-lutein.png",
@@ -289,11 +276,7 @@ export const products: Product[] = [
     slug: "iq-box-intelekt",
     name: "IQ BOX - Intelekt",
     brand: "Daily Box",
-    categorySlugs: [
-      "daily-box",
-      "suplementi-za-energiju-i-fokus",
-      "celicni-nervi",
-    ],
+    categorySlugs: ["daily-box", "suplementi-za-energiju-i-fokus", "celicni-nervi"],
     shortDescription:
       "IQ BOX – Intelekt izbalansirani kompleks vitamina, biljnih ekstrakta i omega-3 masnih kiselina podstiče očuvanje visoke intelektualne aktivnosti",
     image: "/products/iq-box-intelekt.png",
@@ -338,12 +321,7 @@ export const products: Product[] = [
     slug: "3d-flex-cube-sloboda-pokreta",
     name: "3D Flex Cube - Sloboda pokreta",
     brand: "3D Cube",
-    categorySlugs: [
-      "3d-cube",
-      "elasticni-zglobovi",
-      "duga-mladost",
-      "cvrste-kosti",
-    ],
+    categorySlugs: ["3d-cube", "elasticni-zglobovi", "duga-mladost", "cvrste-kosti"],
     shortDescription:
       "3D Flex Cube - Sloboda pokreta maksimalna motorička aktivnost i lakoća kretanja - zahvaljujući kompleksnoj podršci hondroprotektora, omega-3 kiselina",
     image: "/products/3d-flex-cube-sloboda-pokreta.jpg",
@@ -353,12 +331,7 @@ export const products: Product[] = [
     slug: "3d-hair-i-nails-cube-lepota-kose-i-noktiju",
     name: "3D Hair&Nails Cube - Lepota kose i noktiju",
     brand: "3D Cube",
-    categorySlugs: [
-      "3d-cube",
-      "duga-mladost",
-      "suplementi-za-zene",
-      "vegetarijanski-proizvodi",
-    ],
+    categorySlugs: ["3d-cube", "duga-mladost", "suplementi-za-zene", "vegetarijanski-proizvodi"],
     shortDescription:
       "3D Hair&Nails Cube - Lepota kose i noktiju maksimalno izbalansirani kompleks vitamina i minerala koji su neophodni za ishranu, rast",
     image: "/products/3d-hair-i-nails-cube-lepota-kose-i-noktiju.webp",
@@ -368,11 +341,7 @@ export const products: Product[] = [
     slug: "3d-protection-cube",
     name: "3D Protection Cube",
     brand: "3D Cube",
-    categorySlugs: [
-      "3d-cube",
-      "suplementi-za-energiju-i-fokus",
-      "suplementi-za-imunitet",
-    ],
+    categorySlugs: ["3d-cube", "suplementi-za-energiju-i-fokus", "suplementi-za-imunitet"],
     shortDescription: "3D Protection Cube premijalni kompleks deluje istovremeno u tri pravca:",
     image: "/products/3d-protection-cube.jpg",
     price: 4700,
@@ -435,11 +404,7 @@ export const products: Product[] = [
     slug: "essential-fatty-acids-borage-and-amaranth-oil",
     name: "Essential Fatty Acids - Borage and Amaranth Oil",
     brand: "Essential Fatty Acids",
-    categorySlugs: [
-      "essential-fatty-acids",
-      "prevencija-alergija",
-      "suplementi-za-imunitet",
-    ],
+    categorySlugs: ["essential-fatty-acids", "prevencija-alergija", "suplementi-za-imunitet"],
     shortDescription:
       "Essential Fatty Acids - Borage and Amaranth Oil lipidni kompleks sadrži jednu od omega-6 kiselina - gamalinoleinskukiselinu i kompleks vitamina E i D.",
     image: "/products/essential-fatty-acids-borage-and-amaranth-oil.png",
@@ -459,11 +424,7 @@ export const products: Product[] = [
     slug: "synchrovitals-vi-hronobioloska-zastita-zglobova",
     name: "Synchrovitals VI - Hronobiološka zaštita zglobova",
     brand: "Synchrovitals",
-    categorySlugs: [
-      "synchrovitals",
-      "elasticni-zglobovi",
-      "cvrste-kosti",
-    ],
+    categorySlugs: ["synchrovitals", "elasticni-zglobovi", "cvrste-kosti"],
     shortDescription:
       "Synchrovitals VI - Hronobiološka zaštita zglobova predstavlja obnovljen kompleks za normalizovanje i zaštitu stanja vezivnog tkiva",
     image: "/products/synchrovitals-vi-hronobioloska-zastita-zglobova.png",
@@ -562,11 +523,7 @@ export const products: Product[] = [
     slug: "chronolong-women-s-health",
     name: "Chronolong - Women's Health",
     brand: "Women's Health",
-    categorySlugs: [
-      "womens-health",
-      "suplementi-za-energiju-i-fokus",
-      "suplementi-za-zene",
-    ],
+    categorySlugs: ["womens-health", "suplementi-za-energiju-i-fokus", "suplementi-za-zene"],
     shortDescription:
       "Chronolong – Women's Health je prirodni dodatak ishrani sa fitoestrogenima za hormonski balans, lepotu i vitalnost žena 35+.",
     image: "/products/chronolong-women-s-health.jpg",
@@ -593,11 +550,7 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-2-zenska-harmonija",
     name: "Fito čaj od divljeg bilja № 2 - Ženska harmonija",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: [
-      "kolekcija-fitocajeva",
-      "suplementi-za-zene",
-      "vegetarijanski-proizvodi",
-    ],
+    categorySlugs: ["kolekcija-fitocajeva", "suplementi-za-zene", "vegetarijanski-proizvodi"],
     shortDescription:
       "Fito čaj od divljeg bilja № 2 - Ženska harmonija mirisna mešavina na bazi žalfije, matičnjaka, nane i klevera će vas ispuniti spokojem",
     image: "/products/fito-caj-od-divljeg-bilja-2-zenska-harmonija.png",
@@ -653,11 +606,7 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-7-lakoca-pokreta",
     name: "Fito čaj od divljeg bilja № 7 - Lakoća pokreta",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: [
-      "kolekcija-fitocajeva",
-      "elasticni-zglobovi",
-      "vegetarijanski-proizvodi",
-    ],
+    categorySlugs: ["kolekcija-fitocajeva", "elasticni-zglobovi", "vegetarijanski-proizvodi"],
     shortDescription:
       "Fito čaj od divljeg bilja № 7 - Lakoća pokreta prirodna podrška zglobovima - u svakoj šolji mirisnog napitka!",
     image: "/products/fito-caj-od-divljeg-bilja-7-lakoca-pokreta.png",
@@ -667,11 +616,7 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-8-komfor-za-srce",
     name: "Fito čaj od divljeg bilja № 8 - Komfor za srce",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: [
-      "kolekcija-fitocajeva",
-      "zdravo-srce",
-      "vegetarijanski-proizvodi",
-    ],
+    categorySlugs: ["kolekcija-fitocajeva", "zdravo-srce", "vegetarijanski-proizvodi"],
     shortDescription:
       "Fito čaj od divljeg bilja № 8 - Komfor za srce podržite srce pomoću sibirskog bilja i uživajte u ukusu prirodnog čaja.",
     image: "/products/fito-caj-od-divljeg-bilja-8-komfor-za-srce.png",
@@ -681,11 +626,7 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-9-kontrola-ugljenih-hidrata",
     name: "Fito čaj od divljeg bilja № 9 - Kontrola ugljenih hidrata",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: [
-      "kolekcija-fitocajeva",
-      "prevencija-dijabetesa",
-      "vegetarijanski-proizvodi",
-    ],
+    categorySlugs: ["kolekcija-fitocajeva", "prevencija-dijabetesa", "vegetarijanski-proizvodi"],
     shortDescription:
       "Fito čaj od divljeg bilja № 9 - Kontrola ugljenih hidrata šolja aromatičnog biljnog čaja na bazi korena čička, trave lucerke i izdanaka borovnice",
     image: "/products/fito-caj-od-divljeg-bilja-9-kontrola-ugljenih-hidrata.png",
@@ -965,11 +906,7 @@ export const products: Product[] = [
     slug: "omega-3-ultra-fitness-catalist",
     name: "Omega-3 Ultra - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: [
-      "fitness-catalyst",
-      "cvrste-kosti",
-      "suplementi-za-imunitet",
-    ],
+    categorySlugs: ["fitness-catalyst", "cvrste-kosti", "suplementi-za-imunitet"],
     shortDescription:
       "Maksimum Omega-3 Ultra - Fitness Catalist kiselina za snažnu podršku telu tokom intenzivne fizičke aktivnosti.",
     image: "/products/omega-3-ultra-fitness-catalist.png",
@@ -979,11 +916,7 @@ export const products: Product[] = [
     slug: "chromlipaza-fitness-catalist",
     name: "Chromlipaza - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: [
-      "fitness-catalyst",
-      "anti-age-proizvode",
-      "prevencija-dijabetesa",
-    ],
+    categorySlugs: ["fitness-catalyst", "anti-age-proizvode", "prevencija-dijabetesa"],
     shortDescription:
       "Chromlipaza - Fitness Catalist je idealan suplement za sve koji žele efikasno da kontrolišu svoju težinu i apetit.",
     image: "/products/chromlipaza-fitness-catalist.png",
@@ -1459,12 +1392,7 @@ export const products: Product[] = [
     slug: "hijaluronska-kiselina-i-prirodni-vitamin-c-women-s-health",
     name: "Hijaluronska kiselina i prirodni vitamin C - Women's Health",
     brand: "Women's Health",
-    categorySlugs: [
-      "womens-health",
-      "anti-age-proizvode",
-      "duga-mladost",
-      "suplementi-za-zene",
-    ],
+    categorySlugs: ["womens-health", "anti-age-proizvode", "duga-mladost", "suplementi-za-zene"],
     shortDescription:
       "Hijaluronska kiselina i prirodni vitamin C – Women's Health Beauty-kompleks sa hijaluronskom kiselinom i prirodnim vitaminom C",
     image: "/products/hijaluronska-kiselina-i-prirodni-vitamin-c-women-s-health.png",
@@ -1489,11 +1417,7 @@ export const products: Product[] = [
     slug: "essential-botanics-plant-derived-melatonin",
     name: "Essential Botanics - Plant - Derived Melatonin",
     brand: "Essential Botanics",
-    categorySlugs: [
-      "essential-botanics",
-      "antistres-zastita",
-      "suplementi-za-zene",
-    ],
+    categorySlugs: ["essential-botanics", "antistres-zastita", "suplementi-za-zene"],
     shortDescription:
       "Essential Botanics – Plant – Derived Melatonin je neophodna komponenta za zdrav, čvrst san i harmonično funkcionisanje nervnog sistema.",
     image: "/products/essential-botanics-plant-derived-melatonin.png",
@@ -1503,12 +1427,7 @@ export const products: Product[] = [
     slug: "essential-vitamins-vitamin-k2",
     name: "Essential Vitamins - Vitamin K2",
     brand: "Essential Vitamins",
-    categorySlugs: [
-      "essential-vitamins",
-      "zdravo-srce",
-      "anti-age-proizvode",
-      "cvrste-kosti",
-    ],
+    categorySlugs: ["essential-vitamins", "zdravo-srce", "anti-age-proizvode", "cvrste-kosti"],
     shortDescription:
       "Essential Vitamins - Vitamin K2 biološki dostupan oblik vitamina K2, MenaQ7® pruža podršku zdravlju kardiovaskularnog i mišićno-koštanog sistema",
     image: "/products/essential-vitamins-vitamin-k2.png",
@@ -1638,11 +1557,7 @@ export const products: Product[] = [
     slug: "dino-vitamino-syrup-with-vitamins-and-minerals-vitamama",
     name: "Dino Vitamino Syrup with Vitamins and Minerals - Vitamama",
     brand: "Vitamama",
-    categorySlugs: [
-      "vitamama",
-      "suplementi-za-imunitet",
-      "suplementi-za-decu",
-    ],
+    categorySlugs: ["vitamama", "suplementi-za-imunitet", "suplementi-za-decu"],
     shortDescription:
       "Dino Vitamino Syrup with Vitamins and Minerals - Vitamama voćni sirup s vitaminima i mineralnim materijama za rast i normalan razvoj dečjeg organizma.",
     image: "/products/dino-vitamino-syrup-with-vitamins-and-minerals-vitamama.png",
@@ -1652,11 +1567,7 @@ export const products: Product[] = [
     slug: "imunotops-vocne-tablete-za-zvakanje-sa-vitaminima-a-c-i-d-vitamama",
     name: "Imunotops voćne tablete za žvakanje sa vitaminima A, C i D - Vitamama",
     brand: "Vitamama",
-    categorySlugs: [
-      "vitamama",
-      "suplementi-za-imunitet",
-      "suplementi-za-decu",
-    ],
+    categorySlugs: ["vitamama", "suplementi-za-imunitet", "suplementi-za-decu"],
     shortDescription:
       "Imunotops voćne tablete za žvakanje sa vitaminima A, C i D - Vitamama tri glavna vitamina za rast i imunitet!",
     image: "/products/imunotops-vocne-tablete-za-zvakanje-sa-vitaminima-a-c-i-d-vitamama.png",
