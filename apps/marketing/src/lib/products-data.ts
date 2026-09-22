@@ -51,6 +51,7 @@ export const products: Product[] = [
       "prevencija-dijabetesa",
       "suplementi-za-imunitet",
       "antiparazitni-program",
+      "celicni-nervi",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -82,6 +83,7 @@ export const products: Product[] = [
       "zdravo-srce",
       "suplementi-za-vid",
       "suplementi-za-imunitet",
+      "celicni-nervi",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -213,7 +215,7 @@ export const products: Product[] = [
     slug: "essential-botanics-ginkgo-i-baikal-skullcap",
     name: "Essential Botanics - Ginkgo&Baikal Skullcap",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics"],
+    categorySlugs: ["essential-botanics", "celicni-nervi"],
     shortDescription:
       "Essential Botanics - Ginkgo&Baikal Skullcap biljni kompleks na bazi ginko bilobe, Gotu kole i bajkalske kapice - prirodna formula ciljanog delovanja",
     image: "/products/essential-botanics-ginkgo-i-baikal-skullcap.png",
@@ -277,7 +279,11 @@ export const products: Product[] = [
     slug: "iq-box-intelekt",
     name: "IQ BOX - Intelekt",
     brand: "Daily Box",
-    categorySlugs: ["daily-box", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "daily-box",
+      "suplementi-za-energiju-i-fokus",
+      "celicni-nervi",
+    ],
     shortDescription:
       "IQ BOX – Intelekt izbalansirani kompleks vitamina, biljnih ekstrakta i omega-3 masnih kiselina podstiče očuvanje visoke intelektualne aktivnosti",
     image: "/products/iq-box-intelekt.png",
@@ -297,7 +303,7 @@ export const products: Product[] = [
     slug: "siberian-super-natural-nutrition-stress-re-live",
     name: "Siberian Super Natural Nutrition - Stress Re.Live",
     brand: "Siberian Super Natural Nutrition",
-    categorySlugs: ["siberian-super-natural-nutrition", "celicni-nervi"],
+    categorySlugs: ["siberian-super-natural-nutrition"],
     shortDescription:
       "Siberian Super Natural Nutrition - Stress Re.Live inovativni organski kompleks za zaštitu nervnog sistema i prevenciju stresa",
     image: "/products/siberian-super-natural-nutrition-stress-re-live.png",
@@ -396,6 +402,7 @@ export const products: Product[] = [
       "zdravo-srce",
       "prevencija-dijabetesa",
       "suplementi-za-imunitet",
+      "celicni-nervi",
     ],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
@@ -448,6 +455,7 @@ export const products: Product[] = [
       "synchrovitals",
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
+      "celicni-nervi",
     ],
     shortDescription:
       "Synchrovitals II - Hronobiološka zaštita mozga dvofazni neurozaštitni kompleks na bazi ekstrakata ginko bilobe, žen-šena, gotu kole i bajkalske kapice",
@@ -473,6 +481,7 @@ export const products: Product[] = [
       "prevencija-dijabetesa",
       "suplementi-za-imunitet",
       "antiparazitni-program",
+      "celicni-nervi",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -562,7 +571,11 @@ export const products: Product[] = [
     slug: "siberian-wellness-fito-caj-od-divljeg-bilja-3-prirodni-antistres",
     name: "Siberian Wellness Fito čaj od divljeg bilja № 3 - Prirodni antistres",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "antistres-zastita"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "antistres-zastita",
+      "celicni-nervi",
+    ],
     shortDescription:
       "Siberian Wellness Fito čaj od divljeg bilja № 3 - Prirodni antistres šolja mirisnog čaja prijatnog biljnog ukusa pomoći će vam da se opustite",
     image: "/products/siberian-wellness-fito-caj-od-divljeg-bilja-3-prirodni-antistres.png",
@@ -779,6 +792,7 @@ export const products: Product[] = [
       "duga-mladost",
       "zdravo-srce",
       "cvrste-kosti",
+      "celicni-nervi",
     ],
     shortDescription:
       "Essential Mineral - Magnesium with Siberian herbs kompleks sa glavnim mineralom relaksiranja - organskim magnezijumom, obogaćenim ekstraktom valerijane",
@@ -1330,6 +1344,7 @@ export const products: Product[] = [
       "suplementi-za-trudnice-i-dojilje",
       "anti-age-proizvode",
       "zdravo-srce",
+      "celicni-nervi",
     ],
     shortDescription:
       "Methylfolate – Women's Health aktivni oblik folne kiseline Metafolin® od DSM Nutritional sa visokom biodostupnošću, odobren za upotrebu kod trudnica",
@@ -1389,7 +1404,7 @@ export const products: Product[] = [
     slug: "essential-botanics-plant-derived-melatonin",
     name: "Essential Botanics - Plant - Derived Melatonin",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "celicni-nervi", "antistres-zastita"],
+    categorySlugs: ["essential-botanics", "antistres-zastita"],
     shortDescription:
       "Essential Botanics – Plant – Derived Melatonin je neophodna komponenta za zdrav, čvrst san i harmonično funkcionisanje nervnog sistema.",
     image: "/products/essential-botanics-plant-derived-melatonin.png",
@@ -1437,7 +1452,6 @@ export const products: Product[] = [
     categorySlugs: [
       "siberian-super-natural-nutrition",
       "antistres-zastita",
-      "celicni-nervi",
       "anti-age-proizvode",
     ],
     shortDescription:
@@ -1707,7 +1721,6 @@ export const products: Product[] = [
     brand: "Expert Line",
     categorySlugs: [
       "expert-line",
-      "celicni-nervi",
       "anti-age-proizvode",
       "antistres-zastita",
       "suplementi-za-zeludac-i-creva",
@@ -1865,6 +1878,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "antistres-zastita",
       "suplementi-za-imunitet",
+      "celicni-nervi",
     ],
     shortDescription:
       "Lion's Mane & Cordyceps - Essential Botanics dodatak ishrani sa ekstraktima lavlje grive, kordicepsa i L-lizina, namenjen podršci mentalnoj aktivnosti, fokusu",
