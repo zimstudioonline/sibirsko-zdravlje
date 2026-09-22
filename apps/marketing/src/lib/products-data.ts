@@ -20,7 +20,7 @@ export const products: Product[] = [
     slug: "pulse-box-snazno-srce",
     name: "PULSE BOX - Snažno srce",
     brand: "Daily Box",
-    categorySlugs: ["daily-box", "zdravo-srce"],
+    categorySlugs: ["daily-box", "zdravo-srce", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "PULSE BOX – Snažno srce trostepena zaštita kardiovaskularnog sistema za svakog savremenog čoveka: održavanje ćelijske regeneracije",
     image: "/products/pulse-box-snazno-srce.png",
@@ -54,7 +54,11 @@ export const products: Product[] = [
     slug: "renaissance-triple-set-formula-3",
     name: "Renaissance Triple Set - Formula 3",
     brand: "Renaissance Triple Set",
-    categorySlugs: ["renaissance-triple-set", "anti-age-proizvode"],
+    categorySlugs: [
+      "renaissance-triple-set",
+      "anti-age-proizvode",
+      "suplementi-za-energiju-i-fokus",
+    ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
     image: "/products/renaissance-triple-set-formula-3.png",
@@ -64,7 +68,7 @@ export const products: Product[] = [
     slug: "synchrovitals-iii-hronobioloska-zastita-srca",
     name: "Synchrovitals III - Hronobiološka zaštita srca",
     brand: "Synchrovitals",
-    categorySlugs: ["synchrovitals", "zdravo-srce"],
+    categorySlugs: ["synchrovitals", "zdravo-srce", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "Synchrovitals III - Hronobiološka zaštita srca dvofazni kardioprotektivni kompleks na bazi beta-glukana ovsa, Alfa-lipoinske kiseline, selena, likopena",
     image: "/products/synchrovitals-iii-hronobioloska-zastita-srca.png",
@@ -74,7 +78,7 @@ export const products: Product[] = [
     slug: "formula-4-n-v-m-n",
     name: "Formula 4 N.V.M.N",
     brand: "Novomin",
-    categorySlugs: ["novomin", "anti-age-proizvode"],
+    categorySlugs: ["novomin", "anti-age-proizvode", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "Formula 4 N.V.M.N sadrži kompleks s vitaminima  A,C,E , skoro 20 godina se smatra da je to jedna od najjačih antioksidantnih formula.",
     image: "/products/formula-4-n-v-m-n.png",
@@ -94,7 +98,11 @@ export const products: Product[] = [
     slug: "essential-minerals-iodine-with-siberian-herbs",
     name: "Essential Minerals - Iodine with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode"],
+    categorySlugs: [
+      "essential-minerals-elemvitals",
+      "anti-age-proizvode",
+      "suplementi-za-energiju-i-fokus",
+    ],
     shortDescription:
       "Essential Minerals - Iodine with Siberian herbs, kompleks sa visoko bioraspoloživim organskim jodom iz ekstrakta fukusa i prirodnim adaptogenom",
     image: "/products/essential-minerals-iodine-with-siberian-herbs.png",
@@ -124,7 +132,11 @@ export const products: Product[] = [
     slug: "essential-minerals-iron-with-siberian-herbs",
     name: "Essential Minerals - Iron with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode"],
+    categorySlugs: [
+      "essential-minerals-elemvitals",
+      "anti-age-proizvode",
+      "suplementi-za-energiju-i-fokus",
+    ],
     shortDescription:
       "Essential Minerals - Iron with Siberian herbs kompleks sa bioraspoloživim organskim gvožđem poboljšava zasićenje organizma kiseonikom",
     image: "/products/essential-minerals-iron-with-siberian-herbs.png",
@@ -134,7 +146,11 @@ export const products: Product[] = [
     slug: "essential-mineral-calcium-with-siberian-herbs",
     name: "Essential Mineral - Calcium with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals", "cvrste-kosti"],
+    categorySlugs: [
+      "essential-minerals-elemvitals",
+      "cvrste-kosti",
+      "suplementi-za-energiju-i-fokus",
+    ],
     shortDescription:
       "Essential Mineral - Calcium with Siberian herbs kompleks sa prirodnim kalcijumom, obogaćen vitaminom D3, prirodnim silicijumom iz ekstrakta rastavića",
     image: "/products/essential-mineral-calcium-with-siberian-herbs.png",
@@ -214,7 +230,7 @@ export const products: Product[] = [
     slug: "iq-box-intelekt",
     name: "IQ BOX - Intelekt",
     brand: "Daily Box",
-    categorySlugs: ["daily-box"],
+    categorySlugs: ["daily-box", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "IQ BOX – Intelekt izbalansirani kompleks vitamina, biljnih ekstrakta i omega-3 masnih kiselina podstiče očuvanje visoke intelektualne aktivnosti",
     image: "/products/iq-box-intelekt.png",
@@ -274,7 +290,7 @@ export const products: Product[] = [
     slug: "3d-protection-cube",
     name: "3D Protection Cube",
     brand: "3D Cube",
-    categorySlugs: ["3d-cube"],
+    categorySlugs: ["3d-cube", "suplementi-za-energiju-i-fokus"],
     shortDescription: "3D Protection Cube premijalni kompleks deluje istovremeno u tri pravca:",
     image: "/products/3d-protection-cube.jpg",
     price: 4700,
@@ -303,7 +319,12 @@ export const products: Product[] = [
     slug: "healthy-rhythms",
     name: "Healthy Rhythms",
     brand: "Healthy Rhythms",
-    categorySlugs: ["healthy-rhythms", "anti-age-proizvode", "antistres-zastita"],
+    categorySlugs: [
+      "healthy-rhythms",
+      "anti-age-proizvode",
+      "antistres-zastita",
+      "suplementi-za-energiju-i-fokus",
+    ],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
     image: "/products/healthy-rhythms.jpg",
@@ -343,7 +364,7 @@ export const products: Product[] = [
     slug: "synchrovitals-ii-hronobioloska-zastita-mozga",
     name: "Synchrovitals II - Hronobiološka zaštita mozga",
     brand: "Synchrovitals",
-    categorySlugs: ["synchrovitals"],
+    categorySlugs: ["synchrovitals", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "Synchrovitals II - Hronobiološka zaštita mozga dvofazni neurozaštitni kompleks na bazi ekstrakata ginko bilobe, žen-šena, gotu kole i bajkalske kapice",
     image: "/products/synchrovitals-ii-hronobioloska-zastita-mozga.png",
@@ -353,7 +374,11 @@ export const products: Product[] = [
     slug: "komplet-za-kompleksno-ciscenje-organizma",
     name: "Komplet za kompleksno čišćenje organizma",
     brand: "Renaissance Triple Set",
-    categorySlugs: ["renaissance-triple-set", "detoks-i-ciscenje-organizma"],
+    categorySlugs: [
+      "renaissance-triple-set",
+      "detoks-i-ciscenje-organizma",
+      "suplementi-za-energiju-i-fokus",
+    ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
     image: "/products/komplet-za-kompleksno-ciscenje-organizma.png",
@@ -373,7 +398,7 @@ export const products: Product[] = [
     slug: "synchrovitals-v-hronobioloska-zastita-imuniteta",
     name: "Synchrovitals V - Hronobiološka zaštita imuniteta",
     brand: "Synchrovitals",
-    categorySlugs: ["synchrovitals", "suplementi-za-imunitet"],
+    categorySlugs: ["synchrovitals", "suplementi-za-imunitet", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "Synchrovitals V - Hronobiološka zaštita imuniteta se preporučuje odraslima kao izvor ginsenozida i dodatni izvor apigenina.",
     image: "/products/synchrovitals-v-hronobioloska-zastita-imuniteta.png",
@@ -383,7 +408,7 @@ export const products: Product[] = [
     slug: "adaptovit",
     name: "Adaptovit",
     brand: "Adaptovit",
-    categorySlugs: ["adaptovit"],
+    categorySlugs: ["adaptovit", "suplementi-za-energiju-i-fokus"],
     shortDescription: "„Adaptovit“ energomodulirajući kompleks  u spreju.",
     image: "/products/adaptovit.jpg",
     price: 1250,
@@ -392,7 +417,7 @@ export const products: Product[] = [
     slug: "chronolong-women-s-health",
     name: "Chronolong - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health", "duga-mladost"],
+    categorySlugs: ["womens-health", "duga-mladost", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "Chronolong – Women's Health je prirodni dodatak ishrani sa fitoestrogenima za hormonski balans, lepotu i vitalnost žena 35+.",
     image: "/products/chronolong-women-s-health.jpg",
@@ -496,7 +521,7 @@ export const products: Product[] = [
     slug: "essential-vitamins-vitamin-d3",
     name: "Essential Vitamins - Vitamin D3",
     brand: "Essential Vitamins",
-    categorySlugs: ["essential-vitamins", "anti-age-proizvode"],
+    categorySlugs: ["essential-vitamins", "anti-age-proizvode", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "Essential Vitamins - Vitamin D3, rastvor za oralnu upotrebu je dijetetski suplement sa vitaminom D.",
     image: "/products/essential-vitamins-vitamin-d3.png",
@@ -546,7 +571,7 @@ export const products: Product[] = [
     slug: "immuno-box-zastita-od-infekcija",
     name: "IMMUNO BOX - Zaštita od infekcija",
     brand: "Daily Box",
-    categorySlugs: ["daily-box", "suplementi-za-imunitet"],
+    categorySlugs: ["daily-box", "suplementi-za-imunitet", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "IMMUNO BOX - Zaštita od infekcija kompleksna zaštita tela: prirodni imunostimulansi, biljni antiseptici i prirodni adaptogeni - za odlično zdravlje",
     image: "/products/immuno-box-zastita-od-infekcija.jpg",
@@ -576,7 +601,7 @@ export const products: Product[] = [
     slug: "corenrg-urban-immunobooster",
     name: "CoreNRG Urban Immunobooster",
     brand: "CoreNRG",
-    categorySlugs: ["corenrg"],
+    categorySlugs: ["corenrg", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "CoreNRG Urban Immunobooster moćan koncentrat soka od jele, pojačan ekstraktima sibirskih adaptogenih biljaka. Svaka kap sadrži snagu cele Sibirske tajge!",
     image: "/products/corenrg-urban-immunobooster.webp",
@@ -586,7 +611,11 @@ export const products: Product[] = [
     slug: "essential-minerals-zinc-with-siberian-herbs",
     name: "Essential Minerals - Zinc with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals", "anti-age-proizvode"],
+    categorySlugs: [
+      "essential-minerals-elemvitals",
+      "anti-age-proizvode",
+      "suplementi-za-energiju-i-fokus",
+    ],
     shortDescription:
       "Essential Minerals - Zinc with Siberian herbs kompleks sa organskim cinkom i bakrom u kombinaciji sa biljnim ekstraktima štiti telo od slobodnih radikala",
     image: "/products/essential-minerals-zinc-with-siberian-herbs.png",
@@ -596,7 +625,11 @@ export const products: Product[] = [
     slug: "essential-mineral-magnesium-with-siberian-herbs",
     name: "Essential Mineral - Magnesium with Siberian herbs",
     brand: "Essential Minerals Elemvitals",
-    categorySlugs: ["essential-minerals-elemvitals", "antistres-zastita"],
+    categorySlugs: [
+      "essential-minerals-elemvitals",
+      "antistres-zastita",
+      "suplementi-za-energiju-i-fokus",
+    ],
     shortDescription:
       "Essential Mineral - Magnesium with Siberian herbs kompleks sa glavnim mineralom relaksiranja - organskim magnezijumom, obogaćenim ekstraktom valerijane",
     image: "/products/essential-mineral-magnesium-with-siberian-herbs.png",
@@ -626,7 +659,7 @@ export const products: Product[] = [
     slug: "tonizirajuca-krema-za-noge-sibirski-balzam",
     name: "Tonizirajuća krema za noge - Sibirski balzam",
     brand: "Sibirski balzami",
-    categorySlugs: ["sibirski-balzami", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: ["sibirski-balzami"],
     shortDescription:
       "Tonirajuća krema za besprekorne noge sa aktivnim tonirajućim kompleksom za brzo otklanjanje umora i osećaja težine u nogama.",
     image: "/products/tonizirajuca-krema-za-noge-sibirski-balzam.png",
@@ -1258,7 +1291,7 @@ export const products: Product[] = [
     slug: "energetski-booster-fitness-catalist",
     name: "Energetski Booster - Fitness Catalist",
     brand: "Fitness Catalyst",
-    categorySlugs: ["fitness-catalyst", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: ["fitness-catalyst"],
     shortDescription:
       "Energetski Booster - Fitness Catalist s zasićenim ukusom čokolade - tvoj pratilac u svet divnih utisaka! Inovativni ženšen Cereboost™ snabdeva mozak energijom",
     image: "/products/energetski-booster-fitness-catalist.png",
@@ -1268,7 +1301,7 @@ export const products: Product[] = [
     slug: "essential-fatty-acids-siberian-linseed-oil-i-omega-3",
     name: "Essential Fatty Acids - Siberian Linseed Oil&Omega-3",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids"],
+    categorySlugs: ["essential-fatty-acids", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "Essential Fatty Acids - Siberian Linseed Oil&Omega-3 koncentrat obogaćen vitaminom E za vašu svakodnevnu ishranu.",
     image: "/products/essential-fatty-acids-siberian-linseed-oil-i-omega-3.png",
@@ -1613,7 +1646,7 @@ export const products: Product[] = [
     slug: "lutein-i-zeaxanthin-essential-fatty-acids",
     name: "Lutein & Zeaxanthin - Essential Fatty Acids",
     brand: "Essential Fatty Acids",
-    categorySlugs: ["essential-fatty-acids", "suplementi-za-vid"],
+    categorySlugs: ["essential-fatty-acids", "suplementi-za-vid", "suplementi-za-energiju-i-fokus"],
     shortDescription:
       "Lutein & Zeaxanthin - Essential Fatty Acids biljni kompleks sa prirodnim svetlosnim filterima – luteinom i zeaksantinom – štiti mrežnjaču oka",
     image: "/products/lutein-i-zeaxanthin-essential-fatty-acids.png",
@@ -1653,12 +1686,7 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-11-energija-i-vitalnost",
     name: "Fito čaj od divljeg bilja №11 – Energija i vitalnost",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: [
-      "kolekcija-fitocajeva",
-      "suplementi-za-energiju-i-fokus",
-      "duga-mladost",
-      "antistres-zastita",
-    ],
+    categorySlugs: ["kolekcija-fitocajeva", "duga-mladost", "antistres-zastita"],
     shortDescription:
       "Fito čaj od divljeg bilja №11 – Energija i vitalnost pravi tajga ukus i aroma – bez kofeina i veštačkih dodataka.",
     image: "/products/fito-caj-od-divljeg-bilja-11-energija-i-vitalnost.png",
@@ -1688,7 +1716,7 @@ export const products: Product[] = [
     slug: "totalni-serum-lepote-experalta-pro",
     name: "Totalni serum lepote - Experalta Pro",
     brand: "Kozmetika Experalta Pro",
-    categorySlugs: ["kozmetika-experalta-pro", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: ["kozmetika-experalta-pro"],
     shortDescription:
       "Totalni serum lepote - Experalta Pro za intenzivno hidriranje snabdeva ćelije kože energijom, sistemski podržava njihov rad",
     image: "/products/totalni-serum-lepote-experalta-pro.png",
