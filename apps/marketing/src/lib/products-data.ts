@@ -327,6 +327,7 @@ export const products: Product[] = [
       "kolekcija-fitocajeva",
       "detoks-i-ciscenje-organizma",
       "antiparazitni-program",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Fito čaj od divljeg bilja № 1 - Čišćenje i drenaža biljni čaj sa kurilskim čajem, senom i detelinom pružiće vam osećaj lakoće",
@@ -356,6 +357,7 @@ export const products: Product[] = [
       "3d-cube",
       "duga-mladost",
       "suplementi-za-zene",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "3D Hair&Nails Cube - Lepota kose i noktiju maksimalno izbalansirani kompleks vitamina i minerala koji su neophodni za ishranu, rast",
@@ -383,6 +385,7 @@ export const products: Product[] = [
       "kolekcija-fitocajeva",
       "suplementi-za-imunitet",
       "suplementi-za-zene",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Siberian Wellness Fito čaj od divljeg bilja № 4 - Lagani dah pri prvom znaku prehlade, pripremite šolju biljnog čaja sa kamilicom, lipom i majčinom dušicom",
@@ -549,6 +552,7 @@ export const products: Product[] = [
       "adaptovit",
       "suplementi-za-energiju-i-fokus",
       "suplementi-za-imunitet",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription: "„Adaptovit“ energomodulirajući kompleks  u spreju.",
     image: "/products/adaptovit.jpg",
@@ -589,7 +593,11 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-2-zenska-harmonija",
     name: "Fito čaj od divljeg bilja № 2 - Ženska harmonija",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "suplementi-za-zene"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "suplementi-za-zene",
+      "vegetarijanski-proizvodi",
+    ],
     shortDescription:
       "Fito čaj od divljeg bilja № 2 - Ženska harmonija mirisna mešavina na bazi žalfije, matičnjaka, nane i klevera će vas ispuniti spokojem",
     image: "/products/fito-caj-od-divljeg-bilja-2-zenska-harmonija.png",
@@ -603,6 +611,7 @@ export const products: Product[] = [
       "kolekcija-fitocajeva",
       "antistres-zastita",
       "celicni-nervi",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Siberian Wellness Fito čaj od divljeg bilja № 3 - Prirodni antistres šolja mirisnog čaja prijatnog biljnog ukusa pomoći će vam da se opustite",
@@ -617,6 +626,7 @@ export const products: Product[] = [
       "kolekcija-fitocajeva",
       "suplementi-za-zeludac-i-creva",
       "detoks-i-ciscenje-organizma",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Fito čaj od divljeg bilja № 5 - Komforno varenje osetite komfor i lakoću zahvaljujući jedinstvenom sastavu sibirskog bilja u čaju iz Siberian Wellnessa!",
@@ -632,6 +642,7 @@ export const products: Product[] = [
       "suplementi-za-jetru",
       "suplementi-za-zeludac-i-creva",
       "antiparazitni-program",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Fito čaj od divljeg bilja № 6 - Zaštita jetre osvežavajući biljni čaj blagotvorno deluje na funkciju jetre, podstiče brzi oporavak ćelija",
@@ -642,7 +653,11 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-7-lakoca-pokreta",
     name: "Fito čaj od divljeg bilja № 7 - Lakoća pokreta",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "elasticni-zglobovi"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "elasticni-zglobovi",
+      "vegetarijanski-proizvodi",
+    ],
     shortDescription:
       "Fito čaj od divljeg bilja № 7 - Lakoća pokreta prirodna podrška zglobovima - u svakoj šolji mirisnog napitka!",
     image: "/products/fito-caj-od-divljeg-bilja-7-lakoca-pokreta.png",
@@ -652,7 +667,11 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-8-komfor-za-srce",
     name: "Fito čaj od divljeg bilja № 8 - Komfor za srce",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "zdravo-srce"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "zdravo-srce",
+      "vegetarijanski-proizvodi",
+    ],
     shortDescription:
       "Fito čaj od divljeg bilja № 8 - Komfor za srce podržite srce pomoću sibirskog bilja i uživajte u ukusu prirodnog čaja.",
     image: "/products/fito-caj-od-divljeg-bilja-8-komfor-za-srce.png",
@@ -662,7 +681,11 @@ export const products: Product[] = [
     slug: "fito-caj-od-divljeg-bilja-9-kontrola-ugljenih-hidrata",
     name: "Fito čaj od divljeg bilja № 9 - Kontrola ugljenih hidrata",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "prevencija-dijabetesa"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "prevencija-dijabetesa",
+      "vegetarijanski-proizvodi",
+    ],
     shortDescription:
       "Fito čaj od divljeg bilja № 9 - Kontrola ugljenih hidrata šolja aromatičnog biljnog čaja na bazi korena čička, trave lucerke i izdanaka borovnice",
     image: "/products/fito-caj-od-divljeg-bilja-9-kontrola-ugljenih-hidrata.png",
@@ -692,6 +715,7 @@ export const products: Product[] = [
       "suplementi-za-zene",
       "suplementi-za-muskarce",
       "suplementi-za-decu",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Essential Vitamins - Vitamin D3, rastvor za oralnu upotrebu je dijetetski suplement sa vitaminom D.",
@@ -706,6 +730,7 @@ export const products: Product[] = [
       "vitamama",
       "suplementi-za-imunitet",
       "suplementi-za-decu",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Sirup za imunitet Immunotops - Vitamama ukusni prirodni pomoćnik imunog sistema! Bez šećera, ali sa inulinskim sirupom za crevni mikrobiom",
@@ -785,6 +810,7 @@ export const products: Product[] = [
       "zdravo-srce",
       "suplementi-za-zene",
       "suplementi-za-muskarce",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Essential Vitamins - Diosmin i rutin prirodni venotonik na bazi diosmina i rutina za sprečavanje narušavanja limfotoka i cirkulacije u nogama.",
@@ -799,6 +825,7 @@ export const products: Product[] = [
       "corenrg",
       "suplementi-za-energiju-i-fokus",
       "suplementi-za-imunitet",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "CoreNRG Urban Immunobooster moćan koncentrat soka od jele, pojačan ekstraktima sibirskih adaptogenih biljaka. Svaka kap sadrži snagu cele Sibirske tajge!",
@@ -847,6 +874,7 @@ export const products: Product[] = [
       "essential-probiotics",
       "suplementi-za-zeludac-i-creva",
       "suplementi-za-imunitet",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Elbifid - Essential Probiotics dodatak ishrani s lakto i bifidobakterijama.Probiotički kompleks koji je po sastavu blizak prirodnom crevnom mikrobiomu.",
@@ -980,6 +1008,7 @@ export const products: Product[] = [
       "suplementi-za-zeludac-i-creva",
       "prevencija-dijabetesa",
       "suplementi-za-imunitet",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Essential Sorbents Prirodni inulinski koncentrat- kompleks biološki aktivnih supstanci izuzetno je delotvoran",
@@ -1074,6 +1103,7 @@ export const products: Product[] = [
       "renaissance-triple-set",
       "detoks-i-ciscenje-organizma",
       "suplementi-za-zeludac-i-creva",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Turbo čaj – čaj za čišćenje je fitodetoks za vaše telo: sena poboljšava varenje, pomaže u uklanjanju viška tečnosti, daje lakoću i komfor, đumbir",
@@ -1370,6 +1400,7 @@ export const products: Product[] = [
       "zdravo-srce",
       "suplementi-za-imunitet",
       "suplementi-za-zene",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Age Тhеrару Antioxidants – Women's Health kompleksan anti-age program sa najvažnijim antioksidansima za svakodnevnu podršku lepoti",
@@ -1401,6 +1432,7 @@ export const products: Product[] = [
       "womens-health",
       "zdravi-bubrezi",
       "suplementi-za-zene",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "D-manoza i severna brusnica – Women's Health prirodni uroprotektor na bazi D-manoze, ekstrakta brusnice, hibiskusa i medveđeg uva štiti bubrege",
@@ -1416,6 +1448,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-zene",
       "suplementi-za-trudnice-i-dojilje",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Iron Bisglycinate – Women's Health gvožđe u biodostupnom helatnom obliku za prevenciju deficita gvožđa i podršku procesima stvaranja krvi",
@@ -1513,6 +1546,7 @@ export const products: Product[] = [
       "siberian-super-natural-nutrition",
       "antistres-zastita",
       "anti-age-proizvode",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. Stress Re.Live Inovativni organski kompleksi za zaštitu nervnog sistema i sprečavanje stresa",
@@ -1593,6 +1627,7 @@ export const products: Product[] = [
       "vitamama",
       "suplementi-za-vid",
       "suplementi-za-decu",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Dino Vision Chewable Tablets with Blueberry and Carotenoids - Vitamama tablete sa antioksidansima, karotenoidima i svetlosnim filterima štite mrežnjaču",
@@ -1747,6 +1782,7 @@ export const products: Product[] = [
       "suplementi-za-zeludac-i-creva",
       "prevencija-alergija",
       "suplementi-za-imunitet",
+      "vegetarijanski-proizvodi",
     ],
     shortDescription:
       "Essential Sorbents - Pure Life detox - koktel na bazi prirodnih fitosorbenata podstiče efikasno i nežno čišćenje organizma od toksina",
