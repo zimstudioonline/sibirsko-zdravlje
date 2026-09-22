@@ -326,7 +326,6 @@ export const products: Product[] = [
     categorySlugs: [
       "kolekcija-fitocajeva",
       "detoks-i-ciscenje-organizma",
-      "suplementi-za-decu",
       "antiparazitni-program",
     ],
     shortDescription:
@@ -692,6 +691,7 @@ export const products: Product[] = [
       "suplementi-za-imunitet",
       "suplementi-za-zene",
       "suplementi-za-muskarce",
+      "suplementi-za-decu",
     ],
     shortDescription:
       "Essential Vitamins - Vitamin D3, rastvor za oralnu upotrebu je dijetetski suplement sa vitaminom D.",
@@ -702,7 +702,11 @@ export const products: Product[] = [
     slug: "sirup-za-imunitet-immunotops-vitamama",
     name: "Sirup za imunitet Immunotops - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama", "suplementi-za-imunitet"],
+    categorySlugs: [
+      "vitamama",
+      "suplementi-za-imunitet",
+      "suplementi-za-decu",
+    ],
     shortDescription:
       "Sirup za imunitet Immunotops - Vitamama ukusni prirodni pomoćnik imunog sistema! Bez šećera, ali sa inulinskim sirupom za crevni mikrobiom",
     image: "/products/sirup-za-imunitet-immunotops-vitamama.png",
@@ -883,7 +887,7 @@ export const products: Product[] = [
     slug: "calcitops-hrskave-kuglice-s-kakao-uljem-malina-vitamama",
     name: "Calcitops, hrskave kuglice s kakao uljem malina - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama"],
+    categorySlugs: ["vitamama", "suplementi-za-decu"],
     shortDescription:
       "Calcitops, hrskave kuglice s kakao uljem malina - Vitamama pokloniće snagu i postaće izvor kalcijuma za harmoničan rast.",
     image: "/products/calcitops-hrskave-kuglice-s-kakao-uljem-malina-vitamama.png",
@@ -986,7 +990,7 @@ export const products: Product[] = [
     slug: "mama-box-dojenje",
     name: "MAMA BOX - Dojenje",
     brand: "Daily Box",
-    categorySlugs: ["daily-box", "suplementi-za-trudnice-i-dojilje", "suplementi-za-decu"],
+    categorySlugs: ["daily-box", "suplementi-za-trudnice-i-dojilje"],
     shortDescription:
       "MAMA BOX_- Dojenje, vitamini, minerali i dragocene omega-3 za dojilju i bebu.",
     image: "/products/mama-box-dojenje.jpg",
@@ -996,7 +1000,7 @@ export const products: Product[] = [
     slug: "omegalodon-multifruit-kompleks-omega-3-kiselina-vitamama",
     name: "OMEGAlodon multifruit, kompleks omega-3 kiselina - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama"],
+    categorySlugs: ["vitamama", "suplementi-za-decu"],
     shortDescription:
       "OMEGAlodon multifruit, kompleks omega-3 kiselina - Vitamama,  s vitaminima A, D3, E i voćnim mirisom će se pobrinuti o zdravlju vaše dece",
     image: "/products/omegalodon-multifruit-kompleks-omega-3-kiselina-vitamama.png",
@@ -1585,7 +1589,11 @@ export const products: Product[] = [
     slug: "dino-vision-chewable-tablets-with-blueberry-and-carotenoids-vitamama",
     name: "Dino Vision Chewable Tablets with Blueberry and Carotenoids - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama", "suplementi-za-vid"],
+    categorySlugs: [
+      "vitamama",
+      "suplementi-za-vid",
+      "suplementi-za-decu",
+    ],
     shortDescription:
       "Dino Vision Chewable Tablets with Blueberry and Carotenoids - Vitamama tablete sa antioksidansima, karotenoidima i svetlosnim filterima štite mrežnjaču",
     image: "/products/dino-vision-chewable-tablets-with-blueberry-and-carotenoids-vitamama.png",
@@ -1595,7 +1603,11 @@ export const products: Product[] = [
     slug: "dino-vitamino-syrup-with-vitamins-and-minerals-vitamama",
     name: "Dino Vitamino Syrup with Vitamins and Minerals - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama", "suplementi-za-imunitet"],
+    categorySlugs: [
+      "vitamama",
+      "suplementi-za-imunitet",
+      "suplementi-za-decu",
+    ],
     shortDescription:
       "Dino Vitamino Syrup with Vitamins and Minerals - Vitamama voćni sirup s vitaminima i mineralnim materijama za rast i normalan razvoj dečjeg organizma.",
     image: "/products/dino-vitamino-syrup-with-vitamins-and-minerals-vitamama.png",
@@ -1605,7 +1617,11 @@ export const products: Product[] = [
     slug: "imunotops-vocne-tablete-za-zvakanje-sa-vitaminima-a-c-i-d-vitamama",
     name: "Imunotops voćne tablete za žvakanje sa vitaminima A, C i D - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama", "suplementi-za-imunitet"],
+    categorySlugs: [
+      "vitamama",
+      "suplementi-za-imunitet",
+      "suplementi-za-decu",
+    ],
     shortDescription:
       "Imunotops voćne tablete za žvakanje sa vitaminima A, C i D - Vitamama tri glavna vitamina za rast i imunitet!",
     image: "/products/imunotops-vocne-tablete-za-zvakanje-sa-vitaminima-a-c-i-d-vitamama.png",
@@ -1615,7 +1631,7 @@ export const products: Product[] = [
     slug: "dino-lactino-pektinski-sorbent-vitamama",
     name: "Dino Lactino Pektinski Sorbent - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama"],
+    categorySlugs: ["vitamama", "suplementi-za-decu"],
     shortDescription:
       "Dino Lactino Pektinski Sorbent - Vitamama najbolji prijatelj malenih stomaka će priskočiti u pomoć u svakom trenutku!",
     image: "/products/dino-lactino-pektinski-sorbent-vitamama.png",
@@ -1756,7 +1772,7 @@ export const products: Product[] = [
     slug: "immunotops-hrskave-kuglice-sa-inulinom-visnja-vitamama",
     name: "Immunotops hrskave kuglice sa inulinom višnja - Vitamama",
     brand: "Vitamama",
-    categorySlugs: ["vitamama"],
+    categorySlugs: ["vitamama", "suplementi-za-decu"],
     shortDescription:
       "Immunotops hrskave kuglice sa inulinom višnja - Vitamama ukusan izvor vitamina C, vlakana i odličnog raspoloženja!",
     image: "/products/immunotops-hrskave-kuglice-sa-inulinom-visnja-vitamama.png",
