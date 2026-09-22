@@ -52,6 +52,7 @@ export const products: Product[] = [
       "suplementi-za-imunitet",
       "antiparazitni-program",
       "celicni-nervi",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -84,6 +85,7 @@ export const products: Product[] = [
       "suplementi-za-vid",
       "suplementi-za-imunitet",
       "celicni-nervi",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -111,6 +113,7 @@ export const products: Product[] = [
       "duga-mladost",
       "suplementi-za-jetru",
       "suplementi-za-imunitet",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Formula 4 N.V.M.N sadrži kompleks s vitaminima  A,C,E , skoro 20 godina se smatra da je to jedna od najjačih antioksidantnih formula.",
@@ -269,7 +272,7 @@ export const products: Product[] = [
     slug: "beauty-box-lepota-i-sjaj",
     name: "BEAUTY BOX - Lepota i sjaj",
     brand: "Daily Box",
-    categorySlugs: ["daily-box"],
+    categorySlugs: ["daily-box", "suplementi-za-zene"],
     shortDescription:
       "BEAUTY BOX – Lepota i sjaj vitaminsko-antioksidativni kompleks obezbediće da vaša lepota i mladost ne zavise od okoline, stresa i nedostatka sna",
     image: "/products/beauty-box-lepota-i-sjaj.png",
@@ -343,7 +346,11 @@ export const products: Product[] = [
     slug: "3d-hair-i-nails-cube-lepota-kose-i-noktiju",
     name: "3D Hair&Nails Cube - Lepota kose i noktiju",
     brand: "3D Cube",
-    categorySlugs: ["3d-cube", "duga-mladost"],
+    categorySlugs: [
+      "3d-cube",
+      "duga-mladost",
+      "suplementi-za-zene",
+    ],
     shortDescription:
       "3D Hair&Nails Cube - Lepota kose i noktiju maksimalno izbalansirani kompleks vitamina i minerala koji su neophodni za ishranu, rast",
     image: "/products/3d-hair-i-nails-cube-lepota-kose-i-noktiju.webp",
@@ -366,7 +373,11 @@ export const products: Product[] = [
     slug: "siberian-wellness-fito-caj-od-divljeg-bilja-4-lagani-dah",
     name: "Siberian Wellness Fito čaj od divljeg bilja № 4 - Lagani dah",
     brand: "Kolekcija fitočajeva",
-    categorySlugs: ["kolekcija-fitocajeva", "suplementi-za-imunitet"],
+    categorySlugs: [
+      "kolekcija-fitocajeva",
+      "suplementi-za-imunitet",
+      "suplementi-za-zene",
+    ],
     shortDescription:
       "Siberian Wellness Fito čaj od divljeg bilja № 4 - Lagani dah pri prvom znaku prehlade, pripremite šolju biljnog čaja sa kamilicom, lipom i majčinom dušicom",
     image: "/products/siberian-wellness-fito-caj-od-divljeg-bilja-4-lagani-dah.png",
@@ -403,6 +414,7 @@ export const products: Product[] = [
       "prevencija-dijabetesa",
       "suplementi-za-imunitet",
       "celicni-nervi",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
@@ -482,6 +494,7 @@ export const products: Product[] = [
       "suplementi-za-imunitet",
       "antiparazitni-program",
       "celicni-nervi",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -512,6 +525,7 @@ export const products: Product[] = [
       "suplementi-za-imunitet",
       "suplementi-za-energiju-i-fokus",
       "prevencija-alergija",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Synchrovitals V - Hronobiološka zaštita imuniteta se preporučuje odraslima kao izvor ginsenozida i dodatni izvor apigenina.",
@@ -535,7 +549,11 @@ export const products: Product[] = [
     slug: "chronolong-women-s-health",
     name: "Chronolong - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health", "suplementi-za-energiju-i-fokus"],
+    categorySlugs: [
+      "womens-health",
+      "suplementi-za-energiju-i-fokus",
+      "suplementi-za-zene",
+    ],
     shortDescription:
       "Chronolong – Women's Health je prirodni dodatak ishrani sa fitoestrogenima za hormonski balans, lepotu i vitalnost žena 35+.",
     image: "/products/chronolong-women-s-health.jpg",
@@ -551,6 +569,7 @@ export const products: Product[] = [
       "suplementi-za-zeludac-i-creva",
       "zdravo-srce",
       "suplementi-za-imunitet",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Trimegavitals - All-Natural Beta-Carotene&Sea Buckthorn Oil formula sa prirodnim beta-karotenom smanjuje negativne efekte UV zračenja",
@@ -661,6 +680,7 @@ export const products: Product[] = [
       "elasticni-zglobovi",
       "cvrste-kosti",
       "suplementi-za-imunitet",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Essential Vitamins - Vitamin D3, rastvor za oralnu upotrebu je dijetetski suplement sa vitaminom D.",
@@ -731,6 +751,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "duga-mladost",
       "cvrste-kosti",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "LITE STEP BOX - Lagani hod dvostepena zaštita od proširenih vena: normalizuje cirkulaciju krvi, jača zidove kapilara i krvnih sudova.",
@@ -746,6 +767,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "duga-mladost",
       "zdravo-srce",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Essential Vitamins - Diosmin i rutin prirodni venotonik na bazi diosmina i rutina za sprečavanje narušavanja limfotoka i cirkulacije u nogama.",
@@ -1329,6 +1351,7 @@ export const products: Product[] = [
       "suplementi-za-zeludac-i-creva",
       "zdravo-srce",
       "suplementi-za-imunitet",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Age Тhеrару Antioxidants – Women's Health kompleksan anti-age program sa najvažnijim antioksidansima za svakodnevnu podršku lepoti",
@@ -1345,6 +1368,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "zdravo-srce",
       "celicni-nervi",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Methylfolate – Women's Health aktivni oblik folne kiseline Metafolin® od DSM Nutritional sa visokom biodostupnošću, odobren za upotrebu kod trudnica",
@@ -1355,7 +1379,11 @@ export const products: Product[] = [
     slug: "d-manoza-i-severna-brusnica-women-s-health",
     name: "D-manoza i severna brusnica - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health", "zdravi-bubrezi"],
+    categorySlugs: [
+      "womens-health",
+      "zdravi-bubrezi",
+      "suplementi-za-zene",
+    ],
     shortDescription:
       "D-manoza i severna brusnica – Women's Health prirodni uroprotektor na bazi D-manoze, ekstrakta brusnice, hibiskusa i medveđeg uva štiti bubrege",
     image: "/products/d-manoza-i-severna-brusnica-women-s-health.png",
@@ -1365,7 +1393,11 @@ export const products: Product[] = [
     slug: "iron-bisglycinate-women-s-health",
     name: "Iron Bisglycinate - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health", "anti-age-proizvode"],
+    categorySlugs: [
+      "womens-health",
+      "anti-age-proizvode",
+      "suplementi-za-zene",
+    ],
     shortDescription:
       "Iron Bisglycinate – Women's Health gvožđe u biodostupnom helatnom obliku za prevenciju deficita gvožđa i podršku procesima stvaranja krvi",
     image: "/products/iron-bisglycinate-women-s-health.png",
@@ -1379,6 +1411,7 @@ export const products: Product[] = [
       "womens-health",
       "anti-age-proizvode",
       "duga-mladost",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Hijaluronska kiselina i prirodni vitamin C – Women's Health Beauty-kompleks sa hijaluronskom kiselinom i prirodnim vitaminom C",
@@ -1404,7 +1437,11 @@ export const products: Product[] = [
     slug: "essential-botanics-plant-derived-melatonin",
     name: "Essential Botanics - Plant - Derived Melatonin",
     brand: "Essential Botanics",
-    categorySlugs: ["essential-botanics", "antistres-zastita"],
+    categorySlugs: [
+      "essential-botanics",
+      "antistres-zastita",
+      "suplementi-za-zene",
+    ],
     shortDescription:
       "Essential Botanics – Plant – Derived Melatonin je neophodna komponenta za zdrav, čvrst san i harmonično funkcionisanje nervnog sistema.",
     image: "/products/essential-botanics-plant-derived-melatonin.png",
@@ -1689,6 +1726,7 @@ export const products: Product[] = [
       "siberian-super-natural-nutrition",
       "anti-age-proizvode",
       "duga-mladost",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Siberian Super Natural Nutrition - ECO. BeautySense nutrikozmetički anti-age sistem za očuvanje mladalačkog izgleda kože u novom ekološkom pakovanju.",
@@ -1709,7 +1747,12 @@ export const products: Product[] = [
     slug: "koenzim-q10-expert-line",
     name: "Koenzim Q10 - Expert Line",
     brand: "Expert Line",
-    categorySlugs: ["expert-line", "zdravo-srce", "anti-age-proizvode"],
+    categorySlugs: [
+      "expert-line",
+      "zdravo-srce",
+      "anti-age-proizvode",
+      "suplementi-za-zene",
+    ],
     shortDescription:
       "Biodostupni Koenzim Q10 štiti srce i krvne sudove od procesa starenja, povećava energetski potencijal ćelija i održava lepotu kože i kose.",
     image: "/products/koenzim-q10-expert-line.png",
@@ -1726,6 +1769,7 @@ export const products: Product[] = [
       "suplementi-za-zeludac-i-creva",
       "zdravo-srce",
       "prevencija-dijabetesa",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Magnesium Multi-Chelate - Expert Line u bioraspoloživim oblicima pomaže u smanjenju nervne napetosti i vraćanju emocionalne ravnoteže",
@@ -1862,6 +1906,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "suplementi-za-jetru",
       "zdravo-srce",
+      "suplementi-za-zene",
     ],
     shortDescription:
       "Tree Mushroom Complex - Essential Botanics dodatak ishrani sa četiri vrste gljiva ( čaga, šiitake, reiši i maitake ) namenjen je nutritivnoj podršci imunitetu",
