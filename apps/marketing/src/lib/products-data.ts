@@ -44,6 +44,7 @@ export const products: Product[] = [
       "suplementi-za-zeludac-i-creva",
       "suplementi-za-jetru",
       "zdravi-bubrezi",
+      "zdravo-srce",
     ],
     shortDescription:
       "Renaissance Triple Set – je potpuno nov sistem trostruke podrške razmene materija, metabolizma energije i štiti ćelije od oksidacije",
@@ -72,6 +73,7 @@ export const products: Product[] = [
       "suplementi-za-zeludac-i-creva",
       "suplementi-za-jetru",
       "zdravi-bubrezi",
+      "zdravo-srce",
     ],
     shortDescription:
       "Renaissance Triple Set - Formula 3 legendarni kompleks, koji je nastavak detoks serije „Poreklo čistoće“, obuhvata najvažnije biljne ekstrakte, minerale",
@@ -187,6 +189,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "antistres-zastita",
       "duga-mladost",
+      "zdravo-srce",
     ],
     shortDescription:
       "Essential Minerals. Selenium with Siberian herbs kompleks sa visoko bioraspoloživim organskim selenom, obogaćen vitaminima i biljnim ekstraktima",
@@ -367,6 +370,7 @@ export const products: Product[] = [
       "antistres-zastita",
       "suplementi-za-energiju-i-fokus",
       "elasticni-zglobovi",
+      "zdravo-srce",
     ],
     shortDescription:
       "Healthy Rhythms, kompletan vitaminsko-mineralni kompleks, usklađen sa hronobiološkim ritmovima tela, za održavanje zdravlja i radne sposobnosti.",
@@ -430,6 +434,7 @@ export const products: Product[] = [
       "suplementi-za-zeludac-i-creva",
       "suplementi-za-jetru",
       "zdravi-bubrezi",
+      "zdravo-srce",
     ],
     shortDescription:
       "Komplet za kompleksno čišćenje organizma  predstavlja principijelno nov sistem kompleksnog čišćenja organizma na ćelijskom nivou",
@@ -487,6 +492,7 @@ export const products: Product[] = [
       "essential-fatty-acids",
       "duga-mladost",
       "suplementi-za-zeludac-i-creva",
+      "zdravo-srce",
     ],
     shortDescription:
       "Trimegavitals - All-Natural Beta-Carotene&Sea Buckthorn Oil formula sa prirodnim beta-karotenom smanjuje negativne efekte UV zračenja",
@@ -610,7 +616,11 @@ export const products: Product[] = [
     slug: "essential-vitamins-natural-vitamin-e",
     name: "Essential Vitamins - Natural Vitamin E",
     brand: "Essential Vitamins",
-    categorySlugs: ["essential-vitamins", "anti-age-proizvode"],
+    categorySlugs: [
+      "essential-vitamins",
+      "anti-age-proizvode",
+      "zdravo-srce",
+    ],
     shortDescription:
       "Essential Vitamins - Natural Vitamin E  prirodni izvor vitamina E iz semenki suncokreta u visoko prečišćenom MCT ulju.",
     image: "/products/essential-vitamins-natural-vitamin-e.png",
@@ -652,7 +662,6 @@ export const products: Product[] = [
     brand: "Daily Box",
     categorySlugs: [
       "daily-box",
-      "zdravo-srce",
       "anti-age-proizvode",
       "duga-mladost",
     ],
@@ -669,6 +678,7 @@ export const products: Product[] = [
       "essential-vitamins",
       "anti-age-proizvode",
       "duga-mladost",
+      "zdravo-srce",
     ],
     shortDescription:
       "Essential Vitamins - Diosmin i rutin prirodni venotonik na bazi diosmina i rutina za sprečavanje narušavanja limfotoka i cirkulacije u nogama.",
@@ -708,6 +718,7 @@ export const products: Product[] = [
       "antistres-zastita",
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
+      "zdravo-srce",
     ],
     shortDescription:
       "Essential Mineral - Magnesium with Siberian herbs kompleks sa glavnim mineralom relaksiranja - organskim magnezijumom, obogaćenim ekstraktom valerijane",
@@ -1225,6 +1236,7 @@ export const products: Product[] = [
       "womens-health",
       "anti-age-proizvode",
       "suplementi-za-zeludac-i-creva",
+      "zdravo-srce",
     ],
     shortDescription:
       "Age Тhеrару Antioxidants – Women's Health kompleksan anti-age program sa najvažnijim antioksidansima za svakodnevnu podršku lepoti",
@@ -1235,7 +1247,12 @@ export const products: Product[] = [
     slug: "methylfolate-women-s-health",
     name: "Methylfolate - Women's Health",
     brand: "Women's Health",
-    categorySlugs: ["womens-health", "suplementi-za-trudnice-i-dojilje", "anti-age-proizvode"],
+    categorySlugs: [
+      "womens-health",
+      "suplementi-za-trudnice-i-dojilje",
+      "anti-age-proizvode",
+      "zdravo-srce",
+    ],
     shortDescription:
       "Methylfolate – Women's Health aktivni oblik folne kiseline Metafolin® od DSM Nutritional sa visokom biodostupnošću, odobren za upotrebu kod trudnica",
     image: "/products/methylfolate-women-s-health.png",
@@ -1403,6 +1420,7 @@ export const products: Product[] = [
       "essential-fatty-acids",
       "suplementi-za-energiju-i-fokus",
       "duga-mladost",
+      "zdravo-srce",
     ],
     shortDescription:
       "Essential Fatty Acids - Siberian Linseed Oil&Omega-3 koncentrat obogaćen vitaminom E za vašu svakodnevnu ishranu.",
@@ -1607,6 +1625,7 @@ export const products: Product[] = [
       "anti-age-proizvode",
       "antistres-zastita",
       "suplementi-za-zeludac-i-creva",
+      "zdravo-srce",
     ],
     shortDescription:
       "Magnesium Multi-Chelate - Expert Line u bioraspoloživim oblicima pomaže u smanjenju nervne napetosti i vraćanju emocionalne ravnoteže",
@@ -1742,6 +1761,7 @@ export const products: Product[] = [
       "suplementi-za-imunitet",
       "anti-age-proizvode",
       "suplementi-za-jetru",
+      "zdravo-srce",
     ],
     shortDescription:
       "Tree Mushroom Complex - Essential Botanics dodatak ishrani sa četiri vrste gljiva ( čaga, šiitake, reiši i maitake ) namenjen je nutritivnoj podršci imunitetu",
