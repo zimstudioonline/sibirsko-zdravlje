@@ -1,4 +1,5 @@
 import { ProductGrid } from "@/components/catalog/product-grid";
+import { ProductViberButton } from "@/components/catalog/product-viber-button";
 import { RequestInquiryButton } from "@/components/inquiry/request-inquiry-button";
 import { categoryBySlug, getProductBySlug, getProductsByCategory, products } from "@/lib/catalog";
 import { productDescriptions } from "@/lib/product-descriptions";
@@ -40,6 +41,7 @@ export default async function ProizvodPage({ params }: { params: Promise<{ slug:
 
   return (
     <div>
+      <ProductViberButton productName={product.name} />
       <div className="grid gap-6 sm:grid-cols-2">
         <div className="relative aspect-square w-full rounded-xl border bg-muted">
           {product.image ? (
