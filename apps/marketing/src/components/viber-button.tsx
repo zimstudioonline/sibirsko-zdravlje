@@ -9,9 +9,9 @@ import { usePathname } from "next/navigation";
  * na desktopu bez Vibera browser jednostavno ne uradi ništa vidljivo, što je
  * prihvatljivo za ovaj kanal (mobilni korisnici su primarna publika).
  *
- * Na stranici pojedinačnog proizvoda se sakriva — tu se prikazuje
- * ProductViberButton sa unapred popunjenom porukom za taj proizvod, na istoj
- * poziciji, da se dva plutajuća dugmeta ne preklapaju.
+ * Na stranici pojedinačnog proizvoda se sakriva — tu se prikazuju
+ * ProductContactButtons (WhatsApp + poziv) na istoj poziciji, da se dugmad
+ * ne preklapaju.
  */
 export function ViberButton() {
   const number = marketingEnv().NEXT_PUBLIC_VIBER_NUMBER;
