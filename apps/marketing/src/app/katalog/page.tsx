@@ -1,3 +1,4 @@
+import { ConsultantSiteNotice } from "@/components/catalog/consultant-site-notice";
 import { ProductGrid } from "@/components/catalog/product-grid";
 import { products } from "@/lib/catalog";
 import { buildMetadata } from "@/lib/seo";
@@ -9,5 +10,10 @@ export const metadata = buildMetadata({
 });
 
 export default function KatalogPage() {
-  return <ProductGrid products={products} />;
+  return (
+    <>
+      <ConsultantSiteNotice />
+      <ProductGrid products={products} />
+    </>
+  );
 }
