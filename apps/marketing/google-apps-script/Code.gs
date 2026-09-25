@@ -1,5 +1,5 @@
 /**
- * Sibirsko Zdravlje — upit forma → Google Sheets + email obaveštenje.
+ * Sibirska Priroda — forme sa sajta → Google Sheets + email obaveštenje.
  *
  * Ne menja se sa ostatkom projekta (živi van Next.js koda) — nalepi ovaj
  * fajl u script.google.com projekat vezan za tvoj Google Sheet, prati
@@ -10,12 +10,13 @@
 var NOTIFY_EMAIL = "zdravljeisibir@gmail.com";
 var SHEET_NAME_UPITI = "Upiti";
 var SHEET_NAME_KONTAKT = "Kontakt";
+var SHEET_NAME_SAVETI = "Saveti";
 
 /**
- * Isti Web App opslužuje dve forme sa sajta — razlikuju se po `tip` polju
- * koje forma šalje (`inquiry-form.tsx` šalje "upit", `kontakt-form.tsx`
- * šalje "kontakt"). Bez `tip` polja (stariji zahtevi) tretira se kao upit,
- * radi unazadne kompatibilnosti.
+ * Isti Web App opslužuje više formi sa sajta — razlikuju se po `tip` polju
+ * (`kontakt-form.tsx` šalje "kontakt", `saveti-form.tsx` šalje "saveti").
+ * Bez `tip` polja (stariji zahtevi) tretira se kao upit, radi unazadne
+ * kompatibilnosti.
  */
 function doPost(e) {
   try {
@@ -23,6 +24,8 @@ function doPost(e) {
 
     if (params.tip === "kontakt") {
       handleKontakt(params);
+    } else if (params.tip === "saveti") {
+      handleSaveti(params);
     } else {
       handleUpit(params);
     }
@@ -89,6 +92,18 @@ function handleKontakt(params) {
     "Poruka:",
     params.poruka || "",
   ].join("\n");
+
+  MailApp.sendEmail(NOTIFY_EMAIL, subject, body, { replyTo: params.email || NOTIFY_EMAIL });
+}
+
+/** Prijava za besplatne savete (stranica /besplatni-saveti): ime + email. */
+function handleSaveti(params) {
+  var sheet = getOrCreateSheet(SHEET_NAME_SAVETI, ["Datum", "Ime", "E-mail"]);
+
+  sheet.appendRow([new Date(), params.ime || "", params.email || ""]);
+
+  var subject = "Nova prijava za besplatne savete — " + (params.ime || "nepoznato ime");
+  var body = ["Ime: " + (params.ime || ""), "E-mail: " + (params.email || "")].join("\n");
 
   MailApp.sendEmail(NOTIFY_EMAIL, subject, body, { replyTo: params.email || NOTIFY_EMAIL });
 }

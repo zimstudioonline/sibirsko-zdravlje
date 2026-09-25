@@ -1,4 +1,5 @@
 import { getPost } from "@/lib/blog";
+import { SITE_NAME } from "@/lib/site";
 import { marketingEnv } from "@repo/config/marketing-env";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -33,7 +34,7 @@ export async function generateMetadata({
       title: post.title,
       description: post.description ?? undefined,
       url,
-      siteName: "Sibirsko Zdravlje",
+      siteName: SITE_NAME,
       type: "article",
       locale: "sr_RS",
       publishedTime: post.publishedAt ?? undefined,
@@ -62,7 +63,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     description: post.description ?? undefined,
     datePublished: post.publishedAt ?? undefined,
     url: postUrl(post.slug),
-    publisher: { "@type": "Organization", name: "Sibirsko Zdravlje" },
+    publisher: { "@type": "Organization", name: SITE_NAME },
   };
   // Escape "<" sprečava </script> breakout iz sadržaja objave.
   const articleLdJson = JSON.stringify(articleLd).replace(/</g, "\\u003c");

@@ -1,163 +1,190 @@
-import { FAQSection } from "@/components/sections/faq";
+import { FreeTipsCta } from "@/components/content/free-tips-cta";
+import { TopicCards } from "@/components/content/topic-cards";
+import { JsonLd, faqJsonLd } from "@/components/json-ld";
+import { FAQSection, faqItems } from "@/components/sections/faq";
 import { FeaturesSection } from "@/components/sections/features";
-import { categories } from "@/lib/catalog";
-import { marketingEnv } from "@repo/config/marketing-env";
-import { Card, CardContent } from "@repo/ui";
-import { Quote } from "lucide-react";
+import { getPublishedPosts } from "@/lib/blog";
+import { ADAPTOGENI_PATH } from "@/lib/content/adaptogeni";
+import { BILJKE_PATH, biljke } from "@/lib/content/biljke";
+import { ZDRAVLJE_PATH, zdravljeTeme } from "@/lib/content/zdravlje";
+import { BUSINESS_PATH, FREE_TIPS_PATH } from "@/lib/nav";
+import { PRODUCTS_SITE_LABEL, PRODUCTS_SITE_URL } from "@/lib/site";
+import { ArrowRight, Briefcase, Leaf } from "lucide-react";
 import Link from "next/link";
 
-const istaknuteKategorije = [
-  "suplementi-za-imunitet",
-  "antistres-zastita",
-  "elasticni-zglobovi",
-  "anti-age-proizvode",
-  "detoks-i-ciscenje-organizma",
-  "kozmetika",
-];
+// Poslednji blog tekstovi dolaze iz baze — osveži početnu bar jednom na sat.
+export const revalidate = 3600;
 
-const poznateLinije = [
-  { slug: "3d-cube", label: "3D Cube" },
-  { slug: "adaptovit", label: "Adaptovit" },
-  { slug: "essential-botanics", label: "Essential linija" },
-  { slug: "sibirski-balzami", label: "Sibirski balzami" },
-  { slug: "kolekcija-fitocajeva", label: "Kolekcija fitočajeva" },
-  { slug: "kozmetika-siberian-wellness", label: "Kozmetika" },
-];
-
-const utisci = [
-  {
-    quote: "Osećam se lakše, imam više energije, a probava mi je konačno dovedena u red.",
-    author: "Korisnica Limfosana",
-  },
-  {
-    quote: "Pomoglo mi je da se izborim sa stresom i poboljšam koncentraciju u užurbanom danu.",
-    author: "Korisnik Adaptovita",
-  },
-];
-
-export default function HomePage() {
-  const phone = marketingEnv().NEXT_PUBLIC_VIBER_NUMBER;
+export default async function HomePage() {
+  const posts = (await getPublishedPosts()).slice(0, 3);
 
   return (
     <main>
-      <section className="mx-auto max-w-5xl px-6 py-24 text-center">
-        <p className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-1 font-medium text-primary text-sm">
-          Siberian Wellness konsultant
+      <section className="mx-auto max-w-5xl px-6 pt-12 pb-16 text-center sm:pt-24">
+        <p className="mb-4 inline-flex items-center gap-1.5 rounded-full bg-primary/10 px-4 py-1 font-medium text-primary text-sm">
+          <Leaf className="size-4" />
+          Portal o sibirskoj prirodi i zdravom životu
         </p>
-        <h1 className="mx-auto max-w-2xl font-bold text-5xl text-ink leading-tight">
-          Prirodni proizvodi za zdravlje, negu i energiju
+        <h1 className="mx-auto max-w-3xl font-bold text-4xl text-ink leading-tight sm:text-5xl">
+          Snaga sibirske prirode — znanje o biljkama, adaptogenima i zdravlju
         </h1>
-        <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">
-          Suplementi, kozmetika i biljni čajevi iz Siberian Wellness asortimana. Pošaljite upit i
-          dobijate cenu i savet konsultanta — bez obaveze.
+        <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
+          Šisandra, eleuterokok, rodiola, čaga i druge biljke tajge: odakle potiču, šta o njima kaže
+          tradicija, a šta nauka. Jasno, na srpskom i bez praznih obećanja.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
-            href="/katalog"
+            href={BILJKE_PATH}
             className="rounded-lg bg-primary px-6 py-3 font-medium text-primary-foreground hover:bg-primary/90"
           >
-            Pogledaj katalog
+            Istraži sibirske biljke
           </Link>
-          <a
-            href={`viber://chat?number=%2B${phone}`}
-            className="rounded-lg border px-6 py-3 font-medium text-ink hover:bg-accent"
+          <Link
+            href={FREE_TIPS_PATH}
+            className="rounded-lg border px-6 py-3 font-medium text-ink hover:border-primary hover:text-primary"
           >
-            Piši na Viber
-          </a>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-4xl px-6 pb-20">
-        <h2 className="text-center font-bold text-2xl text-ink">
-          Siberian Wellness — prirodni suplementi i kozmetika
-        </h2>
-        <p className="mx-auto mt-4 max-w-2xl text-center text-muted-foreground">
-          Siberian Wellness je svetski poznat brend prirodnih suplemenata, čajeva i kozmetike,
-          inspirisan snagom sibirske prirode i podržan naučnim istraživanjima. Više od 25 godina
-          proizvodi se razvijaju uz strogu kontrolu kvaliteta i sastojke iz netaknute sibirske tajge
-          — za jačanje imuniteta, više energije, zdraviju kožu i opšte dobro osećanje.
-        </p>
-        <div className="mx-auto mt-8 aspect-video max-w-2xl overflow-hidden rounded-xl border">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/5ppfh1fqeNA"
-            title="Siberian Wellness"
-            className="h-full w-full"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+            Besplatni saveti
+          </Link>
         </div>
       </section>
 
       <section className="mx-auto max-w-5xl px-6 pb-20">
-        <h2 className="text-center font-bold text-2xl text-ink">Popularne kategorije</h2>
-        <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
-          {istaknuteKategorije.map((slug) => {
-            const category = categories.find((item) => item.slug === slug);
-            if (!category) return null;
-            return (
-              <Link
-                key={slug}
-                href={`/katalog/${slug}`}
-                className="rounded-xl border bg-card px-4 py-6 text-center font-medium text-ink text-sm hover:border-primary hover:text-primary"
-              >
-                {category.name}
-              </Link>
-            );
-          })}
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <h2 className="font-bold text-2xl text-ink sm:text-3xl">Sibirske biljke</h2>
+            <p className="mt-2 text-muted-foreground">
+              Biljke tajge, Altaja i Dalekog istoka koje su obeležile istoriju adaptogena.
+            </p>
+          </div>
+          <Link
+            href={BILJKE_PATH}
+            className="inline-flex items-center gap-1 font-medium text-primary text-sm hover:underline"
+          >
+            Sve biljke
+            <ArrowRight className="size-4" />
+          </Link>
+        </div>
+        <div className="mt-8">
+          <TopicCards items={biljke} basePath={BILJKE_PATH} />
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-6 pb-20">
-        <h2 className="text-center font-bold text-2xl text-ink">Poznate linije proizvoda</h2>
-        <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
-          {poznateLinije.map((linija) => {
-            const category = categories.find((item) => item.slug === linija.slug);
-            if (!category) return null;
-            return (
-              <Link
-                key={linija.slug}
-                href={`/katalog/${linija.slug}`}
-                className="rounded-xl border bg-card px-4 py-6 text-center font-medium text-ink text-sm hover:border-primary hover:text-primary"
-              >
-                {linija.label}
-              </Link>
-            );
-          })}
+      <section className="bg-card">
+        <div className="mx-auto grid max-w-5xl items-center gap-8 px-6 py-16 md:grid-cols-2">
+          <div>
+            <p className="font-medium text-primary text-sm">Adaptogeni</p>
+            <h2 className="mt-2 font-bold text-2xl text-ink sm:text-3xl">
+              Šta su adaptogeni i zašto se vezuju za Sibir?
+            </h2>
+          </div>
+          <div>
+            <p className="text-ink/85 leading-relaxed">
+              Pojam „adaptogen“ nastao je u Sovjetskom Savezu 1947. godine, a prve biljke koje su
+              detaljno istraživane rasle su upravo u Sibiru i na Dalekom istoku. Saznajte šta taj
+              pojam znači, koje biljke se u adaptogene ubrajaju i šta o njima kaže evropska
+              regulativa.
+            </p>
+            <Link
+              href={ADAPTOGENI_PATH}
+              className="mt-5 inline-flex items-center gap-1 font-medium text-primary hover:underline"
+            >
+              Pročitaj o adaptogenima
+              <ArrowRight className="size-4" />
+            </Link>
+          </div>
         </div>
       </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-20">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <h2 className="font-bold text-2xl text-ink sm:text-3xl">Zdravlje</h2>
+            <p className="mt-2 text-muted-foreground">
+              Imunitet, energija, ishrana i navike — praktično i bez preterivanja.
+            </p>
+          </div>
+          <Link
+            href={ZDRAVLJE_PATH}
+            className="inline-flex items-center gap-1 font-medium text-primary text-sm hover:underline"
+          >
+            Sve teme
+            <ArrowRight className="size-4" />
+          </Link>
+        </div>
+        <div className="mt-8">
+          <TopicCards items={zdravljeTeme} basePath={ZDRAVLJE_PATH} />
+        </div>
+      </section>
+
+      {posts.length > 0 ? (
+        <section className="mx-auto max-w-5xl px-6 pb-20">
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <h2 className="font-bold text-2xl text-ink sm:text-3xl">Sa bloga</h2>
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-1 font-medium text-primary text-sm hover:underline"
+            >
+              Svi tekstovi
+              <ArrowRight className="size-4" />
+            </Link>
+          </div>
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {posts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group flex flex-col rounded-xl border bg-card p-6 hover:border-primary"
+              >
+                <h3 className="font-semibold text-ink group-hover:text-primary">{post.title}</h3>
+                <p className="mt-2 line-clamp-3 flex-1 text-muted-foreground text-sm">
+                  {post.description}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <FeaturesSection />
 
-      <section className="mx-auto max-w-5xl px-6 pb-20">
-        <h2 className="text-center font-bold text-2xl text-ink">Utisci korisnika</h2>
-        <div className="mt-8 grid gap-6 sm:grid-cols-2">
-          {utisci.map((utisak) => (
-            <Card key={utisak.author}>
-              <CardContent className="p-6">
-                <Quote className="size-6 text-primary/40" />
-                <p className="mt-3 text-ink/80 text-sm italic">"{utisak.quote}"</p>
-                <p className="mt-4 font-medium text-muted-foreground text-sm">— {utisak.author}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+      <section className="mx-auto max-w-5xl px-6">
+        <FreeTipsCta />
       </section>
 
       <FAQSection />
+      <JsonLd data={faqJsonLd(faqItems)} />
 
       <section className="mx-auto max-w-5xl px-6 pb-24">
-        <div className="rounded-2xl bg-primary px-8 py-14 text-center text-primary-foreground">
-          <h2 className="font-bold text-3xl">Niste sigurni šta vam odgovara?</h2>
-          <p className="mx-auto mt-3 max-w-md text-primary-foreground/80">
-            Pošaljite upit — konsultant vam odgovara sa predlogom proizvoda i cenom, bez obaveze.
-          </p>
-          <Link
-            href="/upit-za-proizvode"
-            className="mt-8 inline-block rounded-lg bg-background px-6 py-3 font-medium text-ink hover:bg-background/90"
-          >
-            Pošalji upit
-          </Link>
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="rounded-2xl border bg-card p-8">
+            <Briefcase className="size-6 text-primary" />
+            <h2 className="mt-3 font-semibold text-ink text-xl">Poslovna prilika</h2>
+            <p className="mt-2 text-muted-foreground text-sm">
+              Postanite Privilegovani klijent ili Konsultant kompanije Siberian Wellness.
+            </p>
+            <Link
+              href={BUSINESS_PATH}
+              className="mt-5 inline-flex items-center gap-1 font-medium text-primary text-sm hover:underline"
+            >
+              Saznaj više
+              <ArrowRight className="size-4" />
+            </Link>
+          </div>
+          <div className="rounded-2xl border bg-card p-8">
+            <Leaf className="size-6 text-primary" />
+            <h2 className="mt-3 font-semibold text-ink text-xl">Tražite proizvode?</h2>
+            <p className="mt-2 text-muted-foreground text-sm">
+              Na ovom portalu ne prodajemo proizvode. Siberian Wellness asortiman pogledajte na
+              sajtu {PRODUCTS_SITE_LABEL}.
+            </p>
+            <a
+              href={PRODUCTS_SITE_URL}
+              className="mt-5 inline-flex items-center gap-1 font-medium text-primary text-sm hover:underline"
+            >
+              Pogledaj proizvode
+              <ArrowRight className="size-4" />
+            </a>
+          </div>
         </div>
       </section>
     </main>

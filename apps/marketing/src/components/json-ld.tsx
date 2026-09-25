@@ -1,3 +1,4 @@
+import { SITE_NAME } from "@/lib/site";
 import { marketingEnv } from "@repo/config/marketing-env";
 
 /**
@@ -22,8 +23,9 @@ export function organizationJsonLd(): Record<string, unknown> {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Sibirsko Zdravlje",
+    name: SITE_NAME,
     url: base,
+    logo: `${base}/logo-sibirska-priroda.png`,
   };
 }
 
@@ -41,7 +43,7 @@ export function articleJsonLd(article: {
     description: article.description,
     datePublished: article.date,
     url: `${base}/blog/${article.slug}`,
-    publisher: { "@type": "Organization", name: "Sibirsko Zdravlje", url: base },
+    publisher: { "@type": "Organization", name: SITE_NAME, url: base },
   };
 }
 
@@ -55,6 +57,22 @@ export function faqJsonLd(
       "@type": "Question",
       name: item.question,
       acceptedAnswer: { "@type": "Answer", text: item.answer },
+    })),
+  };
+}
+
+export function breadcrumbJsonLd(
+  items: Array<{ name: string; path: string }>,
+): Record<string, unknown> {
+  const base = marketingEnv().NEXT_PUBLIC_MARKETING_URL;
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: `${base}${item.path}`,
     })),
   };
 }

@@ -1,13 +1,13 @@
 import { KontaktForm } from "@/components/contact/kontakt-form";
 import { buildMetadata } from "@/lib/seo";
+import { PRODUCTS_SITE_LABEL, PRODUCTS_SITE_URL } from "@/lib/site";
 import { marketingEnv } from "@repo/config/marketing-env";
 import { Mail, MessageCircle, Phone } from "lucide-react";
-import Link from "next/link";
 
 export const metadata = buildMetadata({
   title: "Kontakt",
   description:
-    "Kontaktirajte nas telefonom, e-mailom ili preko Vibera za sve informacije o proizvodima.",
+    "Kontaktirajte nas telefonom, e-mailom ili preko Vibera — za pitanja o sadržaju portala, saradnji i poslovnoj prilici.",
   path: "/kontakt",
 });
 
@@ -19,7 +19,7 @@ export default function KontaktPage() {
     <main className="mx-auto max-w-2xl px-6 py-16 text-center">
       <h1 className="font-bold text-3xl text-ink sm:text-4xl">Kontakt</h1>
       <p className="mt-3 text-muted-foreground">
-        Tu smo za sva pitanja o proizvodima, poručivanju i dostavi.
+        Tu smo za pitanja o sadržaju portala, saradnji i poslovnoj prilici.
       </p>
 
       <div className="mt-10 grid gap-4 sm:grid-cols-3">
@@ -51,9 +51,12 @@ export default function KontaktPage() {
 
       <p className="mt-10 text-muted-foreground text-sm">
         Pitanje o konkretnom proizvodu?{" "}
-        <Link href="/upit-za-proizvode" className="text-primary underline underline-offset-2">
-          Pošaljite upit za proizvode
-        </Link>
+        <a
+          href={`${PRODUCTS_SITE_URL}/upit-za-proizvode/`}
+          className="text-primary underline underline-offset-2"
+        >
+          Pošaljite upit na {PRODUCTS_SITE_LABEL}
+        </a>
         .
       </p>
 

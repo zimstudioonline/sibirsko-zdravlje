@@ -7,34 +7,34 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@r
 
 export const faqItems = [
   {
-    question: "Kako da poručim proizvod?",
+    question: "Šta je SibirskaPriroda.com?",
     answer:
-      "Pošaljite upit sa naziva proizvoda koji vas interesuje kroz formu na stranici „Upit za proizvode” ili nam pišite na Viber/telefon. Konsultant vam odgovara sa cenom, dostupnošću i uslovima dostave.",
+      "Edukativni portal o biljkama sibirske tajge, adaptogenima, prirodnim sastojcima i zdravom načinu života. Cilj nam je da jasno i bez preterivanja objasnimo šta kaže tradicija, a šta nauka.",
   },
   {
-    question: "Da li su proizvodi originalni?",
+    question: "Da li na portalu prodajete proizvode?",
     answer:
-      "Da — sve proizvode nabavljamo isključivo preko zvanične distribucije Siberian Wellness kompanije, bez posrednika.",
+      "Ne. SibirskaPriroda.com je informativni portal. Ako vas zanimaju Siberian Wellness proizvodi, pogledajte ih na sajtu SibirskoZdravlje.com.",
   },
   {
-    question: "Koliko traje dostava?",
+    question: "Šta su adaptogeni?",
     answer:
-      "[PRILAGODI] Dostava na kućnu adresu u Srbiji traje uobičajeno 1–3 radna dana od potvrde porudžbine. Tačan rok i način dostave dogovaramo prilikom potvrde upita.",
+      "Pojam koji je 1947. uveo sovjetski farmakolog Nikolaj Lazarev za materije koje povećavaju opštu otpornost organizma na opterećenja. Detaljnije objašnjenje, zajedno sa stavom evropske regulative, pročitajte na stranici Adaptogeni.",
   },
   {
-    question: "Da li slanje upita obavezuje na kupovinu?",
+    question: "Da li je sadržaj portala medicinski savet?",
     answer:
-      "Ne. Upit je besplatan i bez obaveze — služi da dobijete tačnu cenu, dostupnost i odgovore na pitanja pre nego što se odlučite.",
+      "Ne. Tekstovi su informativnog karaktera i ne zamenjuju pregled i savet lekara. Pre upotrebe biljnih preparata, naročito u trudnoći, dojenju ili uz terapiju, posavetujte se sa lekarom ili farmaceutom.",
   },
   {
-    question: "Kako mogu da postanem Siberian Wellness konsultant?",
+    question: "Kako da dobijam besplatne savete?",
     answer:
-      "Posetite stranicu „Priključi se” ili nam pišite direktno — objasnićemo vam uslove i sledeće korake.",
+      "Na stranici „Besplatni saveti” ostavite ime i email. Šaljemo kratke vodiče i nove tekstove, a odjava je moguća u svakom trenutku.",
   },
   {
-    question: "Ne znam koji proizvod mi odgovara, možete li da mi pomognete?",
+    question: "Šta je poslovna prilika?",
     answer:
-      "Naravno — opišite u upitu šta vas muči ili šta tražite (npr. podrška imunitetu, energija, koža) i predložićemo odgovarajući proizvod iz kataloga.",
+      "Mogućnost da postanete Privilegovani klijent ili Konsultant kompanije Siberian Wellness. Sve detalje i uslove naći ćete na stranici „Poslovna prilika”.",
   },
 ];
 

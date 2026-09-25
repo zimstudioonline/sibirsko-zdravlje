@@ -1,22 +1,16 @@
 "use client";
 
 import { marketingEnv } from "@repo/config/marketing-env";
-import { usePathname } from "next/navigation";
 
 /**
  * Plutajuće Viber dugme, vidljivo na svim javnim stranicama (dodato u layout).
  * `viber://chat` deep link radi na mobilnim uređajima sa instaliranim Viberom;
  * na desktopu bez Vibera browser jednostavno ne uradi ništa vidljivo, što je
  * prihvatljivo za ovaj kanal (mobilni korisnici su primarna publika).
- *
- * Na stranici pojedinačnog proizvoda se sakriva — tu se prikazuju
- * ProductContactButtons (WhatsApp + poziv) na istoj poziciji, da se dugmad
- * ne preklapaju.
  */
 export function ViberButton() {
   const number = marketingEnv().NEXT_PUBLIC_VIBER_NUMBER;
-  const pathname = usePathname();
-  if (!number || pathname.startsWith("/katalog/proizvod/")) return null;
+  if (!number) return null;
 
   return (
     <a

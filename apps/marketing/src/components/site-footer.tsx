@@ -1,13 +1,15 @@
 import { getPublishedPosts } from "@/lib/blog";
+import { BUSINESS_PATH, FREE_TIPS_PATH, mainNav } from "@/lib/nav";
+import { PRODUCTS_SITE_LABEL, PRODUCTS_SITE_URL, SITE_NAME } from "@/lib/site";
 import { marketingEnv } from "@repo/config/marketing-env";
 import Image from "next/image";
 import Link from "next/link";
 
 const usefulLinks: Array<{ href: string; label: string }> = [
-  { href: "/katalog", label: "Katalog" },
-  { href: "/blog", label: "Blog" },
-  { href: "/prikljuci-se", label: "Priključi se" },
-  { href: "/upit-za-proizvode", label: "Upit za proizvode" },
+  ...mainNav.filter((item) => item.href !== "/"),
+  { href: FREE_TIPS_PATH, label: "Besplatni saveti" },
+  { href: BUSINESS_PATH, label: "Poslovna prilika" },
+  { href: "/kontakt", label: "Kontakt" },
   { href: "/privatnost", label: "Politika privatnosti" },
   { href: "/uslovi", label: "Uslovi korišćenja" },
 ];
@@ -22,23 +24,30 @@ export async function SiteFooter() {
   const recentPosts = (await getPublishedPosts()).slice(0, 4);
 
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <footer className="bg-ink text-paper">
       <div className="mx-auto grid max-w-6xl gap-8 px-6 py-12 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <Link href="/" className="flex items-center gap-2.5">
-            {/* logo.png ima utisnut plavi wordmark koji se gubi na tamnoj
-                pozadini — isečemo samo ikonicu (gornji deo slike) i dodamo
-                pravi HTML tekst pored, koji ostaje čitljiv bez obzira na boju. */}
-            <span
-              className="relative block h-11 shrink-0 overflow-hidden"
-              style={{ aspectRatio: "512 / 360" }}
-            >
-              <Image src="/logo.png" alt="" fill className="object-cover object-top" unoptimized />
-            </span>
-            <span className="font-semibold text-base tracking-tight">Sibirsko Zdravlje</span>
+          <Link href="/" className="relative block h-9 w-[203px]">
+            {/* Varijanta logotipa sa belim tekstom — čitljiva na tamnoj pozadini. */}
+            <Image
+              src="/logo-sibirska-priroda-white.png"
+              alt={SITE_NAME}
+              fill
+              className="object-contain object-left"
+              unoptimized
+            />
           </Link>
-          <p className="mt-4 max-w-xs text-primary-foreground/75 text-sm">
-            Katalog Siberian Wellness proizvoda — suplementi, kozmetika i biljni čajevi.
+          <p className="mt-4 max-w-xs text-paper/70 text-sm">
+            Edukativni portal o biljkama sibirske tajge, adaptogenima i zdravom načinu života.
+          </p>
+          <p className="mt-4 text-paper/70 text-sm">
+            Tražite proizvode?{" "}
+            <a
+              href={PRODUCTS_SITE_URL}
+              className="font-medium text-paper underline underline-offset-2 hover:text-paper/80"
+            >
+              {PRODUCTS_SITE_LABEL}
+            </a>
           </p>
         </div>
 
@@ -50,7 +59,7 @@ export async function SiteFooter() {
                 <Link
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="text-primary-foreground/75 text-sm hover:text-primary-foreground"
+                  className="text-paper/70 text-sm hover:text-paper"
                 >
                   {post.title}
                 </Link>
@@ -61,18 +70,15 @@ export async function SiteFooter() {
 
         <div>
           <h3 className="font-medium text-sm">Kontakt</h3>
-          <div className="mt-3 flex flex-col gap-2 text-primary-foreground/75 text-sm">
-            <Link href="/kontakt" className="hover:text-primary-foreground">
+          <div className="mt-3 flex flex-col gap-2 text-paper/70 text-sm">
+            <Link href="/kontakt" className="hover:text-paper">
               Kontakt stranica
             </Link>
-            <a href={`mailto:${email}`} className="hover:text-primary-foreground">
+            <a href={`mailto:${email}`} className="hover:text-paper">
               {email}
             </a>
             {viberNumber ? (
-              <a
-                href={`viber://chat?number=%2B${viberNumber}`}
-                className="hover:text-primary-foreground"
-              >
+              <a href={`viber://chat?number=%2B${viberNumber}`} className="hover:text-paper">
                 Viber: +{viberNumber}
               </a>
             ) : null}
@@ -86,7 +92,7 @@ export async function SiteFooter() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-primary-foreground/75 text-sm hover:text-primary-foreground"
+                className="text-paper/70 text-sm hover:text-paper"
               >
                 {link.label}
               </Link>
@@ -95,16 +101,18 @@ export async function SiteFooter() {
         </div>
       </div>
 
-      <div className="border-primary-foreground/15 border-t">
-        <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 px-6 py-4 text-primary-foreground/60 text-xs sm:flex-row sm:justify-between">
-          <span>© {new Date().getFullYear()} Sibirsko Zdravlje. Sva prava zadržana.</span>
+      <div className="border-paper/15 border-t">
+        <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 px-6 py-4 text-paper/60 text-xs sm:flex-row sm:justify-between">
+          <span>
+            © {new Date().getFullYear()} {SITE_NAME}. Sva prava zadržana.
+          </span>
           <span>
             Design &amp; SEO by{" "}
             <a
               href="https://zimdigital.rs/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary-foreground"
+              className="hover:text-paper"
             >
               ZiM Digital
             </a>

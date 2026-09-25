@@ -10,6 +10,7 @@ import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { MetaPixel } from "@/components/analytics/meta-pixel";
 import { JsonLd, organizationJsonLd } from "@/components/json-ld";
 import { ViberButton } from "@/components/viber-button";
+import { SITE_NAME } from "@/lib/site";
 import { ConsentBanner } from "@repo/ui/consent";
 
 const spaceGrotesk = Space_Grotesk({
@@ -20,11 +21,11 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL(marketingEnv().NEXT_PUBLIC_MARKETING_URL),
   title: {
-    default: "Sibirsko Zdravlje",
-    template: "%s | Sibirsko Zdravlje",
+    default: `${SITE_NAME} — sibirske biljke, adaptogeni i zdrav život`,
+    template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Katalog Siberian Wellness proizvoda — suplementi, kozmetika i biljni čajevi. Pošaljite upit za cenu i dostupnost.",
+    "Edukativni portal o biljkama sibirske tajge, adaptogenima, prirodnim sastojcima i zdravom načinu života.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
