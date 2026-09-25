@@ -1,3 +1,4 @@
+import { SITE_NAME } from "@/lib/site";
 import { marketingEnv } from "@repo/config/marketing-env";
 import type { Metadata } from "next";
 
@@ -17,7 +18,7 @@ export function buildMetadata(input: {
       title: input.title,
       description: input.description,
       url,
-      siteName: "Sibirsko Zdravlje",
+      siteName: SITE_NAME,
       type: "website",
       locale: "sr_RS",
     },

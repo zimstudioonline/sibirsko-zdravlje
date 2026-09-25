@@ -9,7 +9,7 @@ je da na ovim osnovama gradiš svoj proizvod, ne da ih menjaš.
 ```
 apps/
   app/         # SaaS proizvod (iza auth-a), port 3000
-  marketing/   # javni sajt (katalog, upit, SEO), port 3001 — deploy na Cloudflare Workers (vidi apps/marketing/CLOUDFLARE.md), NE Vercel
+  marketing/   # javni sajt SibirskaPriroda.com (edukativni portal + funnel, SEO), port 3001 — deploy na Cloudflare Workers (vidi apps/marketing/CLOUDFLARE.md), NE Vercel
 packages/
   ui/          # design system (Space Grotesk, primarna #0EA5E9, podloga #F7F6F1)
   db/          # Drizzle šema + migracije (Supabase Postgres)

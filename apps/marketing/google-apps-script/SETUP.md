@@ -1,10 +1,11 @@
-# Upit i kontakt forme → Google Sheets (bez sopstvenog servera)
+# Forme sa sajta → Google Sheets (bez sopstvenog servera)
 
-Sajt se deployuje na Cloudflare bez baze i bez backend servera, pa obe forme
-— upit za proizvod (`/upit-za-proizvode`, sticky forma u katalogu) i opšta
-kontakt forma (`/kontakt`) — šalju podatke direktno na ISTI Google Apps
-Script Web App, koji upisuje red u odgovarajući Google Sheet ("Upiti" ili
-"Kontakt") i šalje ti email obaveštenje. Razlikuju se po skrivenom polju
+Sajt se deployuje na Cloudflare bez baze i bez backend servera, pa forme —
+kontakt forma (`/kontakt`) i prijava za besplatne savete
+(`/besplatni-saveti`) — šalju podatke direktno na ISTI Google Apps Script
+Web App, koji upisuje red u odgovarajući Google Sheet ("Kontakt" ili
+"Saveti") i šalje ti email obaveštenje. `handleUpit` / sheet "Upiti" ostaje
+radi starih zahteva (katalog je uklonjen sa sajta). Razlikuju se po skrivenom polju
 `tip` koje svaka forma šalje. Ovo se podešava jednom, van Next.js koda.
 
 ## Podešavanje (5-10 minuta)
@@ -37,9 +38,9 @@ Script Web App, koji upisuje red u odgovarajući Google Sheet ("Upiti" ili
 
 ## Kako da izmeniš formu kasnije
 
-- Nova polja u upit formi: dodaj `<input name="novoPolje">` u
-  `src/components/inquiry/inquiry-form.tsx`, pa dodaj isto ime u `Code.gs`
-  (funkcija `handleUpit`).
+- Nova polja u formi za savete: dodaj `<input name="novoPolje">` u
+  `src/components/leads/saveti-form.tsx`, pa dodaj isto ime u `Code.gs`
+  (funkcija `handleSaveti`).
 - Nova polja u kontakt formi: isto, u
   `src/components/contact/kontakt-form.tsx` i `Code.gs` (funkcija
   `handleKontakt`).

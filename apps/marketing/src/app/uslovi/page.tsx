@@ -2,7 +2,7 @@ import { LegalPage, LegalSection } from "@/components/legal";
 
 export const metadata = {
   title: "Uslovi korišćenja",
-  description: "Uslovi korišćenja Sibirsko Zdravlje usluge.",
+  description: "Uslovi korišćenja Sibirska Priroda usluge.",
 };
 
 /**
@@ -17,8 +17,8 @@ export default function TermsPage() {
         <p>
           Ove uslove korišćenja primenjuje <strong>[PUNO POSLOVNO IME]</strong>, [ADRESA], matični
           broj [MATIČNI BROJ], PIB [PIB], email [KONTAKT EMAIL] (u daljem tekstu: "
-          {"Sibirsko Zdravlje"}", "mi"). Korišćenjem usluge prihvataš ove uslove — ako se sa njima
-          ne slažeš, nemoj koristiti uslugu.
+          {"Sibirska Priroda"}", "mi"). Korišćenjem usluge prihvataš ove uslove — ako se sa njima ne
+          slažeš, nemoj koristiti uslugu.
         </p>
         <p>
           Usluga je namenjena [poslovnim korisnicima / potrošačima / oboje — PRILAGODI]. Na odnose
@@ -28,7 +28,7 @@ export default function TermsPage() {
 
       <LegalSection title="2. Usluga">
         <p>
-          {"Sibirsko Zdravlje"} je softver koji se koristi preko interneta (SaaS) i omogućava [OPIS
+          {"Sibirska Priroda"} je softver koji se koristi preko interneta (SaaS) i omogućava [OPIS
           USLUGE — šta proizvod radi, jednom rečenicom]. Uslugu pružamo "takvu kakva jeste", uz
           razumne napore da bude dostupna neprekidno; povremeni prekidi zbog održavanja ili više
           sile su mogući.
@@ -73,7 +73,7 @@ export default function TermsPage() {
       <LegalSection title="6. Tvoj sadržaj i naši podaci">
         <p>
           Sadržaj koji uneseš ostaje tvoj. Daješ nam neisključivu licencu da ga skladištimo i
-          obrađujemo isključivo radi pružanja usluge. Softver, dizajn i žig {"Sibirsko Zdravlje"} su
+          obrađujemo isključivo radi pružanja usluge. Softver, dizajn i žig {"Sibirska Priroda"} su
           naše vlasništvo. Obrada podataka o ličnosti uređena je{" "}
           <a href="/privatnost" className="text-primary underline underline-offset-4">
             Politikom privatnosti

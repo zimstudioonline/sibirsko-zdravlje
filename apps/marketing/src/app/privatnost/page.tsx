@@ -2,7 +2,7 @@ import { LegalPage, LegalSection } from "@/components/legal";
 
 export const metadata = {
   title: "Politika privatnosti",
-  description: "Kako Sibirsko Zdravlje prikuplja, koristi i štiti podatke o ličnosti.",
+  description: "Kako Sibirska Priroda prikuplja, koristi i štiti podatke o ličnosti.",
 };
 
 /**
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
         <p>
           Rukovalac podacima o ličnosti je <strong>[PUNO POSLOVNO IME]</strong>, sa sedištem na
           adresi [ADRESA], matični broj [MATIČNI BROJ], PIB [PIB] (u daljem tekstu: "
-          {"Sibirsko Zdravlje"}", "mi"). Za sva pitanja u vezi sa obradom podataka možeš nam se
+          {"Sibirska Priroda"}", "mi"). Za sva pitanja u vezi sa obradom podataka možeš nam se
           obratiti na <strong>[EMAIL ZA PRIVATNOST]</strong>.
         </p>
         <p>

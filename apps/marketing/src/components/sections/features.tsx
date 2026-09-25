@@ -1,5 +1,5 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "@repo/ui";
-import { BadgeCheck, Leaf, MessageCircle, ShieldCheck, Truck, Users } from "lucide-react";
+import { BookOpen, Leaf, Mail, Mountain, ShieldCheck, Users } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 interface Feature {
@@ -10,34 +10,36 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "Originalni Siberian Wellness proizvodi",
-    description: "Svaki proizvod nabavljamo isključivo preko zvanične distribucije kompanije.",
-    icon: BadgeCheck,
+    title: "Fokus na sibirsku prirodu",
+    description:
+      "Biljke tajge, Altaja i Dalekog istoka — poreklo, tradicija i sastav na jednom mestu.",
+    icon: Mountain,
   },
   {
-    title: "Prirodan sastav",
-    description: "Suplementi, kozmetika i čajevi na bazi sibirskog bilja i proverenih sastojaka.",
+    title: "Tradicija i nauka zajedno",
+    description: "Narodnu upotrebu povezujemo sa onim što su istraživanja zaista pokazala.",
+    icon: BookOpen,
+  },
+  {
+    title: "Bez preterivanja",
+    description:
+      "Ne obećavamo čudesna dejstva — pišemo jasno, odmereno i sa napomenama o bezbednosti.",
+    icon: ShieldCheck,
+  },
+  {
+    title: "Praktični saveti",
+    description: "Ishrana, san, kretanje i navike koje se lako uklapaju u svakodnevicu.",
     icon: Leaf,
   },
   {
-    title: "Odgovor bez obaveze",
-    description: "Pošaljete upit, konsultant vam odgovori sa cenom — kupovina nije obavezna.",
-    icon: MessageCircle,
-  },
-  {
-    title: "Lična podrška konsultanta",
-    description: "Pomažemo vam da izaberete pravi proizvod za vaše potrebe.",
+    title: "Na srpskom jeziku",
+    description: "Tekstovi pisani za naše čitaoce, sa domaćim nazivima biljaka i namirnica.",
     icon: Users,
   },
   {
-    title: "Dostava na kućnu adresu",
-    description: "Naručene proizvode šaljemo na adresu širom Srbije.",
-    icon: Truck,
-  },
-  {
-    title: "Bezbedno poručivanje",
-    description: "Vaši podaci iz upita se koriste isključivo za kontakt povodom porudžbine.",
-    icon: ShieldCheck,
+    title: "Besplatni vodiči",
+    description: "Prijavite se i primajte kratke vodiče i nove tekstove na email.",
+    icon: Mail,
   },
 ];
 
@@ -45,9 +47,10 @@ export function FeaturesSection() {
   return (
     <section id="prednosti" className="mx-auto max-w-5xl px-6 py-20">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="font-bold text-3xl text-ink">Zašto Sibirsko Zdravlje</h2>
+        <h2 className="font-bold text-3xl text-ink">Zašto Sibirska Priroda</h2>
         <p className="mt-4 text-muted-foreground">
-          Proveren asortiman i lična podrška na svakom koraku, od izbora do dostave.
+          Edukativni portal o sibirskim biljkama i zdravom životu — bez prodaje i bez praznih
+          obećanja.
         </p>
       </div>
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
