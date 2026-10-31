@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   },
   description:
     "Edukativni portal o biljkama sibirske tajge, adaptogenima, prirodnim sastojcima i zdravom načinu života.",
+  verification: {
+    google: "kitaVt0CcImivgI5PWSEe21dUKSN8Z5K0HUJU4q9CbY",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
