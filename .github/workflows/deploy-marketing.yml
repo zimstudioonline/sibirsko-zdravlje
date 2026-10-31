@@ -30,7 +30,9 @@ jobs:
 
       - name: Build za Cloudflare (OpenNext)
         working-directory: apps/marketing
-        run: bunx opennextjs-cloudflare build
+        # Next 15 je izašao iz zvanične podrške (okt 2026) — flag je privremen
+        # dok se ne uradi svesna nadogradnja na Next 16.
+        run: bunx opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion
         env:
           NEXT_PUBLIC_MARKETING_URL: ${{ vars.NEXT_PUBLIC_MARKETING_URL }}
           NEXT_PUBLIC_APP_URL: ${{ vars.NEXT_PUBLIC_APP_URL }}
