@@ -9,6 +9,7 @@ import "./globals.css";
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { MetaPixel } from "@/components/analytics/meta-pixel";
 import { JsonLd, organizationJsonLd } from "@/components/json-ld";
+import { ShareRecommendation } from "@/components/share-recommendation";
 import { ViberButton } from "@/components/viber-button";
 import { SITE_NAME } from "@/lib/site";
 import { ConsentBanner } from "@repo/ui/consent";
@@ -39,6 +40,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       >
         <SiteNav />
         <div className="flex-1">{children}</div>
+        <ShareRecommendation />
         <SiteFooter />
         <ViberButton />
         <BackToTopButton />
